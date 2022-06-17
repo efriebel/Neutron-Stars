@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*
+===================================
+standard
+===================================
+ */
+html{
+    height: 100%;
+    font-size: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    background-color: #200834;
+}
+img{
+    max-width: 100%;
+}
+figure{
+    margin: 0;
+}
+/*
+===================================
+main
+===================================
+ */
+main{
+    margin-top: 0;
+    padding-top: 0;
+}
+/*
+===================================
+fonts
+===================================
+ */
+h1{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #FBFBFB;
+}
+h2{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 44px;
+    color: #FBFBFB;
+}
+h3{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FBFBFB;
+}
+h4{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FBFBFB;
+}
+h5{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FBFBFB;
+}
+p{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #FBFBFB;
+}
+em{
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #C6FFDD;
+}
+p3{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FBFBFB;
+}

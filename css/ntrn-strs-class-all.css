@@ -1,0 +1,46 @@
+/*
+===================================
+classes | stage ALL
+===================================
+ */
+.stage-container{
+    margin-top: 144px;
+}
+.stage-bg{
+    background-color: #2B0C44;
+    padding-bottom: 80px;
+}
+.stage-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+/*
+===================================
+classes | intro ALL
+===================================
+ */
+.introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    gap: 36px;
+    width: 652px;
+    margin-top: 96px;
+}
+/*
+===================================
+classes | arrow animation
+===================================
+ */
+.arrow svg{
+    transition: all 0.5s ease-in-out;
+}
+.arrow:hover svg{
+    transform: translateX(96px);
+}
+.arrow:hover svg path{
+    fill: #C6FFDD;
+}

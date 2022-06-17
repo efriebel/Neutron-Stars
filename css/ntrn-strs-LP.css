@@ -1,0 +1,21 @@
+/*
+===================================
+classes | landing page teaser
+===================================
+ */
+.teaser-img{
+    width: 424px;
+    margin: 160px 0 32px 0;
+}
+.teaser-img-extra{
+    width: 424px;
+    margin: 588px 0 32px 0;
+}
+.teaser-container-left{
+    width: 424px;
+    margin-left: 166px;
+}
+.teaser-container-right{
+    width: 424px;
+    margin-right: 166px;
+}
