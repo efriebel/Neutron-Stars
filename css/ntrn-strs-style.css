@@ -24,7 +24,6 @@ img{
 figure{
     margin: 0;
 }
-.
 /*
 ===================================
 main
@@ -41,29 +40,26 @@ header
  */
 header{
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-evenly;
     background-color: #361451;
+    margin-bottom: 0;
 }
 header nav{}
 header nav ul{
     list-style: none;
     margin-top: 24px;
     margin-bottom: 24px;
-    padding: 0;
     display: flex;
 }
 header nav ul img{
-    margin-top: -25px;
-    margin-bottom: 0;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: -25px 80px 0 80px;
     padding: 0;
     width: 64px;
-    height: 64px;
 }
 header nav ul li{}
 header nav ul li a:link,
@@ -82,7 +78,7 @@ header nav ul li a:hover{
 }
 /*
 ===================================
-footer
+footer 1
 ===================================
  */
 footer{}
@@ -97,9 +93,11 @@ footer #footer{
 }
 footer #footer nav ul{
     list-style: none;
+    width: 818px; /**/
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;/**/
 }
 footer #footer nav ul li{}
 footer #footer nav ul li a:link,
@@ -110,15 +108,16 @@ footer #footer nav ul li a:active{
     font-weight: 700;
     font-size: 20px;
     color: #FBFBFB;
-    padding-left: 120px;
-    padding-right: 120px;
     text-decoration: none;
 }
-footer #footer nav ul li a:hover{
-    color: #52EDAC;
-}
-
-
+/*footer #footer nav ul li a:hover{
+    color: #C6FFDD;
+}*/
+/*
+===================================
+footer 2 | socials
+===================================
+ */
 footer #bottom-footer{
     position: relative;
     width: 100%;
@@ -126,25 +125,33 @@ footer #bottom-footer{
     justify-content: space-evenly;
     background-color: #2B0C44;
     margin: 0;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 footer #bottom-footer nav ul{
     list-style: none;
+    width: 280px; /**/
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-between;/**/
+}
+footer #bottom-footer nav ul li{}
+footer #bottom-footer nav ul li a:link,
+footer #bottom-footer nav ul li a:visited,
+footer #bottom-footer nav ul li a:active{
+    color: #52EDAC;
+}
+footer #bottom-footer nav ul li a:hover{
+    color: #C6FFDD;
 }
 .facebook{
     width: 56px;
-    margin-right: 56px;
 }
 .instagram{
     width: 56px;
-    margin-right: 56px;
 }
 .twitter{
     width: 56px;
-    margin: 0;
 }
 /*
 ===================================
@@ -178,7 +185,6 @@ h4{
     font-weight: 700;
     font-size: 26px;
     color: #FBFBFB;
-    text-align: center;
 }
 h5{
     font-family: 'Encode Sans Condensed';
@@ -194,13 +200,232 @@ p{
     font-size: 20px;
     color: #FBFBFB;
 }
-p2{
-
+em{
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #C6FFDD;
 }
 p3{
-
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FBFBFB;
 }
-.title{
-    margin-top: 320px;
-    margin-left: 200px;
+/*
+===================================
+classes | stage ALL
+===================================
+ */
+.stage-container{
+    margin-top: 144px;
+}
+.stage-bg{
+    background-color: #2B0C44;
+    padding-bottom: 80px;
+}
+.stage-container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+/*
+===================================
+classes | intro ALL
+===================================
+ */
+.introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    gap: 36px;
+    width: 652px;
+    margin-top: 96px;
+}
+/*
+===================================
+classes | landing page teaser
+===================================
+ */
+.teaser-img{
+    width: 424px;
+    margin: 160px 0 32px 0;
+}
+.teaser-img-extra{
+    width: 424px;
+    margin: 588px 0 32px 0;
+}
+.teaser-container-left{
+    width: 424px;
+    margin-left: 166px;
+}
+.teaser-container-right{
+    width: 424px;
+    margin-right: 166px;
+}
+/*
+===================================
+classes | life cycle
+===================================
+ */
+.lc img{
+    width: 196px;
+    height: 196px;
+    object-fit: contain;
+}
+.lc-arrow-close img{
+    width: 44px;
+    transform: rotate(-180deg);
+    color: #C6FFDD;
+}
+.lc-h4{
+    width: 222px;
+    height: 33px;
+    text-align: center;
+}
+.lc-container-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 16px;
+    width: 222px;
+    height: 93px;
+}
+.lc-container-medium{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 44px;
+    gap: 10px;
+    width: 310px;
+    height: 125px;
+    background: #52EDAC;
+}
+.lc-container-large{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 32px;
+    width: 310px;
+    height: 353px;
+    left: 565px;
+    top: 1715px;
+}
+.life-cycle{
+    display: flex;
+    justify-content: center;
+    margin: 56px 0 28px 0;
+}
+.life-cycle-col{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+/*
+===================================
+classes | info page container
+===================================
+ */
+.info-container{
+    margin: 60px 0 60px 0;
+}
+.info-container-sub{
+    margin: 56px 0 56px 0;
+}
+/*
+===================================
+classes | info page img
+===================================
+ */
+.replacement-img-right{
+    width: 310px;
+    margin: 0 0 0 146px;
+}
+.replacement-img-left{
+    width: 310px;
+    margin: 0 0 0 166px;
+}
+/*
+===================================
+classes | info page paragraphs
+===================================
+ */
+.sub-theme-h2{
+    display: flex;
+    text-align: left;
+    margin: 0 0 40px 166px;
+    padding: 0;
+    width: 652px;
+}
+.sub-theme-h3-left{
+    display: flex;
+    text-align: left;
+    margin: 0 0 16px 166px;
+    padding: 0;
+    width: 652px;
+}
+.sub-theme-left{
+    display: flex;
+    text-align: left;
+    margin: 0 0 0 166px;
+    padding: 0;
+    width: 652px;
+}
+.sub-theme-h3-right{
+    display: flex;
+    text-align: right;
+    margin: 0 166px 16px 146px;
+    padding: 0;
+    width: 652px;
+}
+.sub-theme-right{
+    display: flex;
+    text-align: left;
+    margin: 0 0 0 146px;
+    padding: 0;
+    width: 652px;
+}
+/*
+===================================
+classes | info page pros&cons
+===================================
+ */
+.pros-left{
+    display: flex;
+    text-align: left;
+    margin: 0 0 0 166px;
+    padding: 0;
+    width: 538px;
+}
+.cons-right{
+    display: flex;
+    text-align: left;
+    margin: 0 0 0 32px;
+    padding: 0;
+    width: 538px;
+}
+.cons-right-h3{
+    display: flex;
+    text-align: left;
+    margin: 0 0 16px 32px;
+    padding: 0;
+    width: 538px;
+}
+.bullet-point{
+    color: #FBFBFB;
+}
+.arrow svg{
+    transition: all 0.5s ease-in-out;
+}
+.arrow:hover svg{
+    transform: translateX(96px);
+}
+.arrow:hover svg path{
+    fill: #C6FFDD;
 }
