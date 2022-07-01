@@ -8,11 +8,6 @@ classes | life cycle
     height: 196px;
     object-fit: contain;
 }
-.lc-arrow-close img{
-    width: 44px;
-    transform: rotate(-180deg);
-    color: #C6FFDD;
-}
 .lc-h4{
     width: 222px;
     height: 33px;
@@ -35,7 +30,7 @@ classes | life cycle
     gap: 10px;
     width: 310px;
     height: 125px;
-    background: #52EDAC;
+    background: rgba(82, 237, 172, 0.65);
 }
 .lc-container-large{
     display: flex;
@@ -57,6 +52,22 @@ classes | life cycle
     display: flex;
     justify-content: space-between;
     margin: auto;
+}
+/*
+===================================
+classes | life cycle arrow
+===================================
+ */
+.arrow-info svg {
+    width: 44px;
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+.arrow-info:hover svg path{
+    fill: #52EDAC;
+    /*
+    fill: #361451;
+     */
 }
 /*
 ===================================

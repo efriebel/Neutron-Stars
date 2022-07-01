@@ -63,15 +63,9 @@ footer #bottom-footer nav ul li a:visited,
 footer #bottom-footer nav ul li a:active{
     color: #52EDAC;
 }
-footer #bottom-footer nav ul li a:hover{
-    color: #C6FFDD;
-}
-.facebook{
+.socials svg {
     width: 56px;
 }
-.instagram{
-    width: 56px;
-}
-.twitter{
-    width: 56px;
+.socials:hover svg path{
+    fill: #C6FFDD;
 }
