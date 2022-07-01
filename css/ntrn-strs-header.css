@@ -19,7 +19,11 @@ header nav ul{
     list-style: none;
     margin-top: 24px;
     margin-bottom: 24px;
-    display: flex;
+}
+@media only screen and (min-width: 1440px){
+    header nav ul{
+        display: flex;
+    }
 }
 header nav ul img{
     margin: -24px 128px 0 40px;
@@ -40,4 +44,63 @@ header nav ul li a:active{
 }
 header nav ul li a:hover{
     color: #52EDAC;
+}
+/*
+===================================
+button | menu
+===================================
+ */
+.open-menu{
+    display: none;
+}
+.close-menu{
+
+}
+/*
+===================================
+button | nav
+===================================
+ */
+.nav-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+    .nav-desktop,
+    .open-menu{
+        display: block;
+    }
+}
+
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 1440px){
+    .nav-mobile,
+    .open-menu{
+        display: none;
+    }
+}
+/*
+===================================
+show
+===================================
+ */
+.mobile-menu-content{
+    display: none;
+}
+/*
+===================================
+show
+===================================
+ */
+.show-mobile {
+    display: block;
+}
+@media only screen and (min-width: 1440px){
+    .show-mobile{
+        display: none;
+    }
 }

@@ -3,12 +3,12 @@
 classes | life cycle
 ===================================
  */
-.lc img{
+/*.lc img{
     width: 196px;
     height: 196px;
     object-fit: contain;
 }
-.lc-h4{
+.lc-h6{
     width: 222px;
     height: 33px;
     text-align: center;
@@ -52,53 +52,221 @@ classes | life cycle
     display: flex;
     justify-content: space-between;
     margin: auto;
+}*/
+
+@media only screen and (min-width: 360px) {
+    .lc img{
+        width: 96px;
+        height: 96px;
+        object-fit: contain;
+    }
+    .lc-h6{
+        width: 88px;
+        height: 15px;
+        text-align: center;
+    }
+    .lc-container-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+        width: 88px;
+        height: 41px;
+    }
+    .lc-container-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 6px 4px;
+        gap: 10px;
+        width: 96px;
+        height: 53px;
+        background: rgba(82, 237, 172, 0.65);
+    }
+    .lc-container-large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 12px;
+        width: 96px;
+        height: 161px;
+        left: 132px;
+        top: 1518px;
+    }
+    .life-cycle{
+        display: flex;
+        justify-content: center;
+        margin: 24px 0 12px 0;
+    }
+    .life-cycle-col{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .lc img{
+        width: 196px;
+        height: 196px;
+        object-fit: contain;
+    }
+    .lc-h6{
+        width: 222px;
+        height: 33px;
+        text-align: center;
+    }
+    .lc-container-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 16px;
+        width: 222px;
+        height: 93px;
+    }
+    .lc-container-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 44px;
+        gap: 10px;
+        width: 310px;
+        height: 125px;
+        background: rgba(82, 237, 172, 0.65);
+    }
+    .lc-container-large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 32px;
+        width: 310px;
+        height: 353px;
+        left: 565px;
+        top: 1715px;
+    }
+    .life-cycle{
+        display: flex;
+        justify-content: center;
+        margin: 56px 0 28px 0;
+    }
+    .life-cycle-col{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
 }
 /*
 ===================================
 classes | life cycle arrow
 ===================================
  */
-.arrow-info svg {
+/*.arrow-info svg {
     width: 44px;
+    height: 44px;
     transform: rotate(-180deg);
     cursor: pointer;
 }
 .arrow-info:hover svg path{
     fill: #52EDAC;
-    /*
-    fill: #361451;
-     */
+}*/
+
+@media only screen and (min-width: 360px) {
+    .arrow-info svg {
+        width: 20px;
+        height: 20px;
+        transform: rotate(-180deg);
+        cursor: pointer;
+    }
+    .arrow-info:hover svg path{
+        fill: #52EDAC;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .arrow-info svg {
+        width: 44px;
+        height: 44px;
+        transform: rotate(-180deg);
+        cursor: pointer;
+    }
+    .arrow-info:hover svg path{
+        fill: #52EDAC;
+    }
 }
 /*
 ===================================
 classes | info page container
 ===================================
  */
-.info-container{
+/*.info-container{
     margin: 60px 0 60px 0;
 }
 .info-container-sub{
     margin: 56px 0 56px 0;
+}*/
+
+@media only screen and (min-width: 360px) {
+    .info-container{
+        margin: 32px 0 16px 0;
+    }
+    .info-container-sub{
+        margin: 12px 0 12px 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .info-container{
+        margin: 60px 0 60px 0;
+    }
+    .info-container-sub{
+        margin: 56px 0 56px 0;
+    }
 }
 /*
 ===================================
 classes | info page img
 ===================================
  */
-.replacement-img-right{
+/*.replacement-img-right{
     width: 310px;
     margin: 0 0 0 146px;
 }
 .replacement-img-left{
     width: 310px;
     margin: 0 0 0 166px;
+}*/
+
+@media only screen and (min-width: 360px) {
+    .replacement-img-right{
+        width: 150px;
+        margin: 6px 0 12px 105px;
+    }
+    .replacement-img-left{
+        width: 150px;
+        margin: 6px 0 12px 105px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .replacement-img-right{
+        width: 310px;
+        margin: 0 0 0 146px;
+    }
+    .replacement-img-left{
+        width: 310px;
+        margin: 0 0 0 166px;
+    }
 }
 /*
 ===================================
 classes | info page paragraphs
 ===================================
  */
-.sub-theme-h2{
+/*.sub-theme-h2{
     display: flex;
     text-align: left;
     margin: 0 0 40px 166px;
@@ -132,6 +300,82 @@ classes | info page paragraphs
     margin: 0 0 0 146px;
     padding: 0;
     width: 652px;
+}*/
+
+@media only screen and (min-width: 360px) {
+    .sub-theme-h2{
+        display: flex;
+        text-align: left;
+        margin: 0 0 24px 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .sub-theme-h3-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 12px 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .sub-theme-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .sub-theme-h3-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 12px 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .sub-theme-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 24px;
+        padding: 0;
+        width: 312px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .sub-theme-h2{
+        display: flex;
+        text-align: left;
+        margin: 0 0 40px 166px;
+        padding: 0;
+        width: 652px;
+    }
+    .sub-theme-h3-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 16px 166px;
+        padding: 0;
+        width: 652px;
+    }
+    .sub-theme-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 166px;
+        padding: 0;
+        width: 652px;
+    }
+    .sub-theme-h3-right{
+        display: flex;
+        text-align: right;
+        margin: 0 166px 16px 146px;
+        padding: 0;
+        width: 652px;
+    }
+    .sub-theme-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 146px;
+        padding: 0;
+        width: 652px;
+    }
 }
 /*
 ===================================
@@ -161,4 +405,58 @@ classes | info page pros&cons
 }
 .bullet-point{
     color: #FBFBFB;
+}
+
+@media only screen and (min-width: 360px) {
+    .pros-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .cons-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .cons-right-h3{
+        display: flex;
+        text-align: left;
+        margin: 24px 0 12px 24px;
+        padding: 0;
+        width: 312px;
+    }
+    .bullet-point{
+        color: #FBFBFB;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .pros-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 166px;
+        padding: 0;
+        width: 538px;
+    }
+    .cons-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 32px;
+        padding: 0;
+        width: 538px;
+    }
+    .cons-right-h3{
+        display: flex;
+        text-align: left;
+        margin: 0 0 16px 32px;
+        padding: 0;
+        width: 538px;
+    }
+    .bullet-point{
+        color: #FBFBFB;
+    }
 }

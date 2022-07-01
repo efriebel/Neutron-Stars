@@ -4,19 +4,54 @@ classes | landing page teaser
 ===================================
  */
 /*
-.teaser-img{
+.teaser-img {
     width: 424px;
     margin: 160px 0 32px 0;
 }
-.teaser-img-extra{
-    width: 424px;
-    margin: 588px 0 32px 0;
-}
-.teaser-container-left{
+
+.teaser-container-left {
     width: 424px;
     margin-left: 166px;
 }
-.teaser-container-right{
+
+.teaser-container-right {
     width: 424px;
     margin-right: 166px;
+}
+*/
+@media only screen and (min-width: 360px) {
+    .teaser-img {
+        width: 204px;
+    }
+
+    .teaser-container-left {
+        width: 312px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teaser-container-right {
+        width: 312px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .teaser-img {
+        width: 424px;
+        margin: 160px 0 32px 0;
+    }
+
+    .teaser-container-left {
+        width: 424px;
+        margin-left: 166px;
+    }
+
+    .teaser-container-right {
+        width: 424px;
+        margin-right: 166px;
+    }
 }
