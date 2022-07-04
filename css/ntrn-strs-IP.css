@@ -461,3 +461,11 @@ classes | info page pros&cons
         color: #FBFBFB;
     }
 }
+/*
+===================================
+classes | img row-reverse
+===================================
+ */
+.img-reverse{
+    flex-direction: row-reverse;
+}
