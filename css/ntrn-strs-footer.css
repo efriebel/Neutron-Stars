@@ -12,6 +12,7 @@ footer #footer{
     background-color: #361451;
     padding: 16px;
     margin-top: 160px;
+    overflow: hidden;
 }
 footer #footer nav ul{
     list-style: none;
@@ -24,7 +25,7 @@ footer #footer nav ul{
 footer #footer nav ul li{}
 footer #footer nav ul li a:link,
 footer #footer nav ul li a:visited,
-footer #footer nav ul li a:active{
+footer #footer nav ul li a:active {
     font-family: 'Encode Sans Condensed';
     font-style: normal;
     font-weight: 700;
@@ -32,9 +33,6 @@ footer #footer nav ul li a:active{
     color: #FBFBFB;
     text-decoration: none;
 }
-/*footer #footer nav ul li a:hover{
-    color: #C6FFDD;
-}*/
 /*
 ===================================
 footer 2 | socials
@@ -63,9 +61,75 @@ footer #bottom-footer nav ul li a:visited,
 footer #bottom-footer nav ul li a:active{
     color: #52EDAC;
 }
+@media only screen and (min-width: 360px) {
+    footer #bottom-footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2B0C44;
+        margin: 0;
+        padding: 0;
+    }
+    footer #bottom-footer nav ul{
+        list-style: none;
+        width: 120px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #bottom-footer nav ul li{}
+    footer #bottom-footer nav ul li a:link,
+    footer #bottom-footer nav ul li a:visited,
+    footer #bottom-footer nav ul li a:active{
+        color: #52EDAC;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    footer #bottom-footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2B0C44;
+        margin: 0;
+        padding: 20px;
+    }
+    footer #bottom-footer nav ul{
+        list-style: none;
+        width: 280px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #bottom-footer nav ul li{}
+    footer #bottom-footer nav ul li a:link,
+    footer #bottom-footer nav ul li a:visited,
+    footer #bottom-footer nav ul li a:active{
+        color: #52EDAC;
+    }
+}
 .socials svg {
     width: 56px;
 }
 .socials:hover svg path{
     fill: #C6FFDD;
+}
+@media only screen and (min-width: 360px) {
+    .socials svg {
+        width: 24px;
+    }
+    .socials:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .socials svg {
+        width: 56px;
+    }
+    .socials:hover svg path{
+        fill: #C6FFDD;
+    }
 }

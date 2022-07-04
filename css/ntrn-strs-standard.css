@@ -73,6 +73,13 @@ h5{
     font-size: 20px;
     color: #FBFBFB;
 }
+h6{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FBFBFB;
+}
 p{
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -87,7 +94,7 @@ em{
     font-size: 20px;
     color: #C6FFDD;
 }
-p3{
+p2{
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 300;
@@ -151,11 +158,143 @@ p3{
         font-size: 16px;
         color: #C6FFDD;
     }
-    p3{
+    p2{
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: 300;
+        font-size: 8px;
+        color: #FBFBFB;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #FBFBFB;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
         font-size: 14px;
+        color: #FBFBFB;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        color: #C6FFDD;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        color: #FBFBFB;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 44px;
+        color: #FBFBFB;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #FBFBFB;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        color: #C6FFDD;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
         color: #FBFBFB;
     }
 }
@@ -196,6 +335,13 @@ p3{
         font-size: 20px;
         color: #FBFBFB;
     }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #FBFBFB;
+    }
     p{
         font-family: 'Roboto Condensed';
         font-style: normal;
@@ -210,7 +356,7 @@ p3{
         font-size: 20px;
         color: #C6FFDD;
     }
-    p3{
+    p2{
         font-family: 'Roboto Condensed';
         font-style: normal;
         font-weight: 300;

@@ -14,11 +14,41 @@ header{
     background-color: #361451;
     margin-bottom: 0;
 }
+@media only screen and (min-width: 360px) {
+    header{
+        position: fixed;
+        width: 100%;
+        height: 48px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color: #361451;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    header{
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        background-color: #361451;
+        margin-bottom: 0;
+    }
+}
 header nav{}
 header nav ul{
     list-style: none;
     margin-top: 24px;
     margin-bottom: 24px;
+}
+@media only screen and (min-width: 360px){
+    header nav ul {
+        align-items: flex-end;
+    }
 }
 @media only screen and (min-width: 1440px){
     header nav ul{
@@ -53,8 +83,29 @@ button | menu
 .open-menu{
     display: none;
 }
+@media only screen and (min-width: 360px) {
+    .open-menu svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+
 .close-menu{
 
+}
+@media only screen and (min-width: 360px) {
+    .close-menu svg{
+        width: 24px;
+        height: 24px;
+    }
+}
+/*
+===================================
+open-alignment
+===================================
+ */
+.open-menu-alignment{
+    padding: 12px 24px 12px 0;
 }
 /*
 ===================================
@@ -64,7 +115,6 @@ button | nav
 .nav-desktop {
     display: none;
 }
-
 @media only screen and (min-width: 1440px) {
     .nav-desktop,
     .open-menu{
@@ -76,7 +126,6 @@ button | nav
     display: flex;
     flex-direction: column;
 }
-
 @media only screen and (min-width: 1440px){
     .nav-mobile,
     .open-menu{
@@ -85,12 +134,37 @@ button | nav
 }
 /*
 ===================================
-show
+mobile menu content
 ===================================
  */
 .mobile-menu-content{
     display: none;
+    width: 100%;
+    background-color: #130834;
+    padding: 12px 40px 0 40px;
 }
+/*
+===================================
+mobile menu textblock
+===================================
+ */
+.mobile-menu-textblock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0 0 48px 0;
+}
+/*
+===================================
+mobile default
+===================================
+ *//*
+.mobile-default{
+    display: flex;
+    flex-direction: row;
+    gap: 260px;
+}*/
 /*
 ===================================
 show
