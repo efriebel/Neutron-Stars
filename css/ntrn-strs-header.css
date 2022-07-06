@@ -89,7 +89,6 @@ button | menu
         height: 24px;
     }
 }
-
 .close-menu{
     position: absolute;
     right: 24px;
@@ -123,7 +122,6 @@ button | nav
         display: block;
     }
 }
-
 .nav-mobile{
     display: flex;
     flex-direction: column;
@@ -139,11 +137,16 @@ button | nav
 mobile menu content
 ===================================
  */
-.mobile-menu-content{
+.mobile-menu-content {
     display: none;
     width: 100%;
     background-color: #130834;
     padding: 12px 40px 0 40px;
+    transform: translateX(100%);
+    transition: all 2s;
+}
+.mobile-menu-content-transition{
+    transform: translateX(0%);
 }
 /*
 ===================================
@@ -157,16 +160,6 @@ mobile menu textblock
     gap: 12px;
     margin: 0 0 48px 0;
 }
-/*
-===================================
-mobile default
-===================================
- *//*
-.mobile-default{
-    display: flex;
-    flex-direction: row;
-    gap: 260px;
-}*/
 /*
 ===================================
 show
