@@ -68,7 +68,7 @@ footer #bottom-footer nav ul li a:active{
         display: flex;
         justify-content: space-evenly;
         background-color: #2B0C44;
-        margin: 0;
+        margin: 72px 0 0 0;
         padding: 0;
     }
     footer #bottom-footer nav ul{

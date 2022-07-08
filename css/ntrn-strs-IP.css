@@ -250,6 +250,9 @@ classes | info page img
         width: 150px;
         margin: 12px 0 0 105px;
     }
+    .img-reverse{
+        order: 1;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -260,6 +263,9 @@ classes | info page img
     .replacement-img-left{
         width: 310px;
         margin: 0 0 0 166px;
+    }
+    .img-reverse{
+        order: -1;
     }
 }
 /*
@@ -460,12 +466,4 @@ classes | info page pros&cons
     .bullet-point{
         color: #FBFBFB;
     }
-}
-/*
-===================================
-classes | img row-reverse
-===================================
- */
-.img-reverse{
-    flex-direction: row-reverse;
 }

@@ -107,6 +107,8 @@ open-alignment
  */
 .open-menu-alignment{
     padding: 12px 24px 12px 0;
+    display: flex;
+    justify-content: flex-end;
 }
 /*
 ===================================
@@ -138,12 +140,12 @@ mobile menu content
 ===================================
  */
 .mobile-menu-content {
-    display: none;
+    /*display: none;*/
     width: 100%;
     background-color: #130834;
     padding: 12px 40px 0 40px;
     transform: translateX(100%);
-    transition: all 2s;
+    transition: all 1s ease-in-out;
 }
 .mobile-menu-content-transition{
     transform: translateX(0%);
