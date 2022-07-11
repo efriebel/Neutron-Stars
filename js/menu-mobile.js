@@ -10,13 +10,15 @@ const mobileMenu = document.querySelector(".mobile-menu-content");
 
 
 openButton.addEventListener("click", ()=> {
-    openButton.classList.remove("show-mobile");
-    mobileMenu.classList.add("show-mobile");
+    //openButton.classList.remove("show-mobile");
+    //mobileMenu.classList.add("show-mobile");
     mobileMenu.classList.add("mobile-menu-content-transition");
+    //mobileMenu.classList.add("mobile-menu-content-display");
 });
 
 closeButton.addEventListener("click", ()=> {
-    openButton.classList.add("show-mobile");
-    mobileMenu.classList.remove("show-mobile");
+    //openButton.classList.add("show-mobile");
+    //mobileMenu.classList.remove("show-mobile");
+    mobileMenu.classList.remove("mobile-menu-content-transition");
 });
 

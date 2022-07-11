@@ -1,0 +1,43 @@
+/*
+===================================
+menu icon
+===================================
+ */
+svg:hover .menu-icon-top{
+    animation-name: menu-icon-top;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    transform-origin: 25% 25%;
+    animation-iteration-count: 1;
+}
+svg:hover .menu-icon-middle{
+    animation-name: menu-icon-middle;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    transform-origin: center center;
+    animation-iteration-count: 1;
+}
+svg:hover .menu-icon-bottom{
+    animation-name: menu-icon-bottom;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    transform-origin: 25% 25%;
+    animation-iteration-count: 1;
+}
+
+@keyframes menu-icon-top {
+    0%   {transform: translateY(0)}
+    50% {transform: translateY(30%)}
+    100% {transform: rotate(45deg)}
+}
+
+@keyframes menu-icon-middle {
+    50% {opacity: 0}
+    100% {opacity: 0}
+}
+
+@keyframes menu-icon-bottom {
+    0%   {transform: translateY(0)}
+    50% {transform: translateY(-30%)}
+    100% {transform: rotate(-45deg)}
+}

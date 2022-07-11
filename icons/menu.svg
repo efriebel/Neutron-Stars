@@ -1,5 +1,5 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect y="8.5" width="48" height="3.875" fill="#FBFBFB"/>
-<rect y="22.0625" width="48" height="3.875" fill="#FBFBFB"/>
-<rect y="35.625" width="48" height="3.875" fill="#FBFBFB"/>
+<rect class="menu-icon-top" y="8.5" width="48" height="3.875" fill="#FBFBFB"/>
+<rect class="menu-icon-middle" y="22.0625" width="48" height="3.875" fill="#FBFBFB"/>
+<rect class="menu-icon-bottom" y="35.625" width="48" height="3.875" fill="#FBFBFB"/>
 </svg>

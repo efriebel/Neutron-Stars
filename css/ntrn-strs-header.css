@@ -80,9 +80,9 @@ header nav ul li a:hover{
 button | menu
 ===================================
  */
-.open-menu{
+/*.open-menu{
     display: none;
-}
+}*/
 @media only screen and (min-width: 360px) {
     .open-menu svg{
         width: 24px;
@@ -142,13 +142,20 @@ mobile menu content
 .mobile-menu-content {
     /*display: none;*/
     width: 100%;
+    height: 100vh;
     background-color: #130834;
     padding: 12px 40px 0 40px;
     transform: translateX(100%);
-    transition: all 1s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .mobile-menu-content-transition{
     transform: translateX(0%);
+}
+.mobile-menu-content-display{
+    display: none;
 }
 /*
 ===================================
@@ -166,7 +173,7 @@ mobile menu textblock
 ===================================
 show
 ===================================
- */
+ *//*
 .show-mobile {
     display: block;
 }
