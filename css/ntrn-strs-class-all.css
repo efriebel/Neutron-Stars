@@ -37,6 +37,25 @@ classes | stage ALL
         gap: 16px;
     }
 }
+@media only screen and (min-width: 768px) {
+
+    .stage-container {
+        margin-top: 104px;
+        width: 450px;
+    }
+
+    .stage-bg {
+        background-color: #2B0C44;
+        padding-bottom: 40px;
+    }
+
+    .stage-container-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .stage-container {
         margin-top: 144px;
@@ -81,6 +100,17 @@ classes | intro ALL
         margin-top: 64px;
     }
 }
+@media only screen and (min-width: 768px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        gap: 40px;
+        width: 450px;
+        margin-top: 80px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .introduction {
         display: flex;
@@ -107,11 +137,10 @@ classes | arrow animation
 .arrow:hover svg path{
     fill: #C6FFDD;
 }
-
 @media only screen and (min-width: 360px) {
     .arrow svg{
         width: 30px;
-        height: 25px;
+        height: 30px;
         transition: all 0.5s ease-in-out;
     }
     .arrow:hover svg{
@@ -121,11 +150,23 @@ classes | arrow animation
         fill: #C6FFDD;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .arrow svg{
+        width: 40px;
+        height: 40px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .arrow svg{
-        width: 30px;
-        height: 30px;
+        width: 48px;
+        height: 48px;
         transition: all 0.5s ease-in-out;
     }
     .arrow:hover svg{

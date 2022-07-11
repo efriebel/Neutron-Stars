@@ -20,25 +20,66 @@ classes | landing page teaser
 }
 */
 @media only screen and (min-width: 360px) {
+    .teaser-all{
+        margin: 72px 0 0 0;
+        gap: 56px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .teaser-all{
+        margin: 120px 0 0 0;
+        gap: 88px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .teaser-all{
+        margin: 0;
+        gap: 0;
+    }
+}
+
+@media only screen and (min-width: 360px) {
     .teaser-img {
         width: 204px;
     }
 
     .teaser-container-left {
         width: 312px;
-        gap: 16px;
+        gap: 12px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .teaser-container-right {
         width: 312px;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .teaser-img {
+        width: 330px;
+    }
+
+    .teaser-container-left {
+        width: 450px;
         gap: 16px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .teaser-container-right {
+        width: 450px;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
-
 @media only screen and (min-width: 1440px) {
     .teaser-img {
         width: 424px;
@@ -48,10 +89,12 @@ classes | landing page teaser
     .teaser-container-left {
         width: 424px;
         margin-left: 166px;
+        align-items: center;
     }
 
     .teaser-container-right {
         width: 424px;
         margin-right: 166px;
+        align-items: center;
     }
 }

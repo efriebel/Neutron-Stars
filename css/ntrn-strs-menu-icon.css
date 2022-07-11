@@ -7,7 +7,7 @@ svg:hover .menu-icon-top{
     animation-name: menu-icon-top;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-    transform-origin: 25% 25%;
+    /*transform-origin: 25% 25%;*/
     animation-iteration-count: 1;
 }
 svg:hover .menu-icon-middle{
@@ -21,14 +21,14 @@ svg:hover .menu-icon-bottom{
     animation-name: menu-icon-bottom;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-    transform-origin: 25% 25%;
+    /*transform-origin: 25% 25%;*/
     animation-iteration-count: 1;
 }
 
 @keyframes menu-icon-top {
     0%   {transform: translateY(0)}
     50% {transform: translateY(30%)}
-    100% {transform: rotate(45deg)}
+    100% {transform: rotate(45deg) translateX(25%) translateY(-25%)}
 }
 
 @keyframes menu-icon-middle {
@@ -39,5 +39,5 @@ svg:hover .menu-icon-bottom{
 @keyframes menu-icon-bottom {
     0%   {transform: translateY(0)}
     50% {transform: translateY(-30%)}
-    100% {transform: rotate(-45deg)}
+    100% {transform: rotate(-45deg) translateX(-50%)}
 }

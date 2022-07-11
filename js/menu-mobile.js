@@ -10,15 +10,15 @@ const mobileMenu = document.querySelector(".mobile-menu-content");
 
 
 openButton.addEventListener("click", ()=> {
+    mobileMenu.classList.add("mobile-menu-content-transition");
     //openButton.classList.remove("show-mobile");
     //mobileMenu.classList.add("show-mobile");
-    mobileMenu.classList.add("mobile-menu-content-transition");
     //mobileMenu.classList.add("mobile-menu-content-display");
 });
 
 closeButton.addEventListener("click", ()=> {
+    mobileMenu.classList.remove("mobile-menu-content-transition");
     //openButton.classList.add("show-mobile");
     //mobileMenu.classList.remove("show-mobile");
-    mobileMenu.classList.remove("mobile-menu-content-transition");
 });
 
