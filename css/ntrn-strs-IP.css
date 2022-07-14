@@ -53,7 +53,6 @@ classes | life cycle
     justify-content: space-between;
     margin: auto;
 }*/
-
 @media only screen and (min-width: 360px) {
     .lc img{
         width: 96px;
@@ -106,7 +105,58 @@ classes | life cycle
         margin: auto;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .lc img{
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
+    .lc-h6{
+        width: 118px;
+        height: 18px;
+        text-align: center;
+    }
+    .lc-container-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+        width: 118px;
+        height: 50px;
+    }
+    .lc-container-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 10px;
+        width: 150px;
+        height: 66px;
+        background: rgba(82, 237, 172, 0.65);
+    }
+    .lc-container-large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 16px;
+        width: 150px;
+        height: 172px;
+        left: 309px;
+        top: 1469px;
+    }
+    .life-cycle{
+        display: flex;
+        justify-content: center;
+        margin: 32px 0 16px 0;
+    }
+    .life-cycle-col{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .lc img{
         width: 196px;
@@ -173,7 +223,6 @@ classes | life cycle arrow
 .arrow-info:hover svg path{
     fill: #52EDAC;
 }*/
-
 @media only screen and (min-width: 360px) {
     .arrow-info svg {
         width: 20px;
@@ -185,7 +234,17 @@ classes | life cycle arrow
         fill: #52EDAC;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .arrow-info svg {
+        width: 24px;
+        height: 24px;
+        transform: rotate(-180deg);
+        cursor: pointer;
+    }
+    .arrow-info:hover svg path{
+        fill: #52EDAC;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .arrow-info svg {
         width: 44px;
@@ -208,7 +267,6 @@ classes | info page container
 .info-container-sub{
     margin: 56px 0 56px 0;
 }*/
-
 @media only screen and (min-width: 360px) {
     .info-container{
         margin: 32px 0 16px 0;
@@ -217,7 +275,14 @@ classes | info page container
         margin: 0;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .info-container{
+        margin: 72px 0 36px 0;
+    }
+    .info-container-sub{
+        margin: 32px 0 32px 0;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .info-container{
         margin: 60px 0 60px 0;
@@ -239,7 +304,6 @@ classes | info page img
     width: 310px;
     margin: 0 0 0 166px;
 }*/
-
 @media only screen and (min-width: 360px) {
     .replacement-img-right{
         width: 150px;
@@ -254,7 +318,20 @@ classes | info page img
         order: 1;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .replacement-img-right{
+        width: 210px;
+        margin: 0 0 0 30px;
+        align-content: center;
+    }
+    .replacement-img-left{
+        width: 210px;
+        margin: 0 0 0 99px;
+    }
+    .img-reverse{
+        order: -1;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .replacement-img-right{
         width: 310px;
@@ -308,7 +385,6 @@ classes | info page paragraphs
     padding: 0;
     width: 652px;
 }*/
-
 @media only screen and (min-width: 360px) {
     .sub-theme-h2{
         display: flex;
@@ -346,7 +422,43 @@ classes | info page paragraphs
         width: 312px;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .sub-theme-h2{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 99px;
+        padding: 0;
+        width: 330px;
+    }
+    .sub-theme-h3-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 99px;
+        padding: 0;
+        width: 330px;
+    }
+    .sub-theme-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 99px;
+        padding: 0;
+        width: 330px;
+    }
+    .sub-theme-h3-right{
+        display: flex;
+        text-align: left;
+        margin: 0 99px 0 30px;
+        padding: 0;
+        width: 312px;
+    }
+    .sub-theme-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 312px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .sub-theme-h2{
         display: flex;
@@ -413,7 +525,6 @@ classes | info page pros&cons
 .bullet-point{
     color: #FBFBFB;
 }
-
 @media only screen and (min-width: 360px) {
     .pros-left{
         display: flex;
@@ -440,7 +551,32 @@ classes | info page pros&cons
         color: #FBFBFB;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .pros-left{
+        display: flex;
+        text-align: left;
+        margin: 0 30px 0 99px;
+        padding: 0;
+        width: 270px;
+    }
+    .cons-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 270px;
+    }
+    .cons-right-h3{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 270px;
+    }
+    .bullet-point{
+        color: #FBFBFB;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .pros-left{
         display: flex;

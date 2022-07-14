@@ -34,7 +34,16 @@ classes | stage ALL
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
         gap: 16px;
+    }
+
+    .stage-order{
+        order: 1;
+    }
+
+    .stage-img{
+        margin: 16px 0 16px 0;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -54,6 +63,15 @@ classes | stage ALL
         flex-direction: column;
         justify-content: center;
         gap: 16px;
+        text-align: center;
+    }
+
+    .stage-order{
+        order: 1;
+    }
+
+    .stage-img{
+        margin: 24px 0 24px 0;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -73,6 +91,14 @@ classes | stage ALL
         justify-content: center;
         gap: 48px;
     }
+/*
+    .stage-order{
+        order: 0;
+    }
+
+    .stage-img{
+        margin: 0;
+    }*/
 }
 
 /*

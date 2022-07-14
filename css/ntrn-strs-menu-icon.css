@@ -30,12 +30,10 @@ svg:hover .menu-icon-bottom{
     50% {transform: translateY(30%)}
     100% {transform: rotate(45deg) translateX(25%) translateY(-25%)}
 }
-
 @keyframes menu-icon-middle {
     50% {opacity: 0}
     100% {opacity: 0}
 }
-
 @keyframes menu-icon-bottom {
     0%   {transform: translateY(0)}
     50% {transform: translateY(-30%)}
