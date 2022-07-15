@@ -1,36 +1,28 @@
 /*
 ===================================
-classes | stage ALL
+classes | stage MOBILE
 ===================================
  */
-/*
-.stage-container{
-    margin-top: 144px;
+.stage-mobile{
+    display: block;
 }
-.stage-bg{
-    background-color: #2B0C44;
-    padding-bottom: 80px;
+@media only screen and (min-width: 1440px){
+    .stage-mobile{
+        display: none;
+    }
 }
-.stage-container-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 32px;
-}
-*/
 @media only screen and (min-width: 360px) {
-
-    .stage-container {
-        margin-top: 108px;
+    .stage-container-mobile {
         width: 312px;
     }
 
-    .stage-bg {
+    .stage-bg-mobile {
         background-color: #2B0C44;
-        padding-bottom: 40px;
+        padding: 24px 0 24px 0;
+        margin: 48px 0 0 0;
     }
 
-    .stage-container-text {
+    .stage-container-text-mobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -47,18 +39,17 @@ classes | stage ALL
     }
 }
 @media only screen and (min-width: 768px) {
-
-    .stage-container {
-        margin-top: 104px;
+    .stage-container-mobile {
         width: 450px;
     }
 
-    .stage-bg {
+    .stage-bg-mobile {
         background-color: #2B0C44;
-        padding-bottom: 40px;
+        padding: 40px 0 40px 0;
+        margin: 64px 0 0 0;
     }
 
-    .stage-container-text {
+    .stage-container-text-mobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -74,31 +65,38 @@ classes | stage ALL
         margin: 24px 0 24px 0;
     }
 }
+
+/*
+===================================
+classes | stage DESKTOP
+===================================
+ */
+.stage-desktop{
+    display: none;
+}
+@media only screen and (min-width: 1440px){
+    .stage-desktop{
+        display: block;
+    }
+}
 @media only screen and (min-width: 1440px) {
-    .stage-container {
-        margin-top: 144px;
+    .stage-container-desktop {
+        margin-top: 64px;
         width: 1108px;
     }
 
-    .stage-bg {
+    .stage-bg-desktop {
         background-color: #2B0C44;
-        padding-bottom: 80px;
+        padding: 80px 0 80px 0;
     }
 
-    .stage-container-text {
+    .stage-container-text-desktop {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
         gap: 48px;
     }
-/*
-    .stage-order{
-        order: 0;
-    }
-
-    .stage-img{
-        margin: 0;
-    }*/
 }
 
 /*

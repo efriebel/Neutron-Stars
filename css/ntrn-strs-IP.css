@@ -344,6 +344,12 @@ classes | info page img
     .img-reverse{
         order: -1;
     }
+    .images-info{
+        flex-direction: column;
+    }
+    .images-info img{
+        margin: 0 0 40px 0;
+    }
 }
 /*
 ===================================
