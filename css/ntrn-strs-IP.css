@@ -317,6 +317,13 @@ classes | info page img
     .img-reverse{
         order: 1;
     }
+    .images-info{
+        flex-direction: row;
+        order: 1;
+    }
+    .images-info img{
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 768px) {
     .replacement-img-right{
@@ -330,6 +337,13 @@ classes | info page img
     }
     .img-reverse{
         order: -1;
+    }
+    .images-info{
+        flex-direction: column;
+        order: -1;
+    }
+    .images-info img{
+        margin: 0 0 120px 0;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -346,9 +360,10 @@ classes | info page img
     }
     .images-info{
         flex-direction: column;
+        order: -1;
     }
     .images-info img{
-        margin: 0 0 40px 0;
+        margin: 0 0 56px 0;
     }
 }
 /*
