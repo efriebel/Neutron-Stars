@@ -111,6 +111,31 @@ footer #bottom-footer nav ul li a:active{
         color: #52EDAC;
     }
 }
+@media only screen and (min-width: 1024px) {
+    footer #bottom-footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2B0C44;
+        margin: 128px 0 0 0;
+        padding: 24px;
+    }
+    footer #bottom-footer nav ul{
+        list-style: none;
+        width: 240px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #bottom-footer nav ul li{}
+    footer #bottom-footer nav ul li a:link,
+    footer #bottom-footer nav ul li a:visited,
+    footer #bottom-footer nav ul li a:active{
+        color: #52EDAC;
+    }
+}
 @media only screen and (min-width: 1440px) {
     footer #bottom-footer{
         position: relative;
@@ -153,6 +178,14 @@ footer #bottom-footer nav ul li a:active{
 @media only screen and (min-width: 768px) {
     .socials svg {
         width: 44px;
+    }
+    .socials:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .socials svg {
+        width: 48px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;

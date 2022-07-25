@@ -45,7 +45,7 @@ svg:hover .menu-icon-bottom{
 
 /* GENERAL STYLES */
 .hamburger-border {
-    margin: 2px 20px 2px 20px;
+    margin: 0 20px 0 20px;
 }
 .visuallyHidden {
     position: absolute;
