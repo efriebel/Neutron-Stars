@@ -157,6 +157,58 @@ classes | life cycle
         margin: auto;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .lc img{
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+    }
+    .lc-h6{
+        width: 194px;
+        height: 25px;
+        text-align: center;
+    }
+    .lc-container-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 0;
+        width: 194px;
+        height: 73px;
+    }
+    .lc-container-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 8px;
+        gap: 10px;
+        width: 210px;
+        height: 97px;
+        background: rgba(82, 237, 172, 0.65);
+    }
+    .lc-container-large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 28px;
+        width: 210px;
+        height: 255px;
+        left: 407px;
+        top: 1471px;
+    }
+    .life-cycle{
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 20px 0;
+    }
+    .life-cycle-col{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .lc img{
         width: 196px;
@@ -245,6 +297,17 @@ classes | life cycle arrow
         fill: #52EDAC;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .arrow-info svg {
+        width: 36px;
+        height: 36px;
+        transform: rotate(-180deg);
+        cursor: pointer;
+    }
+    .arrow-info:hover svg path{
+        fill: #52EDAC;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .arrow-info svg {
         width: 44px;
@@ -281,6 +344,14 @@ classes | info page container
     }
     .info-container-sub{
         margin: 32px 0 32px 0;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .info-container{
+        margin: 96px 0 48px 0;
+    }
+    .info-container-sub{
+        margin: 40px 0 40px 0;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -345,6 +416,41 @@ classes | info page img
     .images-info img{
         margin: 0 0 120px 0;
     }
+    .images-info-anatomy{
+        flex-direction: column;
+        order: 1;
+    }
+    .images-info-anatomy img{
+        margin: 0 99px 0 30px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .replacement-img-right{
+        width: 290px;
+        margin: 0 0 0 30px;
+        align-content: center;
+    }
+    .replacement-img-left{
+        width: 290px;
+        margin: 0 0 0 127px;
+    }
+    .img-reverse{
+        order: -1;
+    }
+    .images-info{
+        flex-direction: column;
+        order: -1;
+    }
+    .images-info img{
+        margin: 0 0 127px 0;
+    }
+    .images-info-anatomy{
+        flex-direction: column;
+        order: 1;
+    }
+    .images-info-anatomy img{
+        margin: 0 127px 0 30px;
+    }
 }
 @media only screen and (min-width: 1440px) {
     .replacement-img-right{
@@ -364,6 +470,13 @@ classes | info page img
     }
     .images-info img{
         margin: 0 0 56px 0;
+    }
+    .images-info-anatomy{
+        flex-direction: column;
+        order: 1;
+    }
+    .images-info-anatomy img{
+        margin: 0 166px 0 146px;
     }
 }
 /*
@@ -480,6 +593,43 @@ classes | info page paragraphs
         width: 312px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .sub-theme-h2{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 127px;
+        padding: 0;
+        width: 450px;
+    }
+    .sub-theme-h3-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 127px;
+        padding: 0;
+        width: 450px;
+    }
+    .sub-theme-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 127px;
+        padding: 0;
+        width: 450px;
+    }
+    .sub-theme-h3-right{
+        display: flex;
+        text-align: left;
+        margin: 0 99px 0 30px;
+        padding: 0;
+        width: 450px;
+    }
+    .sub-theme-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 450px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .sub-theme-h2{
         display: flex;
@@ -593,6 +743,32 @@ classes | info page pros&cons
         margin: 0 0 0 30px;
         padding: 0;
         width: 270px;
+    }
+    .bullet-point{
+        color: #FBFBFB;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .pros-left{
+        display: flex;
+        text-align: left;
+        margin: 0 30px 0 127px;
+        padding: 0;
+        width: 370px;
+    }
+    .cons-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 370px;
+    }
+    .cons-right-h3{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 30px;
+        padding: 0;
+        width: 370px;
     }
     .bullet-point{
         color: #FBFBFB;

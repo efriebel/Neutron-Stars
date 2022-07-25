@@ -117,6 +117,7 @@ classes | stage DESKTOP
     .stage-bg-desktop {
         background-color: #2B0C44;
         padding: 80px 0 80px 0;
+        margin: 64px 0 0 0;
     }
 
     .stage-container-text-desktop {
