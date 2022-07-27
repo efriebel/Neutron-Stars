@@ -43,6 +43,12 @@ classes | landing page teaser
         gap: 0;
     }
 }
+@media only screen and (min-width: 2560px) {
+    .teaser-all{
+        margin: 0;
+        gap: 0;
+    }
+}
 
 @media only screen and (min-width: 360px) {
     .teaser-img {
@@ -119,6 +125,24 @@ classes | landing page teaser
     .teaser-container-right {
         width: 424px;
         margin-right: 166px;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .teaser-img {
+        width: 568px;
+        margin: 200px 0 56px 0;
+    }
+
+    .teaser-container-left {
+        width: 568px;
+        margin-left: 496px;
+        align-items: center;
+    }
+
+    .teaser-container-right {
+        width: 568px;
+        margin-right: 496px;
         align-items: center;
     }
 }

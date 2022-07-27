@@ -7,29 +7,28 @@ svg:hover .menu-icon-top{
     animation-name: menu-icon-top;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    transform-origin: 4% 28%;
 }
 svg:hover .menu-icon-middle{
     animation-name: menu-icon-middle;
     animation-duration: 1.5s;
     animation-timing-function: linear;
     transform-origin: center center;
-    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 svg:hover .menu-icon-bottom{
     animation-name: menu-icon-bottom;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    transform-origin: 5% 50%;
 }
 
 @keyframes menu-icon-top {
     0%   {transform: translateY(0)}
     50% {transform: translateY(30%)}
-    100% {transform: rotate(45deg) translateX(28%) translateY(-23%)}
+    100% {transform: rotate(45deg) translateY(-25%)}
 }
 @keyframes menu-icon-middle {
     50% {opacity: 0}
@@ -38,7 +37,7 @@ svg:hover .menu-icon-bottom{
 @keyframes menu-icon-bottom {
     0%   {transform: translateY(0)}
     50% {transform: translateY(-30%)}
-    100% {transform: rotate(-45deg) translateX(-48%)}
+    100% {transform: rotate(-45deg)}
 }
 
 
@@ -125,7 +124,6 @@ svg:hover .menu-icon-bottom{
 .hamburger4 .bar3 {
     width: 1px;
     left: 13.5px;
-
 }
 .checkbox4:checked + label > .hamburger4 > .bar1{
     top: 13.5px;

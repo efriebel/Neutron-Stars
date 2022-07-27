@@ -420,9 +420,9 @@ classes | info page img
         flex-direction: column;
         order: 1;
     }
-    .images-info-anatomy img{
-        margin: 0 99px 0 30px;
-    }
+    /*.images-info-anatomy img{
+        margin: 0 99px 99px 30px;
+    }*/
 }
 @media only screen and (min-width: 1024px) {
     .replacement-img-right{
@@ -448,9 +448,9 @@ classes | info page img
         flex-direction: column;
         order: 1;
     }
-    .images-info-anatomy img{
-        margin: 0 127px 0 30px;
-    }
+    /*.images-info-anatomy img{
+        margin: 0 127px 127px 30px;
+    }*/
 }
 @media only screen and (min-width: 1440px) {
     .replacement-img-right{
@@ -475,9 +475,9 @@ classes | info page img
         flex-direction: column;
         order: 1;
     }
-    .images-info-anatomy img{
+    /*.images-info-anatomy img{
         margin: 0 166px 0 146px;
-    }
+    }*/
 }
 /*
 ===================================

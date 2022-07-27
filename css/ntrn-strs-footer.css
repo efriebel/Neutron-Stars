@@ -33,6 +33,68 @@ footer #footer nav ul li a:active {
     color: #FBFBFB;
     text-decoration: none;
 }
+@media only screen and (min-width: 1440px) {
+    footer #footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #361451;
+        padding: 16px;
+        margin-top: 160px;
+        overflow: hidden;
+    }
+    footer #footer nav ul{
+        list-style: none;
+        width: 818px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #footer nav ul li{}
+    footer #footer nav ul li a:link,
+    footer #footer nav ul li a:visited,
+    footer #footer nav ul li a:active {
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+        text-decoration: none;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    footer #footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #361451;
+        padding: 32px;
+        margin-top: 240px;
+        overflow: hidden;
+    }
+    footer #footer nav ul{
+        list-style: none;
+        width: 1015px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #footer nav ul li{}
+    footer #footer nav ul li a:link,
+    footer #footer nav ul li a:visited,
+    footer #footer nav ul li a:active {
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+        text-decoration: none;
+    }
+}
 /*
 ===================================
 footer 2 | socials
@@ -161,6 +223,31 @@ footer #bottom-footer nav ul li a:active{
         color: #52EDAC;
     }
 }
+@media only screen and (min-width: 2560px) {
+    footer #bottom-footer{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #2B0C44;
+        margin: 0;
+        padding: 48px;
+    }
+    footer #bottom-footer nav ul{
+        list-style: none;
+        width: 475px; /**/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;/**/
+    }
+    footer #bottom-footer nav ul li{}
+    footer #bottom-footer nav ul li a:link,
+    footer #bottom-footer nav ul li a:visited,
+    footer #bottom-footer nav ul li a:active{
+        color: #52EDAC;
+    }
+}
 .socials svg {
     width: 56px;
 }
@@ -170,6 +257,7 @@ footer #bottom-footer nav ul li a:active{
 @media only screen and (min-width: 360px) {
     .socials svg {
         width: 24px;
+        height: 24px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;
@@ -178,6 +266,7 @@ footer #bottom-footer nav ul li a:active{
 @media only screen and (min-width: 768px) {
     .socials svg {
         width: 44px;
+        height: 44px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;
@@ -186,6 +275,7 @@ footer #bottom-footer nav ul li a:active{
 @media only screen and (min-width: 1024px) {
     .socials svg {
         width: 48px;
+        height: 48px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;
@@ -194,6 +284,16 @@ footer #bottom-footer nav ul li a:active{
 @media only screen and (min-width: 1440px) {
     .socials svg {
         width: 56px;
+        height: 56px;
+    }
+    .socials:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .socials svg {
+        width: 95px;
+        height: 95px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;

@@ -16,6 +16,12 @@ classes | stage MOBILE
         display: none;
     }
 }
+@media only screen and (min-width: 2560px){
+    .stage-mobile{
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 360px) {
     .stage-container-mobile {
         width: 312px;
@@ -89,9 +95,16 @@ classes | stage DESKTOP
         display: block;
     }
 }
+@media only screen and (min-width: 2560px){
+    .stage-desktop{
+        display: block;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     .stage-container-desktop {
         width: 930px;
+        margin: auto;
     }
 
     .stage-bg-desktop {
@@ -110,8 +123,8 @@ classes | stage DESKTOP
 }
 @media only screen and (min-width: 1440px) {
     .stage-container-desktop {
-        margin-top: 64px;
         width: 1108px;
+        margin: auto;
     }
 
     .stage-bg-desktop {
@@ -128,7 +141,26 @@ classes | stage DESKTOP
         gap: 48px;
     }
 }
+@media only screen and (min-width: 2560px) {
+    .stage-container-desktop {
+        width: 1968px;
+        margin: auto;
+    }
 
+    .stage-bg-desktop {
+        background-color: #2B0C44;
+        padding: 148px 0 148px 0;
+        margin: 120px 0 0 0;
+    }
+
+    .stage-container-text-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 56px;
+    }
+}
 /*
 ===================================
 classes | intro ALL
@@ -187,6 +219,17 @@ classes | intro ALL
         margin-top: 96px;
     }
 }
+@media only screen and (min-width: 2560px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        gap: 64px;
+        width: 1168px;
+        margin-top: 120px;
+    }
+}
 /*
 ===================================
 classes | arrow animation
@@ -242,6 +285,19 @@ classes | arrow animation
     }
 }
 @media only screen and (min-width: 1440px) {
+    .arrow svg{
+        width: 48px;
+        height: 48px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 2560px) {
     .arrow svg{
         width: 48px;
         height: 48px;
