@@ -91,8 +91,6 @@ classes | life cycle
         gap: 12px;
         width: 96px;
         height: 161px;
-        left: 132px;
-        top: 1518px;
     }
     .life-cycle{
         display: flex;
@@ -143,8 +141,6 @@ classes | life cycle
         gap: 16px;
         width: 150px;
         height: 172px;
-        left: 309px;
-        top: 1469px;
     }
     .life-cycle{
         display: flex;
@@ -195,8 +191,6 @@ classes | life cycle
         gap: 28px;
         width: 210px;
         height: 255px;
-        left: 407px;
-        top: 1471px;
     }
     .life-cycle{
         display: flex;
@@ -247,13 +241,61 @@ classes | life cycle
         gap: 32px;
         width: 310px;
         height: 353px;
-        left: 565px;
-        top: 1715px;
     }
     .life-cycle{
         display: flex;
         justify-content: center;
         margin: 56px 0 28px 0;
+    }
+    .life-cycle-col{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .lc img{
+        width: 240px;
+        height: 240px;
+        object-fit: contain;
+    }
+    .lc-h6{
+        width: 300px;
+        height: 40px;
+        text-align: center;
+    }
+    .lc-container-small{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 16px;
+        width: 300px;
+        height: 104px;
+    }
+    .lc-container-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 34px;
+        gap: 10px;
+        width: 368px;
+        height: 136px;
+        background: rgba(82, 237, 172, 0.65);
+    }
+    .lc-container-large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 40px;
+        width: 368px;
+        height: 416px;
+    }
+    .life-cycle{
+        display: flex;
+        justify-content: center;
+        margin: 48px 0 24px 0;
     }
     .life-cycle-col{
         display: flex;
@@ -319,6 +361,17 @@ classes | life cycle arrow
         fill: #52EDAC;
     }
 }
+@media only screen and (min-width: 2560px) {
+    .arrow-info svg {
+        width: 48px;
+        height: 48px;
+        transform: rotate(-180deg);
+        cursor: pointer;
+    }
+    .arrow-info:hover svg path{
+        fill: #52EDAC;
+    }
+}
 /*
 ===================================
 classes | info page container
@@ -332,7 +385,7 @@ classes | info page container
 }*/
 @media only screen and (min-width: 360px) {
     .info-container{
-        margin: 32px 0 16px 0;
+        margin: 32px 0 0 0;
     }
     .info-container-sub{
         margin: 0;
@@ -340,7 +393,7 @@ classes | info page container
 }
 @media only screen and (min-width: 768px) {
     .info-container{
-        margin: 72px 0 36px 0;
+        margin: 72px 0 0 0;
     }
     .info-container-sub{
         margin: 32px 0 32px 0;
@@ -348,7 +401,7 @@ classes | info page container
 }
 @media only screen and (min-width: 1024px) {
     .info-container{
-        margin: 96px 0 48px 0;
+        margin: 96px 0 0 0;
     }
     .info-container-sub{
         margin: 40px 0 40px 0;
@@ -356,10 +409,18 @@ classes | info page container
 }
 @media only screen and (min-width: 1440px) {
     .info-container{
-        margin: 60px 0 60px 0;
+        margin: 80px 0 0 0;
     }
     .info-container-sub{
         margin: 56px 0 56px 0;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .info-container{
+        margin: 120px 0 0 0;
+    }
+    .info-container-sub{
+        margin: 72px 0 72px 0;
     }
 }
 /*
@@ -470,6 +531,33 @@ classes | info page img
     }
     .images-info img{
         margin: 0 0 56px 0;
+    }
+    .images-info-anatomy{
+        flex-direction: column;
+        order: 1;
+    }
+    /*.images-info-anatomy img{
+        margin: 0 166px 0 146px;
+    }*/
+}
+@media only screen and (min-width: 2560px) {
+    .replacement-img-right{
+        width: 368px;
+        margin: 0 0 0 232px;
+    }
+    .replacement-img-left{
+        width: 368px;
+        margin: 0 0 0 496px;
+    }
+    .img-reverse{
+        order: -1;
+    }
+    .images-info{
+        flex-direction: column;
+        order: -1;
+    }
+    .images-info img{
+        margin: 0 0 200px 0;
     }
     .images-info-anatomy{
         flex-direction: column;
@@ -667,6 +755,43 @@ classes | info page paragraphs
         width: 652px;
     }
 }
+@media only screen and (min-width: 2560px) {
+    .sub-theme-h2{
+        display: flex;
+        text-align: left;
+        margin: 0 0 72px 496px;
+        padding: 0;
+        width: 968px;
+    }
+    .sub-theme-h3-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 24px 496px;
+        padding: 0;
+        width: 968px;
+    }
+    .sub-theme-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 496px;
+        padding: 0;
+        width: 968px;
+    }
+    .sub-theme-h3-right{
+        display: flex;
+        text-align: right;
+        margin: 0 496px 24px 232px;
+        padding: 0;
+        width: 968px;
+    }
+    .sub-theme-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 232px;
+        padding: 0;
+        width: 968px;
+    }
+}
 /*
 ===================================
 classes | info page pros&cons
@@ -795,6 +920,32 @@ classes | info page pros&cons
         margin: 0 0 16px 32px;
         padding: 0;
         width: 538px;
+    }
+    .bullet-point{
+        color: #FBFBFB;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .pros-left{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 496px;
+        padding: 0;
+        width: 768px;
+    }
+    .cons-right{
+        display: flex;
+        text-align: left;
+        margin: 0 0 0 32px;
+        padding: 0;
+        width: 768px;
+    }
+    .cons-right-h3{
+        display: flex;
+        text-align: left;
+        margin: 0 0 24px 32px;
+        padding: 0;
+        width: 768px;
     }
     .bullet-point{
         color: #FBFBFB;

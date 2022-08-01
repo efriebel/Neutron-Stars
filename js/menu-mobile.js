@@ -1,24 +1,15 @@
-//OPEN
-const openButton = document.querySelector(".open-menu");
-console.log("open button", openButton)
-
-//CLOSE
-const closeButton = document.querySelector(".close-menu");
+//TOGGLE
+let toggleMenuButton = document.querySelector(".toggle-menu");
 
 //MOBILE NAV
-const mobileMenu = document.querySelector(".mobile-menu-content");
+let mobileMenu = document.querySelector(".mobile-menu-content");
+
+//CHECKBOX
+let animationCheckbox = document.querySelector(".checkbox4");
 
 
-openButton.addEventListener("click", ()=> {
-    mobileMenu.classList.add("mobile-menu-content-transition");
-    //openButton.classList.remove("show-mobile");
-    //mobileMenu.classList.add("show-mobile");
-    //mobileMenu.classList.add("mobile-menu-content-display");
+toggleMenuButton.addEventListener("click", (event)=> {
+    event.preventDefault();
+    animationCheckbox.checked = !animationCheckbox.checked;
+    mobileMenu.classList.toggle("mobile-menu-content-transition");
 });
-
-closeButton.addEventListener("click", ()=> {
-    mobileMenu.classList.remove("mobile-menu-content-transition");
-    //openButton.classList.add("show-mobile");
-    //mobileMenu.classList.remove("show-mobile");
-});
-

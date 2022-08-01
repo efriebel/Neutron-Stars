@@ -1,50 +1,6 @@
-/*
-===================================
-menu icon
-===================================
- */
-svg:hover .menu-icon-top{
-    animation-name: menu-icon-top;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    transform-origin: 4% 28%;
-}
-svg:hover .menu-icon-middle{
-    animation-name: menu-icon-middle;
-    animation-duration: 1.5s;
-    animation-timing-function: linear;
-    transform-origin: center center;
-    animation-fill-mode: forwards;
-}
-svg:hover .menu-icon-bottom{
-    animation-name: menu-icon-bottom;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-    transform-origin: 5% 50%;
-}
-
-@keyframes menu-icon-top {
-    0%   {transform: translateY(0)}
-    50% {transform: translateY(30%)}
-    100% {transform: rotate(45deg) translateY(-25%)}
-}
-@keyframes menu-icon-middle {
-    50% {opacity: 0}
-    100% {opacity: 0}
-}
-@keyframes menu-icon-bottom {
-    0%   {transform: translateY(0)}
-    50% {transform: translateY(-30%)}
-    100% {transform: rotate(-45deg)}
-}
-
-
-
 /* GENERAL STYLES */
 .hamburger-border {
-    margin: 0 20px 0 20px;
+    z-index: 100;
 }
 .visuallyHidden {
     position: absolute;
@@ -54,8 +10,7 @@ svg:hover .menu-icon-bottom{
     margin: -1px; padding: 0; border: 0;
 }
 .hamburger {
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 0;
     width: 30px;
     height: 30px;
     position: relative;
@@ -83,28 +38,7 @@ svg:hover .menu-icon-bottom{
 .bar4 {
     bottom: 0;
 }
-
-/* HAMBURGER 1 */
-.checkbox1:checked + label > .hamburger1 > .bar1{
-    transform: rotate(45deg);
-    transform-origin: 5%;
-    width: 41px
-}
-.checkbox1:checked + label > .hamburger1 > .bar2 {
-    transform: translateX(-40px);
-    background-color: transparent;
-}
-.checkbox1:checked + label > .hamburger1 > .bar3 {
-    transform: translateX(40px);
-    background-color: transparent;
-}
-.checkbox1:checked + label > .hamburger1 > .bar4 {
-    transform-origin: 5%;
-    transform: rotate(-45deg);
-    width: 41px;
-}
-
-/* HAMBURGER 4 */
+/* HAMBURGER */
 .hamburger2 .bar2,
 .hamburger3 .bar3,
 .hamburger4 .bar4 {
