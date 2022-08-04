@@ -58,7 +58,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-evenly;
+        justify-content: center;
         background-color: #361451;
         margin-bottom: 0;
     }
@@ -71,7 +71,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-evenly;
+        justify-content: space-around;
         background-color: #361451;
         margin-bottom: 0;
     }
@@ -111,16 +111,16 @@ header nav ul{
 
 @media only screen and (min-width: 1440px) {
     header nav ul img {
-        margin: -24px 128px 0 40px;
+        margin: 0;
         padding: 0;
         width: 64px;
     }
 }
 @media only screen and (min-width: 2560px) {
     header nav ul img {
-        margin: -24px 128px 0 40px;
+        margin: 0;
         padding: 0;
-        width: 120px;
+        width: 80px;
     }
 }
 header nav ul li{}
@@ -132,7 +132,7 @@ header nav ul li a:active{
     font-weight: 700;
     /*font-size: 20px;*/
     color: #FBFBFB;
-    margin-right: 160px;
+    /*margin-right: 160px;*/
     text-decoration: none;
 }
 header nav ul li a:hover{
@@ -176,15 +176,15 @@ button | nav
     display: none;
     margin: 0 0 0 -200px;
 }
+.nav-mobile{
+    display: flex;
+    flex-direction: column;
+}
 @media only screen and (min-width: 1440px){
     .nav-desktop,
     .toggle-menu{
         display: block;
     }
-}
-.nav-mobile{
-    display: flex;
-    flex-direction: column;
 }
 @media only screen and (min-width: 2560px){
     .nav-desktop,
@@ -192,20 +192,35 @@ button | nav
         display: block;
     }
 }
-.nav-mobile{
-    display: flex;
-    flex-direction: column;
-}
 @media only screen and (min-width: 1440px){
     .nav-mobile,
     .toggle-menu{
         display: none;
+    }
+    .nav-desktop{
+        margin: auto;
+        justify-content: center;
+    }
+    .nav-desktop-alignment{
+        width: 960px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
     }
 }
 @media only screen and (min-width: 2560px){
     .nav-mobile,
     .toggle-menu{
         display: none;
+    }
+    .nav-desktop{
+        margin: 20px 0 0 0;
+        align-items: center;
+    }
+    .nav-desktop-alignment{
+        width: 1600px;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 /*

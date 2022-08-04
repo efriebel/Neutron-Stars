@@ -39,8 +39,8 @@
     bottom: 0;
 }
 /* HAMBURGER */
-.hamburger2 .bar2,
-.hamburger3 .bar3,
+.bar2,
+.bar3,
 .hamburger4 .bar4 {
     top: 13.5px;
 }
@@ -77,6 +77,29 @@
     background-color: transparent;
 }
 .checkbox4:checked + label > .hamburger4 > .bar5{
+    bottom: 13.5px;
+    background-color: transparent;
+}
+
+
+.checkbox1:checked + label > .hamburger4 > .bar1{
+    top: 13.5px;
+    background-color: transparent;
+}
+.checkbox1:checked + label > .hamburger4 > .bar2{
+    left: 0;
+    width: 30px;
+    transform: rotate(45deg);
+}
+.checkbox1:checked + label > .hamburger4 > .bar3{
+    left: 0;
+    width: 30px;
+    transform: rotate(-45deg);
+}
+.checkbox1:checked + label > .hamburger4 > .bar4{
+    background-color: transparent;
+}
+.checkbox1:checked + label > .hamburger4 > .bar5{
     bottom: 13.5px;
     background-color: transparent;
 }

@@ -12,12 +12,9 @@
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-footer.css">
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-header.css">
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-class-all.css">
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-menu-icon.css">
 
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-LP.css">
-
-
-    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -145,11 +142,13 @@
         </div>
     </article>
 
+
 <header>
     <div>
         <!-- DESKTOP --!>
         <nav class="nav-desktop">
-            <ul class="justify-content-space-between align-items-stretch">
+            <ul class="nav-desktop-alignment">
+                <!-- class="justify-content-space-between align-items-stretch" --!>
                 <li><img src="icons/logo.svg" alt="Logo"></li>
                 <li><h5><a href="index.html" target="_blank">HOME</a></h5></li>
                 <li><h5><a href="info.html" target="_blank">INFO</a></h5></li>
@@ -160,22 +159,23 @@
         </nav>
         <!-- MOBILE --!>
         <nav class="nav-mobile d-flex flex-column">
-            <button class="open-menu show-mobile">
-                <div class="open-menu-alignment">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect y="8.5" width="48" height="3.875" fill="#FBFBFB"/>
-                        <rect y="22.0625" width="48" height="3.875" fill="#FBFBFB"/>
-                        <rect y="35.625" width="48" height="3.875" fill="#FBFBFB"/>
-                    </svg>
+            <button class="toggle-menu">
+                <div class="toggle-menu-alignment">
+                    <div class="hamburger-border">
+                        <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
+                        <label for="checkbox4">
+                            <div class="hamburger hamburger4">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                                <span class="bar bar4"></span>
+                                <span class="bar bar5"></span>
+                            </div>
+                        </label>
+                    </div>
                 </div>
             </button>
             <div class="mobile-menu-content">
-                <button class="close-menu">
-                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.00439453" y="44.4375" width="62.843" height="5.02639" transform="rotate(-45 0.00439453 44.4375)" fill="#FBFBFB"/>
-                        <rect x="3.5542" y="0.0078125" width="62.843" height="5.02639" transform="rotate(45 3.5542 0.0078125)" fill="#FBFBFB"/>
-                    </svg>
-                </button>
                 <ul>
                     <div class="mobile-menu-textblock">
                         <li><h5><a href="index.html" target="_blank">HOME</a></h5></li>
