@@ -131,7 +131,7 @@ footer #bottom-footer nav ul li a:active{
         justify-content: space-evenly;
         background-color: #2B0C44;
         margin: 72px 0 0 0;
-        padding: 0;
+        padding: 16px;
     }
     footer #bottom-footer nav ul{
         list-style: none;
@@ -156,7 +156,7 @@ footer #bottom-footer nav ul li a:active{
         justify-content: space-evenly;
         background-color: #2B0C44;
         margin: 120px 0 0 0;
-        padding: 16px;
+        padding: 24px;
     }
     footer #bottom-footer nav ul{
         list-style: none;
@@ -181,7 +181,7 @@ footer #bottom-footer nav ul li a:active{
         justify-content: space-evenly;
         background-color: #2B0C44;
         margin: 128px 0 0 0;
-        padding: 24px;
+        padding: 32px;
     }
     footer #bottom-footer nav ul{
         list-style: none;
@@ -206,7 +206,7 @@ footer #bottom-footer nav ul li a:active{
         justify-content: space-evenly;
         background-color: #2B0C44;
         margin: 0;
-        padding: 20px;
+        padding: 24px;
     }
     footer #bottom-footer nav ul{
         list-style: none;
@@ -231,11 +231,11 @@ footer #bottom-footer nav ul li a:active{
         justify-content: space-evenly;
         background-color: #2B0C44;
         margin: 0;
-        padding: 48px;
+        padding: 24px;
     }
     footer #bottom-footer nav ul{
         list-style: none;
-        width: 475px; /**/
+        width: 280px; /**/
         margin: 0;
         padding: 0;
         display: flex;
@@ -292,8 +292,8 @@ footer #bottom-footer nav ul li a:active{
 }
 @media only screen and (min-width: 2560px) {
     .socials svg {
-        width: 95px;
-        height: 95px;
+        width: 56px;
+        height: 56px;
     }
     .socials:hover svg path{
         fill: #C6FFDD;
