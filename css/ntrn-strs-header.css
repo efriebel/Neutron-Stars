@@ -80,22 +80,28 @@ header{
 header nav{}
 header nav ul{
     list-style: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin: 24px 0 24px 0;
+    padding: 24px 12px;
 }
 @media only screen and (min-width: 360px){
     header nav ul {
         align-items: flex-end;
+        margin: 0;
+        padding: 24px 12px;
     }
 }
 @media only screen and (min-width: 768px){
     header nav ul {
         align-items: flex-end;
+        margin: 0;
+        padding: 24px 36px 0 36px;
     }
 }
 @media only screen and (min-width: 1024px){
     header nav ul {
         align-items: flex-end;
+        margin: 0;
+        padding: 24px 48px 0 48px;
     }
 }
 @media only screen and (min-width: 1440px){
