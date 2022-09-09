@@ -1,14 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Map</title>
+    <title>Neutron Stars - Star Map</title>
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-typo.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-custom-col.css">
     <link rel="stylesheet" type="text/css" href="css/ntrn-strs-standard.css">
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-footer.css">
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-header.css">
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-class-all.css">
+    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-menu-icon.css">
+
 </head>
 
 <body>
+
+<!-- STAGE --!>
+<div class="stage-desktop">
+    <article class="stage-bg-desktop">
+        <div class="stage-container-desktop">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 stage-container-text-desktop">
+                    <h1>STAR MAP</h1>
+                    <p>Lorem ipsum celavi dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 stage-img">
+                    <img src="img/LP_galaxy_final.svg" alt="Galaxy">
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+<div class="stage-mobile">
+    <article class="stage-bg-mobile">
+        <div class="container stage-container-mobile">
+            <div class="row">
+                <div class="col-12 col-lg-6 stage-container-text-mobile">
+                    <h1>STAR MAP</h1>
+                </div>
+                <div class="col-12 col-lg-6 stage-container-text stage-order">
+                    <p>Lorem ipsum celavi dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-12 col-lg-6 stage-img">
+                    <img src="img/LP_galaxy_final.svg" alt="Galaxy">
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<header>
+    <div>
+        <!-- DESKTOP --!>
+        <nav class="nav-desktop">
+            <ul class="nav-desktop-alignment">
+                <!-- class="justify-content-space-between align-items-stretch" --!>
+                <li><img src="icons/logo.svg" alt="Logo"></li>
+                <li><h5><a href="index.html">HOME</a></h5></li>
+                <li><h5><a href="info.html">INFO</a></h5></li>
+                <li><h5><a href="starmap.html">STAR MAP</a></h5></li>
+                <li><h5><a href="events.html">EVENTS</a></h5></li>
+                <li><h5><a href="locations.html">LOCATIONS</a></h5></li>
+            </ul>
+        </nav>
+        <!-- MOBILE --!>
+        <nav class="nav-mobile d-flex flex-row">
+            <div>
+                <img src="icons/logo.svg" alt="Logo">
+            </div>
+            <button class="toggle-menu hamburger-border">
+                <div class="toggle-menu-alignment">
+                    <div class="hamburger-border">
+                        <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
+                        <label for="checkbox4">
+                            <div class="hamburger hamburger4">
+                                <span class="bar bar1"></span>
+                                <span class="bar bar2"></span>
+                                <span class="bar bar3"></span>
+                                <span class="bar bar4"></span>
+                                <span class="bar bar5"></span>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </button>
+            <div class="mobile-menu-content">
+                <ul>
+                    <div class="mobile-menu-textblock">
+                        <li><h5><a href="index.html">HOME</a></h5></li>
+                        <li><h5><a href="info.html">INFO</a></h5></li>
+                        <li><h5><a href="starmap.html">STAR MAP</a></h5></li>
+                        <li><h5><a href="events.html">EVENTS</a></h5></li>
+                        <li><h5><a href="locations.html">LOCATIONS</a></h5></li>
+                    </div>
+                    <div class="mobile-menu-textblock">
+                        <li><h5><a href="#">IMPRINT</a></h5></li>
+                        <li><h5><a href="#">CONTACT</a></h5></li>
+                        <li><h5><a href="#">PRIVACY</a></h5></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+</header>
+
+<footer>
+    <div id="footer" class="d-none d-lg-none d-xl-flex">
+        <nav>
+            <ul>
+                <li>
+                    <h5>IMPRINT</h5><br><p2>Want to view the imprint?<br>Click here!</p2><br>
+                    <a class="arrow" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7113 44.002C24.0242 44.002 23.3468 43.7086 22.8712 43.141C22.016 42.1213 22.1505 40.6061 23.169 39.7547L35.1946 29.6536C36.2131 28.7974 37.7265 28.932 38.5769 29.9518C39.4321 30.9715 39.2975 32.4867 38.279 33.3381L26.2535 43.4392C25.8019 43.8192 25.2542 44.002 24.7113 44.002Z" fill="#52EDAC"/>
+                            <path d="M45.5907 26.4043H2.50448C1.25052 26.4043 0.131089 25.4855 0.0109777 24.2349C-0.123547 22.8015 0.995889 21.5942 2.40359 21.5942H39.0519L23.1636 8.24624C22.1451 7.39486 22.0153 5.87487 22.8657 4.85995C23.7161 3.84021 25.2343 3.71034 26.248 4.56172L47.133 22.1089C47.9113 22.763 48.1995 23.8309 47.8584 24.7881C47.5173 25.7501 46.6093 26.3946 45.5907 26.4043Z" fill="#52EDAC"/>
+                        </svg>
+                    </a>
+                </li>
+
+                <li>
+                    <h5>CONTACT</h5><br><p2>Get in touch with us!</p2><br>
+                    <a class="arrow" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7113 44.002C24.0242 44.002 23.3468 43.7086 22.8712 43.141C22.016 42.1213 22.1505 40.6061 23.169 39.7547L35.1946 29.6536C36.2131 28.7974 37.7265 28.932 38.5769 29.9518C39.4321 30.9715 39.2975 32.4867 38.279 33.3381L26.2535 43.4392C25.8019 43.8192 25.2542 44.002 24.7113 44.002Z" fill="#52EDAC"/>
+                            <path d="M45.5907 26.4043H2.50448C1.25052 26.4043 0.131089 25.4855 0.0109777 24.2349C-0.123547 22.8015 0.995889 21.5942 2.40359 21.5942H39.0519L23.1636 8.24624C22.1451 7.39486 22.0153 5.87487 22.8657 4.85995C23.7161 3.84021 25.2343 3.71034 26.248 4.56172L47.133 22.1089C47.9113 22.763 48.1995 23.8309 47.8584 24.7881C47.5173 25.7501 46.6093 26.3946 45.5907 26.4043Z" fill="#52EDAC"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <h5>PRIVACY</h5><br><p2>Interested in our privacy<br>policy? Then go ahead!</p2><br>
+                    <a class="arrow" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7113 44.002C24.0242 44.002 23.3468 43.7086 22.8712 43.141C22.016 42.1213 22.1505 40.6061 23.169 39.7547L35.1946 29.6536C36.2131 28.7974 37.7265 28.932 38.5769 29.9518C39.4321 30.9715 39.2975 32.4867 38.279 33.3381L26.2535 43.4392C25.8019 43.8192 25.2542 44.002 24.7113 44.002Z" fill="#52EDAC"/>
+                            <path d="M45.5907 26.4043H2.50448C1.25052 26.4043 0.131089 25.4855 0.0109777 24.2349C-0.123547 22.8015 0.995889 21.5942 2.40359 21.5942H39.0519L23.1636 8.24624C22.1451 7.39486 22.0153 5.87487 22.8657 4.85995C23.7161 3.84021 25.2343 3.71034 26.248 4.56172L47.133 22.1089C47.9113 22.763 48.1995 23.8309 47.8584 24.7881C47.5173 25.7501 46.6093 26.3946 45.5907 26.4043Z" fill="#52EDAC"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="bottom-footer">
+        <nav>
+            <ul>
+                <li>
+                    <a class="socials" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_467_1117)">
+                                <path d="M35.2836 27.0141H28.2142V48.0002H18.7151V27.0141H11V18.3434H18.7321V10.9432C18.7321 10.9432 18.773 6.30499 21.3145 3.61795C21.4103 3.51667 21.5037 3.41251 21.5951 3.30739C22.1149 2.71027 24.2421 0.557947 28.2142 0.139867C32.8364 -0.346853 36.9995 0.592987 36.9995 0.592987V8.00755H32.8699C32.8699 8.00755 30.8306 7.99075 29.6753 9.06451C28.5196 10.1383 28.2478 11.5139 28.2478 12.3693V18.3439H36.6596L35.2831 27.0146L35.2836 27.0141Z" fill="#52EDAC"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.1185 38.0649C17.181 38.0649 11.5371 32.4211 11.5371 25.4836C11.5371 18.5462 17.181 12.9023 24.1185 12.9023C31.056 12.9023 36.6999 18.5462 36.6999 25.4836C36.6999 32.4211 31.056 38.0649 24.1185 38.0649ZM24.1185 16.5019C19.1658 16.5019 15.1367 20.531 15.1367 25.4836C15.1367 30.4363 19.1658 34.4654 24.1185 34.4654C29.0712 34.4654 33.1004 30.4363 33.1004 25.4836C33.1004 20.531 29.0712 16.5019 24.1185 16.5019Z" fill="#52EDAC"/>
+                            <path d="M37.0654 13.2811C38.3339 13.2811 39.3622 12.2528 39.3622 10.9843C39.3622 9.71581 38.3339 8.6875 37.0654 8.6875C35.7969 8.6875 34.7686 9.71581 34.7686 10.9843C34.7686 12.2528 35.7969 13.2811 37.0654 13.2811Z" fill="#52EDAC"/>
+                            <path d="M34.4648 48H13.5357C9.92026 48 6.52086 46.5922 3.96436 44.0357C1.40785 41.4787 0 38.0798 0 34.4645V13.5355C0 9.92016 1.40785 6.52128 3.96436 3.96432C6.52135 1.40784 9.92026 0 13.5357 0H34.4643C38.0797 0 41.4791 1.40784 44.0356 3.96432C46.5921 6.5208 48 9.92016 48 13.5355V34.464C48 38.0794 46.5921 41.4787 44.0356 44.0352C41.4791 46.5917 38.0797 47.9995 34.4643 47.9995L34.4648 48ZM13.5357 3.59904C8.0564 3.59904 3.59908 8.05632 3.59908 13.5355V34.464C3.59908 39.9432 8.0564 44.4005 13.5357 44.4005H34.4643C39.9436 44.4005 44.4009 39.9432 44.4009 34.464V13.5355C44.4009 8.05632 39.9436 3.59904 34.4643 3.59904H13.5357Z" fill="#52EDAC"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="socials" href="#" target="_blank">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_467_1119)">
+                                <path d="M23.4792 16.0784C23.3088 15.3008 23.2291 14.4887 23.2531 13.6546C23.4062 8.25867 27.9038 3.94875 33.3144 4.00046C36.0043 4.02632 38.4394 5.11517 40.2178 6.86624C40.3637 7.00989 40.572 7.06879 40.7717 7.02282C41.8637 6.77 45.3773 5.88034 46.6138 4.64736C46.6138 4.64736 45.9682 8.17631 42.5698 10.039C42.5698 10.039 45.9302 9.7234 48 8.64365C48 8.64365 46.7098 11.089 43.1458 13.7087C43.0454 13.7824 42.9874 13.9002 42.9917 14.0247C43.0032 14.3412 43.0243 14.9618 43.0243 15.3247C43.0243 30.6089 30.6034 42.9995 15.2818 42.9995C9.63504 42.9995 4.38192 41.3164 0 38.4257C0 38.4257 3.57072 39.1186 8.27952 37.7171C12.9883 36.3156 14.4312 34.3988 14.4312 34.3988C10.1251 34.2968 6.48768 31.5 5.14848 27.6339C5.14848 27.6339 6.35328 27.7733 7.49184 27.7374C8.6592 27.7005 9.45696 27.4127 9.45696 27.4127C5.04864 26.3761 1.76736 22.4262 1.76736 17.7122C1.76736 17.7122 2.95056 18.3222 3.78576 18.5745C4.62096 18.8269 6.12816 18.914 6.12816 18.914C3.54768 17.094 1.86288 14.0937 1.86288 10.7012C1.86288 8.88976 2.34336 7.19041 3.18336 5.7228C3.18336 5.7228 6.912 10.7644 12.779 13.3778C18.6461 15.9913 23.4787 16.077 23.4787 16.077L23.4792 16.0784Z" fill="#52EDAC"/>
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<!--JavaScript--!>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/menu-mobile.js"></script>
 
 </body>
 

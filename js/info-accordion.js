@@ -1,4 +1,3 @@
-
 document.querySelectorAll('.arrow-info-button').forEach(button => {
     button.addEventListener('click', () => {
         const accordionContent = button.nextElementSibling;
