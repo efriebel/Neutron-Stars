@@ -80,8 +80,8 @@ classes | life cycle
         padding: 6px 4px;
         /*gap: 10px;*/
         width: 96px;
-        /*height: 53px;*/
-        height: 100%;
+        height: 53px;
+        /*height: 100%;*/
         background: rgba(64, 157, 130, 1);
     }
     .lc-container-large{
@@ -160,8 +160,8 @@ classes | life cycle
         padding: 8px 16px;
         /*gap: 10px;*/
         width: 150px;
-        /*height: 66px;*/
-        height: 100%;
+        height: 66px;
+        /*height: 100%;*/
         background: rgba(64, 157, 130, 1);
     }
     .lc-container-large{
@@ -240,8 +240,8 @@ classes | life cycle
         padding: 12px 8px;
         /*gap: 10px;*/
         width: 210px;
-        /*height: 97px;*/
-        height: 100%;
+        height: 97px;
+        /*height: 100%;*/
         background: rgba(64, 157, 130, 1);
     }
     .lc-container-large{
@@ -320,8 +320,8 @@ classes | life cycle
         padding: 16px 44px;
         gap: 10px;
         width: 310px;
-        height: 100%;
-        /*height: 125px;*/
+        /*height: 100%;*/
+        height: 125px;
         background: rgba(64, 157, 130, 1);
     }
     .lc-container-large{
