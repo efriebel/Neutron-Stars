@@ -132,6 +132,10 @@ classes | life cycle
     .arrow-info-button-active svg{
         transform: rotate(180deg);
     }
+
+    .lc-container-medium:has(.arrow-info-button-active) {
+        height: 100%;
+    }
 }
 @media only screen and (min-width: 768px) {
     .lc img{
@@ -212,6 +216,10 @@ classes | life cycle
     .arrow-info-button-active svg{
         transform: rotate(180deg);
     }
+
+    .lc-container-medium:has(.arrow-info-button-active) {
+        height: 100%;
+    }
 }
 @media only screen and (min-width: 1024px) {
     .lc img{
@@ -291,6 +299,10 @@ classes | life cycle
 
     .arrow-info-button-active svg{
         transform: rotate(180deg);
+    }
+
+    .lc-container-medium:has(.arrow-info-button-active) {
+        height: 100%;
     }
 }
 @media only screen and (min-width: 1440px) {
