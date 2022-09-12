@@ -21,31 +21,36 @@ classes | landing page teaser
 */
 @media only screen and (min-width: 360px) {
     .teaser-all{
-        margin: 72px 0 0 0;
+        width: 282px;
+        margin: 72px auto 0 auto;
         gap: 56px;
     }
 }
 @media only screen and (min-width: 768px) {
     .teaser-all{
-        margin: 120px 0 0 0;
+        width: 450px;
+        margin: 120px auto 0 auto;
         gap: 88px;
     }
 }
 @media only screen and (min-width: 1024px) {
     .teaser-all{
-        margin: 0;
+        width: 770px;
+        margin: 0 auto;
         gap: 0;
     }
 }
 @media only screen and (min-width: 1440px) {
     .teaser-all{
-        margin: 0;
+        width: 1108px;
+        margin: 0 auto;
         gap: 0;
     }
 }
 @media only screen and (min-width: 2560px) {
     .teaser-all{
-        margin: 0;
+        width: 1703px;
+        margin: 0 auto;
         gap: 0;
     }
 }
@@ -100,13 +105,11 @@ classes | landing page teaser
 
     .teaser-container-left {
         width: 290px;
-        margin-left: 127px;
         align-items: center;
     }
 
     .teaser-container-right {
         width: 290px;
-        margin-right: 127px;
         align-items: center;
     }
 }
@@ -118,13 +121,11 @@ classes | landing page teaser
 
     .teaser-container-left {
         width: 424px;
-        margin-left: 166px;
         align-items: center;
     }
 
     .teaser-container-right {
         width: 424px;
-        margin-right: 166px;
         align-items: center;
     }
 }
@@ -136,13 +137,11 @@ classes | landing page teaser
 
     .teaser-container-left {
         width: 568px;
-        margin-left: 496px;
         align-items: center;
     }
 
     .teaser-container-right {
         width: 568px;
-        margin-right: 496px;
         align-items: center;
     }
 }
