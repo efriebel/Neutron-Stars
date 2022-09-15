@@ -1,3 +1,79 @@
+
+/*
+===================================
+classes | landing page background deco
+===================================
+ */
+@media only screen and (min-width: 360px) {
+    .introduction:before {
+        content: "";
+        background-image: url("../img/stars1.png");
+        background-repeat: no-repeat;
+        background-size: 80px;
+        height: 80px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left: -20px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .introduction:before {
+        content: "";
+        background-image: url("../img/stars1.png");
+        background-repeat: no-repeat;
+        background-size: 125px;
+        height: 125px;
+        width: 125px;
+        position: absolute;
+        top: -20px;
+        left: -120px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .introduction:before {
+        content: "";
+        background-image: url("../img/stars1.png");
+        background-repeat: no-repeat;
+        background-size: 170px;
+        height: 170px;
+        width: 170px;
+        position: absolute;
+        top: -40px;
+        left: -160px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .introduction:before {
+        content: "";
+        background-image: url("../img/stars1.png");
+        background-repeat: no-repeat;
+        background-size: 225px;
+        height: 225px;
+        width: 225px;
+        position: absolute;
+        top: 0;
+        left: -300px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .introduction:before {
+        content: "";
+        background-image: url("../img/stars1.png");
+        background-repeat: no-repeat;
+        background-size: 300px;
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 20px;
+        left: -600px;
+        display: block;
+    }
+}
 /*
 ===================================
 classes | landing page teaser
@@ -49,7 +125,7 @@ classes | landing page teaser
 }
 @media only screen and (min-width: 2560px) {
     .teaser-all{
-        width: 1703px;
+        width: 1568px;
         margin: 0 auto;
         gap: 0;
     }
