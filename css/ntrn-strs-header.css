@@ -286,6 +286,9 @@ mobile menu content
     top: 0;
     left: 0;
 }
+.mobile-menu-content:before {
+    
+}
 .mobile-menu-content-transition{
     transform: translateX(0%);
 }
