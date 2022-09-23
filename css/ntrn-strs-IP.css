@@ -82,7 +82,8 @@ classes | life cycle
         width: 96px;
         height: 53px;
         /*height: 100%;*/
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
+        /*background: rgba(64, 157, 130, 1);*/
     }
     .lc-container-large{
         display: flex;
@@ -112,7 +113,8 @@ classes | life cycle
         transition: max-height 0.2s;
 
         padding: 0 6px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
+        /*background: rgba(64, 157, 130, 1);*/
         width: 96px;
     }
     .arrow-info-button {
