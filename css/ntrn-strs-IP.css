@@ -1295,3 +1295,62 @@ classes | info page pros&cons
         color: #FBFBFB;
     }
 }
+
+
+.more-info{
+    cursor: pointer;
+}
+.more-info:hover + .more-info-content{
+    display: block;
+}
+
+@media only screen and (min-width: 360px) {
+    .more-info-content {
+        width: 208px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 8px 8px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .more-info-content {
+        width: 240px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 8px 8px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .more-info-content {
+        width: 320px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 8px 8px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .more-info-content {
+        width: 360px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 8px 8px;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .more-info-content {
+        width: 560px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 8px 8px;
+    }
+}
