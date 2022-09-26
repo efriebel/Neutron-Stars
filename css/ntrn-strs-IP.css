@@ -1312,6 +1312,7 @@ classes | info page pros&cons
         display: none;
         position: absolute;
         padding: 8px 8px;
+        z-index: 1;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -1322,6 +1323,7 @@ classes | info page pros&cons
         display: none;
         position: absolute;
         padding: 8px 8px;
+        z-index: 1;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -1332,6 +1334,7 @@ classes | info page pros&cons
         display: none;
         position: absolute;
         padding: 8px 8px;
+        z-index: 1;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -1342,6 +1345,7 @@ classes | info page pros&cons
         display: none;
         position: absolute;
         padding: 8px 8px;
+        z-index: 1;
     }
 }
 @media only screen and (min-width: 2560px) {
@@ -1352,5 +1356,11 @@ classes | info page pros&cons
         display: none;
         position: absolute;
         padding: 8px 8px;
+        z-index: 1;
     }
 }
+
+/*
+<em class="more-info"></em>
+<span class="more-info-content"></span>
+ */
