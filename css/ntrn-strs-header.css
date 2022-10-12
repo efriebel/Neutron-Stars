@@ -336,12 +336,18 @@ mobile menu content
                  80px,
                  60px;
          background-repeat: no-repeat;
-         z-index: 99;
-        opacity: 100%;
+         z-index: 1;
      }
+    .nav-mobile-bg-shapes{
+        background-image: url("../img/bg_circle_shapes.svg");
+        background-position: bottom -750px left -300px;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        z-index: -3;
+    }
 }
 @media only screen and (min-width: 768px) {
-    .mobile-menu-content:before {
+    /*.mobile-menu-content:before {
         content: "";
         height: 2044px;
         width: 2044px;
@@ -365,6 +371,72 @@ mobile menu content
         border-radius: 50%;
         transform: translate(-35%, 84%);
         z-index: -2;
+    }*/
+    .nav-mobile-bg-stars{
+        background-image:
+                url("../img/stars1.png"),
+                url("../img/stars2.png"),
+                url("../img/stars3.png"),
+                url("../img/stars4.png"),
+                url("../img/stars5.png"),
+                url("../img/stars6.png");
+        background-position:
+                top 20px right 40px,
+                bottom 10px right 80px,
+                top 40px left 180px,
+                top 180px right 240px,
+                bottom 0 left 140px,
+                bottom 140px left 20px;
+        background-size:
+                124px,
+                220px,
+                124px,
+                60px,
+                124px,
+                96px;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .nav-mobile-bg-shapes{
+        background-image: url("../img/bg_circle_shapes.svg");
+        background-position: bottom -1750px left -800px;
+        background-size: 2000px;
+        background-repeat: no-repeat;
+        z-index: -3;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .nav-mobile-bg-stars{
+        background-image:
+                url("../img/stars1.png"),
+                url("../img/stars2.png"),
+                url("../img/stars3.png"),
+                url("../img/stars4.png"),
+                url("../img/stars5.png"),
+                url("../img/stars6.png");
+        background-position:
+                top 20px right 40px,
+                bottom 10px right 80px,
+                top 40px left 390px,
+                top 240px right 340px,
+                bottom 0 left 240px,
+                bottom 140px left 20px;
+        background-size:
+                170px,
+                300px,
+                170px,
+                86px,
+                170px,
+                130px;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+    .nav-mobile-bg-shapes{
+        background-image: url("../img/bg_circle_shapes.svg");
+        background-position: bottom -1750px left -600px;
+        background-size: 2000px;
+        background-repeat: no-repeat;
+        z-index: -3;
     }
 }
 .mobile-menu-content-transition{
@@ -384,4 +456,31 @@ mobile menu textblock
     align-items: flex-start;
     gap: 12px;
     margin: 0 0 48px 0;
+}
+@media only screen and (min-width: 360px) {
+    .mobile-menu-textblock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin: 20px 0 48px 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mobile-menu-textblock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin: 40px 0 48px 0;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .mobile-menu-textblock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin: 60px 0 48px 0;
+    }
 }
