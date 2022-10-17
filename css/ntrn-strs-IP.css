@@ -168,7 +168,7 @@ classes | life cycle
         width: 150px;
         height: 66px;
         /*height: 100%;*/
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
     }
     .lc-container-large{
         display: flex;
@@ -198,7 +198,7 @@ classes | life cycle
         transition: max-height 0.2s;
 
         padding: 0 8px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
         width: 150px;
     }
     .arrow-info-button {
@@ -252,7 +252,7 @@ classes | life cycle
         width: 210px;
         height: 97px;
         /*height: 100%;*/
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
     }
     .lc-container-large{
         display: flex;
@@ -282,7 +282,7 @@ classes | life cycle
         transition: max-height 0.2s;
 
         padding: 0 12px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
         width: 210px;
     }
     .arrow-info-button {
@@ -336,7 +336,7 @@ classes | life cycle
         width: 310px;
         /*height: 100%;*/
         height: 125px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
     }
     .lc-container-large{
         display: flex;
@@ -366,7 +366,7 @@ classes | life cycle
         transition: max-height 0.2s;
 
         padding: 0 24px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
         width: 310px;
     }
     .arrow-info-button {
@@ -420,7 +420,7 @@ classes | life cycle
         width: 368px;
         /*height: 136px;*/
         height: 100%;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
     }
     .lc-container-large{
         display: flex;
@@ -450,7 +450,7 @@ classes | life cycle
         transition: max-height 0.2s;
 
         padding: 0 34px;
-        background: rgba(64, 157, 130, 1);
+        background: rgba(110, 75, 97, 1);
         width: 368px;
     }
     .arrow-info-button {
