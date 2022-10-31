@@ -1,16 +1,6 @@
 const template = document.createElement('template');
 template.innerHTML =
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-typo.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">\n' +
-    '\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-custom-col.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-standard.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-footer.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-header.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-class-all.css">\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-menu-icon.css">\n' +
-    '\n' +
-    '    <link rel="stylesheet" type="text/css" href="css/ntrn-strs-LP.css">';
+        '<link rel="stylesheet" type="text/css" href="css/ntrn-strs-LP.css">';
 
 class DwHomeTeaser extends HTMLElement {
     constructor() {
