@@ -56,50 +56,55 @@
   </article>
 </div>
 
-<div class="row contact-container-lg">
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="">
-      <label>company</label>
-      <span class="focus-border"></span>
+<form>
+  <div class="row contact-container-lg">
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="">
+        <label>company</label>
+        <span class="focus-border"></span>
+      </div>
+    </div>
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="" id="address" required>
+        <label>*form of address</label>
+        <span class="focus-border"></span>
+      </div>
+    </div>
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="" id="name" onkeyup="isRequired(value)" required>
+        <label>*name</label>
+        <span class="focus-border"></span>
+      </div>
+    </div>
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="" id="surname" required>
+        <label>*surname</label>
+        <span class="focus-border"></span>
+      </div>
+    </div>
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="" id="e-mail" required onfocusout="validateEmail(email)">
+        <label>*e-mail</label>
+        <span class="focus-border"></span>
+      </div>
+    </div>
+    <div class="contact-container-sm">
+      <div class="col-3 input-effect">
+        <input class="effect-16" type="text" placeholder="" id="number" required>
+        <label>*mobile number</label>
+        <span class="focus-border"></span>
+      </div>
     </div>
   </div>
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="" id="address">
-      <label>*form of address</label>
-      <span class="focus-border"></span>
-    </div>
+  <div class="container-send-button">
+    <input type="submit" class="send-button" />
   </div>
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="" id="name">
-      <label>*name</label>
-      <span class="focus-border"></span>
-    </div>
-  </div>
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="" id="surname">
-      <label>*surname</label>
-      <span class="focus-border"></span>
-    </div>
-  </div>
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="" id="e-mail">
-      <label>*e-mail</label>
-      <span class="focus-border"></span>
-    </div>
-  </div>
-  <div class="contact-container-sm">
-    <div class="col-3 input-effect">
-      <input class="effect-16" type="text" placeholder="" id="number">
-      <label>*mobile number</label>
-      <span class="focus-border"></span>
-    </div>
-  </div>
-</div>
+</form>
 
 <header>
   <div>
@@ -236,7 +241,7 @@
 <script type="text/javascript" src="js/contact-form.js"></script>
 <script>
   // JavaScript for label effects only
-  $(window).load(function(){
+  $(window).on('load',function(){
     $(".col-3 input").val("");
 
     $(".input-effect input").focusout(function(){

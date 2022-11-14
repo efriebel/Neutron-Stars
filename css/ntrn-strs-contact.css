@@ -1,9 +1,3 @@
-.contact-container-lg{
-    margin: 40px 0;
-}
-.contact-container-sm{
-    margin: auto;
-}
 :focus{
     outline: none;
 }
@@ -12,17 +6,6 @@
     width: 27.33%;
     margin: 20px 3%;
     position: relative;
-}
-input[type="text"]{
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    color: #FBFBFB;
-    margin: 0;
-    width: 260px;
-    box-sizing: border-box;
-    letter-spacing: 1px;
 }
 .effect-16{
     border: 0;
@@ -39,28 +22,334 @@ input[type="text"]{
     background-color: #52EDAC;
     transition: 0.4s;
 }
-.effect-16:focus ~ .focus-border,
-.has-content.effect-16 ~ .focus-border{
-    width: 260px;
-    transition: 0.4s;
+
+@media only screen and (min-width: 360px) {
+    .contact-container-lg {
+        margin: 40px auto;
+        width: 260px;
+    }
+    .contact-container-sm{
+        margin: 0 auto 16px auto;
+    }
+
+    input[type="text"] {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #FBFBFB;
+        margin: 0;
+        width: 260px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .effect-16:focus ~ .focus-border,
+    .has-content.effect-16 ~ .focus-border {
+        width: 260px;
+        transition: 0.4s;
+    }
+
+    .effect-16 ~ label {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        top: 9px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #9B8CAA;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .effect-16:focus ~ label, .has-content.effect-16 ~ label {
+        top: -16px;
+        font-size: 12px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
+    .send-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .container-send-button {
+        margin: 56px auto 0 auto;
+        width: 140px;
+    }
 }
-.effect-16 ~ label{
-    position: absolute;
-    left: 0;
-    width: 200px;
-    top: 9px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    color: #9B8CAA;
-    transition: 0.3s;
-    z-index: -1;
-    letter-spacing: 0.5px;
+@media only screen and (min-width: 768px) {
+    .contact-container-lg {
+        margin: 56px auto;
+        width: 450px;
+    }
+    .contact-container-sm{
+        margin: 0 auto 32px auto;
+    }
+
+    input[type="text"] {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+        margin: 0;
+        width: 450px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .effect-16:focus ~ .focus-border,
+    .has-content.effect-16 ~ .focus-border {
+        width: 450px;
+        transition: 0.4s;
+    }
+
+    .effect-16 ~ label {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        top: 9px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #9B8CAA;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .effect-16:focus ~ label, .has-content.effect-16 ~ label {
+        top: -18px;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
+    .send-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .container-send-button {
+        margin: 64px auto 0 auto;
+        width: 140px;
+    }
 }
-.effect-16:focus ~ label, .has-content.effect-16 ~ label{
-    top: -16px;
-    font-size: 12px;
-    color: #52EDAC;
-    transition: 0.3s;
+@media only screen and (min-width: 1024px) {
+    .contact-container-lg {
+        margin: 80px auto;
+        width: 610px;
+    }
+    .contact-container-sm{
+        margin: 0 auto 40px auto;
+    }
+
+    input[type="text"] {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+        margin: 0;
+        width: 610px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .effect-16:focus ~ .focus-border,
+    .has-content.effect-16 ~ .focus-border {
+        width: 610px;
+        transition: 0.4s;
+    }
+
+    .effect-16 ~ label {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        top: 9px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #9B8CAA;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .effect-16:focus ~ label, .has-content.effect-16 ~ label {
+        top: -18px;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
+    .send-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .container-send-button {
+        margin: 80px auto 0 auto;
+        width: 140px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .contact-container-lg {
+        margin: 96px auto;
+        width: 652px;
+    }
+    .contact-container-sm{
+        margin: 0 auto 40px auto;
+    }
+
+    input[type="text"] {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #FBFBFB;
+        margin: 0;
+        width: 652px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .effect-16:focus ~ .focus-border,
+    .has-content.effect-16 ~ .focus-border {
+        width: 652px;
+        transition: 0.4s;
+    }
+
+    .effect-16 ~ label {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        top: 9px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #9B8CAA;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .effect-16:focus ~ label, .has-content.effect-16 ~ label {
+        top: -20px;
+        font-size: 16px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
+    .send-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .container-send-button {
+        margin: 80px auto 0 auto;
+        width: 140px;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .contact-container-lg {
+        margin: 120px auto;
+        width: 1168px;
+    }
+    .contact-container-sm{
+        margin: 0 auto 56px auto;
+    }
+
+    input[type="text"] {
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        color: #FBFBFB;
+        margin: 0;
+        width: 1168px;
+        box-sizing: border-box;
+        letter-spacing: 1px;
+    }
+
+    .effect-16:focus ~ .focus-border,
+    .has-content.effect-16 ~ .focus-border {
+        width: 1168px;
+        transition: 0.4s;
+    }
+
+    .effect-16 ~ label {
+        position: absolute;
+        left: 0;
+        width: 300px;
+        top: 9px;
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        color: #9B8CAA;
+        transition: 0.3s;
+        z-index: -1;
+        letter-spacing: 0.5px;
+    }
+
+    .effect-16:focus ~ label, .has-content.effect-16 ~ label {
+        top: -32px;
+        font-size: 24px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
+    .send-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        width: 180px;
+        height: 56px;
+    }
+
+    .container-send-button {
+        margin: 120px auto 0 auto;
+        width: 180px;
+    }
 }
