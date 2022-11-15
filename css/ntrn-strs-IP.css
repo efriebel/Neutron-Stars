@@ -4,39 +4,128 @@ classes | stars border
 ===================================
  */
 .info-stars-box{
-    margin: 36px auto;
+    margin: 36px auto 0 auto;
     width: 324px;
     height: 84px;
-}
-.info-stars-border{
-    /*
-    background-image:
-        url("../img/stars4.png"),
-        url("../img/stars6.png"),
-        url("../img/stars5.png");
-    background-size:
-            40px,
-            60px,
-            80px;
-    background-repeat: no-repeat;
-    */
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
 }
 .info-stars-first{
     width: 40px;
-    position: absolute;
 }
 .info-stars-middle{
     width: 60px;
     transform: rotate(90deg);
-    position: absolute;
 }
 .info-stars-last{
     width: 60px;
     transform: rotate(-90deg);
-    position: absolute;
+}
+@media only screen and (min-width: 360px) {
+    .info-stars-box{
+        margin: 36px auto 0 auto;
+        width: 324px;
+        height: 84px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-stars-first{
+        width: 40px;
+    }
+    .info-stars-middle{
+        width: 60px;
+        transform: rotate(90deg);
+    }
+    .info-stars-last{
+        width: 60px;
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .info-stars-box{
+        margin: 48px auto 0 auto;
+        width: 522px;
+        height: 124px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-stars-first{
+        width: 64px;
+    }
+    .info-stars-middle{
+        width: 96px;
+        transform: rotate(90deg);
+    }
+    .info-stars-last{
+        width: 96px;
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .info-stars-box{
+        margin: 64px auto 0 auto;
+        width: 656px;
+        height: 184px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-stars-first{
+        width: 86px;
+    }
+    .info-stars-middle{
+        width: 128px;
+        transform: rotate(90deg);
+    }
+    .info-stars-last{
+        width: 128px;
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .info-stars-box{
+        margin: 84px auto 0 auto;
+        width: 969px;
+        height: 250px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-stars-first{
+        width: 120px;
+    }
+    .info-stars-middle{
+        width: 176px;
+        transform: rotate(90deg);
+    }
+    .info-stars-last{
+        width: 176px;
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .info-stars-box{
+        margin: 136px auto 0 auto;
+        width: 1360px;
+        height: 320px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info-stars-first{
+        width: 152px;
+    }
+    .info-stars-middle{
+        width: 220px;
+        transform: rotate(90deg);
+    }
+    .info-stars-last{
+        width: 220px;
+        transform: rotate(-90deg);
+    }
 }
 /*
 ===================================
@@ -1343,7 +1432,9 @@ classes | info page pros&cons
 .more-info:hover + .more-info-content{
     display: block;
 }
-
+.more-info-accordion:hover + .more-info-content-accordion{
+    display: block;
+}
 @media only screen and (min-width: 360px) {
     .more-info-content {
         width: 208px;
@@ -1353,6 +1444,24 @@ classes | info page pros&cons
         position: absolute;
         padding: 8px 8px;
         z-index: 1;
+    }
+    .more-info-content-accordion {
+        width: 84px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 3px 6px;
+        z-index: 1;
+    }
+    .more-info-accordion{
+        cursor: pointer;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 8px;
+        color: #C6FFDD;
+        margin: 0;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -1365,6 +1474,24 @@ classes | info page pros&cons
         padding: 8px 8px;
         z-index: 1;
     }
+    .more-info-content-accordion {
+        width: 134px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 4px 8px;
+        z-index: 1;
+    }
+    .more-info-accordion{
+        cursor: pointer;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 10px;
+        color: #C6FFDD;
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 1024px) {
     .more-info-content {
@@ -1375,6 +1502,24 @@ classes | info page pros&cons
         position: absolute;
         padding: 8px 8px;
         z-index: 1;
+    }
+    .more-info-content-accordion {
+        width: 186px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 6px 12px;
+        z-index: 1;
+    }
+    .more-info-accordion{
+        cursor: pointer;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        color: #C6FFDD;
+        margin: 0;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -1387,6 +1532,24 @@ classes | info page pros&cons
         padding: 8px 8px;
         z-index: 1;
     }
+    .more-info-content-accordion {
+        width: 262px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 12px 24px;
+        z-index: 1;
+    }
+    .more-info-accordion{
+        cursor: pointer;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        color: #C6FFDD;
+        margin: 0;
+    }
 }
 @media only screen and (min-width: 2560px) {
     .more-info-content {
@@ -1397,6 +1560,24 @@ classes | info page pros&cons
         position: absolute;
         padding: 8px 8px;
         z-index: 1;
+    }
+    .more-info-content-accordion {
+        width: 300px;
+        height: auto;
+        background-color: rosybrown;
+        display: none;
+        position: absolute;
+        padding: 17px 34px;
+        z-index: 1;
+    }
+    .more-info-accordion{
+        cursor: pointer;
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        color: #C6FFDD;
+        margin: 0;
     }
 }
 

@@ -52,7 +52,11 @@ footer #footer nav ul li a:active {
         display: flex;
         justify-content: space-between;/**/
     }
-    footer #footer nav ul li{}
+    footer #footer nav ul li{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
     footer #footer nav ul li a:link,
     footer #footer nav ul li a:visited,
     footer #footer nav ul li a:active {
@@ -83,7 +87,11 @@ footer #footer nav ul li a:active {
         display: flex;
         justify-content: space-between;/**/
     }
-    footer #footer nav ul li{}
+    footer #footer nav ul li{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
     footer #footer nav ul li a:link,
     footer #footer nav ul li a:visited,
     footer #footer nav ul li a:active {
