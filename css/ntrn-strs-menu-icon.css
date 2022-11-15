@@ -19,6 +19,7 @@
         display: block;
         position: absolute;
         right: 40px;
+        top: 0;
     }
 }
 @media only screen and (min-width: 1024px){
@@ -28,6 +29,7 @@
         display: block;
         position: absolute;
         right: 48px;
+        top: 0;
     }
 }
 @media only screen and (min-width: 1440px){

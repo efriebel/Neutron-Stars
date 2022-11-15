@@ -1,5 +1,45 @@
 /*
 ===================================
+classes | stars border
+===================================
+ */
+.info-stars-box{
+    margin: 36px auto;
+    width: 324px;
+    height: 84px;
+}
+.info-stars-border{
+    /*
+    background-image:
+        url("../img/stars4.png"),
+        url("../img/stars6.png"),
+        url("../img/stars5.png");
+    background-size:
+            40px,
+            60px,
+            80px;
+    background-repeat: no-repeat;
+    */
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info-stars-first{
+    width: 40px;
+    position: absolute;
+}
+.info-stars-middle{
+    width: 60px;
+    transform: rotate(90deg);
+    position: absolute;
+}
+.info-stars-last{
+    width: 60px;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+/*
+===================================
 classes | life cycle
 ===================================
  */
