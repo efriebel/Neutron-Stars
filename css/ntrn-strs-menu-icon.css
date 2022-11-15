@@ -2,6 +2,44 @@
 .hamburger-border {
     z-index: 100;
 }
+@media only screen and (min-width: 360px){
+    .hamburger-border {
+        z-index: 100;
+        float: right;
+        display: block;
+        position: absolute;
+        right: 24px;
+        top: 0;
+    }
+}
+@media only screen and (min-width: 768px){
+    .hamburger-border {
+        z-index: 100;
+        float: right;
+        display: block;
+        position: absolute;
+        right: 40px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .hamburger-border {
+        z-index: 100;
+        float: right;
+        display: block;
+        position: absolute;
+        right: 48px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .hamburger-border {
+        display: none;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .hamburger-border {
+        display: none;
+    }
+}
 .visuallyHidden {
     position: absolute;
     overflow: hidden;

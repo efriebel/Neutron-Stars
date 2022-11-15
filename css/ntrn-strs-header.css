@@ -235,11 +235,15 @@ button | nav
     .nav-mobile img{
         width: 48px;
         height: 48px;
+        float: left;
+        display: block;
+        position: absolute;
+        left: 24px;
     }
     .nav-mobile{
         display: flex;
         flex-direction: column;
-        width: 312px;
+        width: 100%;
         justify-content: space-between;
     }
 }
@@ -247,11 +251,15 @@ button | nav
     .nav-mobile img{
         width: 60px;
         height: 60px;
+        float: left;
+        display: block;
+        position: absolute;
+        left: 40px;
     }
     .nav-mobile{
         display: flex;
         flex-direction: column;
-        width: 690px;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
     }
@@ -260,13 +268,27 @@ button | nav
     .nav-mobile img{
         width: 60px;
         height: 60px;
+        float: left;
+        display: block;
+        position: absolute;
+        left: 48px;
     }
     .nav-mobile{
         display: flex;
         flex-direction: column;
-        width: 930px;
+        width: 100%;
         justify-content: space-between;
         align-items: center;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .nav-mobile img{
+        display: none;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .nav-mobile img{
+        display: none;
     }
 }
 /*
