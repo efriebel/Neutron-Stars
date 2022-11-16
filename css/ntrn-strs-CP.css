@@ -1,3 +1,186 @@
+
+@media only screen and (min-width: 360px){
+    .introduction:before{
+        display: none;
+    }
+    .contact-stars-deco:before{
+        content:"";
+        background-image: url("../img/stars5.svg");
+        background-repeat: no-repeat;
+        background-size: 80px;
+        width: 80px;
+        height: 103px;
+        position: absolute;
+        bottom: -480px;
+        right: 8px;
+        display: block;
+    }
+    .contact-stars-deco:after{
+        content:"";
+        background-image: url("../img/stars6.svg");
+        background-repeat: no-repeat;
+        background-size: 60px;
+        width: 60px;
+        height: 109px;
+        position: absolute;
+        bottom: -580px;
+        left: 24px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px){
+    .introduction:before{
+        content:"";
+        background-image: url("../img/stars4.svg");
+        background-repeat: no-repeat;
+        background-size: 60px;
+        width: 60px;
+        height: 86px;
+        position: absolute;
+        bottom: -786px;
+        right: -40px;
+        display: block;
+    }
+    .contact-stars-deco:before{
+        content:"";
+        background-image: url("../img/stars5.svg");
+        background-repeat: no-repeat;
+        background-size: 124px;
+        width: 124px;
+        height: 159px;
+        position: absolute;
+        top: 840px;
+        right: 8px;
+        display: block;
+    }
+    .contact-stars-deco:after{
+        content:"";
+        background-image: url("../img/stars6.svg");
+        background-repeat: no-repeat;
+        background-size: 96px;
+        width: 96px;
+        height: 174px;
+        position: absolute;
+        bottom: -472px;
+        left: 24px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .introduction:before{
+        content:"";
+        background-image: url("../img/stars4.svg");
+        background-repeat: no-repeat;
+        background-size: 86px;
+        width: 86px;
+        height: 123px;
+        position: absolute;
+        bottom: -946px;
+        right: -100px;
+        display: block;
+    }
+    .contact-stars-deco:before{
+        content:"";
+        background-image: url("../img/stars5.svg");
+        background-repeat: no-repeat;
+        background-size: 170px;
+        width: 170px;
+        height: 218px;
+        position: absolute;
+        top: 720px;
+        right: 8px;
+        display: block;
+    }
+    .contact-stars-deco:after{
+        content:"";
+        background-image: url("../img/stars6.svg");
+        background-repeat: no-repeat;
+        background-size: 130px;
+        width: 130px;
+        height: 235px;
+        position: absolute;
+        bottom: -572px;
+        left: 24px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .introduction:before{
+        content:"";
+        background-image: url("../img/stars4.svg");
+        background-repeat: no-repeat;
+        background-size: 121px;
+        width: 121px;
+        height: 174px;
+        position: absolute;
+        bottom: -1046px;
+        right: -200px;
+        display: block;
+    }
+    .contact-stars-deco:before{
+        content:"";
+        background-image: url("../img/stars5.svg");
+        background-repeat: no-repeat;
+        background-size: 200px;
+        width: 200px;
+        height: 257px;
+        position: absolute;
+        top: 780px;
+        right: 96px;
+        display: block;
+    }
+    .contact-stars-deco:after{
+        content:"";
+        background-image: url("../img/stars6.svg");
+        background-repeat: no-repeat;
+        background-size: 173px;
+        width: 173px;
+        height: 313px;
+        position: absolute;
+        bottom: -772px;
+        left: 80px;
+        display: block;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .introduction:before{
+        content:"";
+        background-image: url("../img/stars4.svg");
+        background-repeat: no-repeat;
+        background-size: 152px;
+        width: 152px;
+        height: 229px;
+        position: absolute;
+        bottom: -1540px;
+        right: 100px;
+        display: block;
+    }
+    .contact-stars-deco:before{
+        content:"";
+        background-image: url("../img/stars5.svg");
+        background-repeat: no-repeat;
+        background-size: 258px;
+        width: 258px;
+        height: 335px;
+        position: absolute;
+        top: 1180px;
+        right: 186px;
+        display: block;
+    }
+    .contact-stars-deco:after{
+        content:"";
+        background-image: url("../img/stars6.svg");
+        background-repeat: no-repeat;
+        background-size: 229px;
+        width: 229px;
+        height: 413px;
+        position: absolute;
+        bottom: -1472px;
+        left: 200px;
+        display: block;
+    }
+}
+
 :focus{
     outline: none;
 }
