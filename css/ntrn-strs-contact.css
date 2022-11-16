@@ -24,7 +24,7 @@
 
 @media only screen and (min-width: 360px) {
     .contact-container-lg {
-        margin: 40px auto;
+        margin: 60px auto;
         width: 260px;
     }
     .contact-container-sm{
@@ -35,7 +35,7 @@
         width: 260px;
         height: 160px;
         display: block;
-        padding: 8px 16px;
+        padding: 8px 8px;
 
         font-family: 'Roboto Condensed';
         font-style: normal;
@@ -45,7 +45,7 @@
 
         background-color: #2B0C44;
         background-image: none;
-        border: 2px solid #9B8CAA;
+        border: 1px solid #9B8CAA;
         border-radius: 0;
 
         transition: border-color ease-in-out .15s;
@@ -55,14 +55,36 @@
         transition-delay: 0s;
     }
     .contact-message:focus{
-        border-color: #52EDAC;
+        border: 2px solid #52EDAC;
     }
-    textarea::placeholder{
+    .contact-message:valid{
+        border: 2px solid #52EDAC;
+    }
+    .textarea-label{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
         color: #9B8CAA;
+        position: relative;
+        top: -151px;
+        left: 9px;
     }
-    textarea:valid{
-        border-color: #52EDAC;
+    textarea:focus + .textarea-label{
+        top: -190px;
+        left: 0;
+        font-size: 12px;
+        color: #52EDAC;
+        transition: 0.3s;
     }
+    textarea:valid + .textarea-label{
+        top: -190px;
+        left: 0;
+        font-size: 12px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+
     input[type="text"] {
         font-family: 'Roboto Condensed';
         font-style: normal;
@@ -74,13 +96,11 @@
         box-sizing: border-box;
         letter-spacing: 1px;
     }
-
     .effect-16:focus ~ .focus-border,
     .has-content.effect-16 ~ .focus-border {
         width: 260px;
         transition: 0.4s;
     }
-
     .effect-16 ~ label {
         position: absolute;
         left: 0;
@@ -95,7 +115,6 @@
         z-index: -1;
         letter-spacing: 0.5px;
     }
-
     .effect-16:focus ~ label, .has-content.effect-16 ~ label {
         top: -16px;
         font-size: 12px;
@@ -114,7 +133,6 @@
         width: 140px;
         height: 40px;
     }
-
     .container-send-button {
         margin: 56px auto 0 auto;
         width: 140px;
@@ -122,11 +140,65 @@
 }
 @media only screen and (min-width: 768px) {
     .contact-container-lg {
-        margin: 56px auto;
+        margin: 96px auto;
         width: 450px;
     }
     .contact-container-sm{
         margin: 0 auto 32px auto;
+        width: 450px;
+    }
+    .contact-message{
+        width: 450px;
+        height: 160px;
+        display: block;
+        padding: 8px 8px;
+
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+
+        background-color: #2B0C44;
+        background-image: none;
+        border: 1px solid #9B8CAA;
+        border-radius: 0;
+
+        transition: border-color ease-in-out .15s;
+        transition-property: border-color;
+        transition-duration: .15s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+    .contact-message:focus{
+        border: 2px solid #52EDAC;
+    }
+    .contact-message:valid{
+        border: 2px solid #52EDAC;
+    }
+    .textarea-label{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #9B8CAA;
+        position: relative;
+        top: -151px;
+        left: 9px;
+    }
+    textarea:focus + .textarea-label{
+        top: -190px;
+        left: 0;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+    textarea:valid + .textarea-label{
+        top: -190px;
+        left: 0;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
     }
 
     input[type="text"] {
@@ -140,13 +212,11 @@
         box-sizing: border-box;
         letter-spacing: 1px;
     }
-
     .effect-16:focus ~ .focus-border,
     .has-content.effect-16 ~ .focus-border {
         width: 450px;
         transition: 0.4s;
     }
-
     .effect-16 ~ label {
         position: absolute;
         left: 0;
@@ -161,7 +231,6 @@
         z-index: -1;
         letter-spacing: 0.5px;
     }
-
     .effect-16:focus ~ label, .has-content.effect-16 ~ label {
         top: -18px;
         font-size: 14px;
@@ -180,7 +249,6 @@
         width: 140px;
         height: 40px;
     }
-
     .container-send-button {
         margin: 64px auto 0 auto;
         width: 140px;
@@ -188,11 +256,65 @@
 }
 @media only screen and (min-width: 1024px) {
     .contact-container-lg {
-        margin: 80px auto;
+        margin: 104px auto;
         width: 610px;
     }
     .contact-container-sm{
         margin: 0 auto 40px auto;
+        width: 610px;
+    }
+    .contact-message{
+        width: 610px;
+        height: 240px;
+        display: block;
+        padding: 12px 12px;
+
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+
+        background-color: /*#200834*/ #2B0C44;
+        background-image: none;
+        border: 1px solid #9B8CAA;
+        border-radius: 0;
+
+        transition: border-color ease-in-out .15s;
+        transition-property: border-color;
+        transition-duration: .15s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+    .contact-message:focus{
+        border: 2px solid #52EDAC;
+    }
+    .contact-message:valid{
+        border: 2px solid #52EDAC;
+    }
+    .textarea-label{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #9B8CAA;
+        position: relative;
+        top: -227px;
+        left: 13px;
+    }
+    textarea:focus + .textarea-label{
+        top: -270px;
+        left: 0;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+    textarea:valid + .textarea-label{
+        top: -270px;
+        left: 0;
+        font-size: 14px;
+        color: #52EDAC;
+        transition: 0.3s;
     }
 
     input[type="text"] {
@@ -206,13 +328,11 @@
         box-sizing: border-box;
         letter-spacing: 1px;
     }
-
     .effect-16:focus ~ .focus-border,
     .has-content.effect-16 ~ .focus-border {
         width: 610px;
         transition: 0.4s;
     }
-
     .effect-16 ~ label {
         position: absolute;
         left: 0;
@@ -227,7 +347,6 @@
         z-index: -1;
         letter-spacing: 0.5px;
     }
-
     .effect-16:focus ~ label, .has-content.effect-16 ~ label {
         top: -18px;
         font-size: 14px;
@@ -246,7 +365,6 @@
         width: 140px;
         height: 40px;
     }
-
     .container-send-button {
         margin: 80px auto 0 auto;
         width: 140px;
@@ -254,11 +372,65 @@
 }
 @media only screen and (min-width: 1440px) {
     .contact-container-lg {
-        margin: 96px auto;
+        margin: 112px auto;
         width: 652px;
     }
     .contact-container-sm{
         margin: 0 auto 40px auto;
+        width: 652px;
+    }
+    .contact-message{
+        width: 652px;
+        height: 240px;
+        display: block;
+        padding: 16px 16px;
+
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #FBFBFB;
+
+        background-color: /*#200834*/ #2B0C44;
+        background-image: none;
+        border: 1px solid #9B8CAA;
+        border-radius: 0;
+
+        transition: border-color ease-in-out .15s;
+        transition-property: border-color;
+        transition-duration: .15s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+    .contact-message:focus{
+        border: 2px solid #52EDAC;
+    }
+    .contact-message:valid{
+        border: 2px solid #52EDAC;
+    }
+    .textarea-label{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #9B8CAA;
+        position: relative;
+        top: -223px;
+        left: 17px;
+    }
+    textarea:focus + .textarea-label{
+        top: -270px;
+        left: 0;
+        font-size: 16px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+    textarea:valid + .textarea-label{
+        top: -270px;
+        left: 0;
+        font-size: 16px;
+        color: #52EDAC;
+        transition: 0.3s;
     }
 
     input[type="text"] {
@@ -272,13 +444,11 @@
         box-sizing: border-box;
         letter-spacing: 1px;
     }
-
     .effect-16:focus ~ .focus-border,
     .has-content.effect-16 ~ .focus-border {
         width: 652px;
         transition: 0.4s;
     }
-
     .effect-16 ~ label {
         position: absolute;
         left: 0;
@@ -293,7 +463,6 @@
         z-index: -1;
         letter-spacing: 0.5px;
     }
-
     .effect-16:focus ~ label, .has-content.effect-16 ~ label {
         top: -20px;
         font-size: 16px;
@@ -312,7 +481,6 @@
         width: 140px;
         height: 40px;
     }
-
     .container-send-button {
         margin: 80px auto 0 auto;
         width: 140px;
@@ -320,11 +488,65 @@
 }
 @media only screen and (min-width: 2560px) {
     .contact-container-lg {
-        margin: 120px auto;
+        margin: 160px auto;
         width: 1168px;
     }
     .contact-container-sm{
         margin: 0 auto 56px auto;
+        width: 1168px;
+    }
+    .contact-message{
+        width: 1168px;
+        height: 420px;
+        display: block;
+        padding: 16px 16px;
+
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        color: #FBFBFB;
+
+        background-color: /*#200834*/ #2B0C44;
+        background-image: none;
+        border: 1px solid #9B8CAA;
+        border-radius: 0;
+
+        transition: border-color ease-in-out .15s;
+        transition-property: border-color;
+        transition-duration: .15s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;
+    }
+    .contact-message:focus{
+        border: 2px solid #52EDAC;
+    }
+    .contact-message:valid{
+        border: 2px solid #52EDAC;
+    }
+    .textarea-label{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        color: #9B8CAA;
+        position: relative;
+        top: -403px;
+        left: 17px;
+    }
+    textarea:focus + .textarea-label{
+        top: -465px;
+        left: 0;
+        font-size: 24px;
+        color: #52EDAC;
+        transition: 0.3s;
+    }
+    textarea:valid + .textarea-label{
+        top: -465px;
+        left: 0;
+        font-size: 24px;
+        color: #52EDAC;
+        transition: 0.3s;
     }
 
     input[type="text"] {
@@ -338,13 +560,11 @@
         box-sizing: border-box;
         letter-spacing: 1px;
     }
-
     .effect-16:focus ~ .focus-border,
     .has-content.effect-16 ~ .focus-border {
         width: 1168px;
         transition: 0.4s;
     }
-
     .effect-16 ~ label {
         position: absolute;
         left: 0;
@@ -359,7 +579,6 @@
         z-index: -1;
         letter-spacing: 0.5px;
     }
-
     .effect-16:focus ~ label, .has-content.effect-16 ~ label {
         top: -32px;
         font-size: 24px;
@@ -378,7 +597,6 @@
         width: 180px;
         height: 56px;
     }
-
     .container-send-button {
         margin: 120px auto 0 auto;
         width: 180px;

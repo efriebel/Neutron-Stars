@@ -47,6 +47,8 @@ classes | stage MOBILE
 
     .stage-img{
         margin: 16px 0 16px 0;
+        display: flex;
+        justify-content: center;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -74,6 +76,8 @@ classes | stage MOBILE
 
     .stage-img{
         margin: 24px 0 24px 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
