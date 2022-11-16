@@ -30,6 +30,7 @@
     .contact-container-sm{
         margin: 0 auto 32px auto;
         width: 260px;
+        position: relative;
     }
     .contact-message{
         width: 260px;
@@ -66,19 +67,19 @@
         font-weight: 300;
         font-size: 16px;
         color: #9B8CAA;
-        position: relative;
-        top: -151px;
-        left: 9px;
+        position: absolute;
+        top: 4px;
+        left: 8px;
     }
     textarea:focus + .textarea-label{
-        top: -190px;
+        top: -20px;
         left: 0;
         font-size: 12px;
         color: #52EDAC;
         transition: 0.3s;
     }
     textarea:valid + .textarea-label{
-        top: -190px;
+        top: -20px;
         left: 0;
         font-size: 12px;
         color: #52EDAC;
@@ -146,6 +147,7 @@
     .contact-container-sm{
         margin: 0 auto 32px auto;
         width: 450px;
+        position: relative;
     }
     .contact-message{
         width: 450px;
@@ -182,19 +184,19 @@
         font-weight: 300;
         font-size: 18px;
         color: #9B8CAA;
-        position: relative;
-        top: -151px;
-        left: 9px;
+        position: absolute;
+        top: 4px;
+        left: 8px;
     }
     textarea:focus + .textarea-label{
-        top: -190px;
+        top: -22px;
         left: 0;
         font-size: 14px;
         color: #52EDAC;
         transition: 0.3s;
     }
     textarea:valid + .textarea-label{
-        top: -190px;
+        top: -22px;
         left: 0;
         font-size: 14px;
         color: #52EDAC;
@@ -262,6 +264,7 @@
     .contact-container-sm{
         margin: 0 auto 40px auto;
         width: 610px;
+        position: relative;
     }
     .contact-message{
         width: 610px;
@@ -298,19 +301,19 @@
         font-weight: 300;
         font-size: 18px;
         color: #9B8CAA;
-        position: relative;
-        top: -227px;
-        left: 13px;
+        position: absolute;
+        top: 6px;
+        left: 12px;
     }
     textarea:focus + .textarea-label{
-        top: -270px;
+        top: -24px;
         left: 0;
         font-size: 14px;
         color: #52EDAC;
         transition: 0.3s;
     }
     textarea:valid + .textarea-label{
-        top: -270px;
+        top: -24px;
         left: 0;
         font-size: 14px;
         color: #52EDAC;
@@ -378,6 +381,7 @@
     .contact-container-sm{
         margin: 0 auto 40px auto;
         width: 652px;
+        position: relative;
     }
     .contact-message{
         width: 652px;
@@ -414,19 +418,19 @@
         font-weight: 300;
         font-size: 20px;
         color: #9B8CAA;
-        position: relative;
-        top: -223px;
-        left: 17px;
+        position: absolute;
+        top: 8px;
+        left: 16px;
     }
     textarea:focus + .textarea-label{
-        top: -270px;
+        top: -28px;
         left: 0;
         font-size: 16px;
         color: #52EDAC;
         transition: 0.3s;
     }
     textarea:valid + .textarea-label{
-        top: -270px;
+        top: -28px;
         left: 0;
         font-size: 16px;
         color: #52EDAC;
@@ -494,6 +498,7 @@
     .contact-container-sm{
         margin: 0 auto 56px auto;
         width: 1168px;
+        position: relative;
     }
     .contact-message{
         width: 1168px;
@@ -530,19 +535,19 @@
         font-weight: 300;
         font-size: 32px;
         color: #9B8CAA;
-        position: relative;
-        top: -403px;
-        left: 17px;
+        position: absolute;
+        top: 8px;
+        left: 16px;
     }
     textarea:focus + .textarea-label{
-        top: -465px;
+        top: -40px;
         left: 0;
         font-size: 24px;
         color: #52EDAC;
         transition: 0.3s;
     }
     textarea:valid + .textarea-label{
-        top: -465px;
+        top: -40px;
         left: 0;
         font-size: 24px;
         color: #52EDAC;

@@ -1,6 +1,6 @@
 const STYLE_LIST = [
     "css/ntrn-strs-class-all.css",
-    "css/ntrn-strs-contact.css",
+    "css/ntrn-strs-CP.css",
     "css/ntrn-strs-custom-col.css",
     "css/ntrn-strs-footer.css",
     "css/ntrn-strs-header.css",
