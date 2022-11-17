@@ -1,0 +1,334 @@
+/*
+===================================
+classes | stage MOBILE
+===================================
+ */
+.stage-mobile{
+    display: block;
+}
+@media only screen and (min-width: 1024px){
+    .stage-mobile{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .stage-mobile{
+        display: none;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .stage-mobile{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .stage-container-mobile {
+        width: 312px;
+    }
+
+    .stage-bg-mobile {
+        background-color: #190A46;
+        padding: 48px 0 24px 0;
+        margin: 48px 0 0 0;
+    }
+
+    .stage-container-text-mobile {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .stage-order{
+        order: 1;
+    }
+
+    .stage-img{
+        margin: 16px 0 16px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .stage-container-mobile {
+        width: 450px;
+    }
+
+    .stage-bg-mobile {
+        background-color: #190A46;
+        padding: 80px 0 40px 0;
+        margin: 64px 0 0 0;
+    }
+
+    .stage-container-text-mobile {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .stage-order{
+        order: 1;
+    }
+
+    .stage-img{
+        margin: 24px 0 24px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*
+===================================
+classes | stage DESKTOP
+===================================
+ */
+.stage-desktop{
+    display: none;
+}
+@media only screen and (min-width: 1024px){
+    .stage-desktop{
+        display: block;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .stage-desktop{
+        display: block;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .stage-desktop{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .stage-container-desktop {
+        width: 930px;
+        margin: auto;
+    }
+
+    .stage-bg-desktop {
+        background-color: #190A46;
+        padding: 80px 0 40px 0;
+        margin: 68px 0 0 0;
+    }
+
+    .stage-container-text-desktop {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .stage-container-desktop {
+        width: 1108px;
+        margin: auto;
+    }
+
+    .stage-bg-desktop {
+        background-color: #190A46;
+        padding: 160px 0 80px 0;
+        margin: 64px 0 0 0;
+    }
+
+    .stage-container-text-desktop {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 48px;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .stage-container-desktop {
+        width: 1968px;
+        margin: auto;
+    }
+
+    .stage-bg-desktop {
+        background-color: #190A46;
+        padding: 296px 0 148px 0;
+        margin: 120px 0 0 0;
+    }
+
+    .stage-container-text-desktop {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 56px;
+    }
+}
+/*
+===================================
+classes | intro ALL
+===================================
+ */
+.introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0;
+    gap: 36px;
+    width: 652px;
+    margin-top: 96px;
+}
+@media only screen and (min-width: 360px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        gap: 32px;
+        width: 312px;
+        margin-top: 64px;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        gap: 40px;
+        width: 450px;
+        margin-top: 80px;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        gap: 48px;
+        width: 610px;
+        margin-top: 96px;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        gap: 36px;
+        width: 652px;
+        margin-top: 96px;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0;
+        gap: 64px;
+        width: 1168px;
+        margin-top: 120px;
+        position: relative;
+    }
+}
+/*
+===================================
+classes | arrow animation
+===================================
+ */
+.arrow svg{
+    width: 40px;
+    transition: all 0.5s ease-in-out;
+}
+.arrow:hover svg{
+    transform: translateX(24px);
+}
+.arrow:hover svg path{
+    fill: #C6FFDD;
+}
+@media only screen and (min-width: 360px) {
+    .arrow svg{
+        width: 30px;
+        height: 30px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .arrow svg{
+        width: 40px;
+        height: 40px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .arrow svg{
+        width: 48px;
+        height: 48px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .arrow svg{
+        width: 48px;
+        height: 48px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    .arrow svg{
+        width: 48px;
+        height: 48px;
+        transition: all 0.5s ease-in-out;
+    }
+    .arrow:hover svg{
+        transform: translateX(24px);
+    }
+    .arrow:hover svg path{
+        fill: #C6FFDD;
+    }
+}
+/*
+===================================
+classes | buttons
+===================================
+ */
+button {
+    all: unset;
+}

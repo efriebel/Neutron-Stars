@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-const template = document.createElement('template');
-template.innerHTML =
-        '<link rel="stylesheet" type="text/css" href="css/ntrn-strs-LP.css">';
-=======
 import { STYLE_LIST } from "../utils/StyleList.js";
->>>>>>> da2830d858db422240b34c54a7b82353ea35f54a
 
 class DwHomeTeaser extends HTMLElement {
     constructor() {
@@ -25,7 +19,7 @@ class DwHomeTeaser extends HTMLElement {
         const link = this.getAttribute('link');
 
         this.shadowRoot.innerHTML += `
-            <div class="container teaser-container-${position}">
+            <div>
                 <div class="teaser-img">
                     <img src="img/${img}" alt="TeaserNeutronStar">
                 </div>

@@ -165,6 +165,9 @@ classes | landing page teaser
         width: 282px;
         margin: 72px auto 0 auto;
         gap: 56px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .teaser-all:before {
         content: "";
@@ -199,6 +202,9 @@ classes | landing page teaser
         margin: 120px auto 0 auto;
         width: 450px;
         gap: 88px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .teaser-all:before {
         content: "";
@@ -233,6 +239,9 @@ classes | landing page teaser
         margin: 0 auto;
         width: 770px;
         gap: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .teaser-all:before {
         content: "";
@@ -259,6 +268,9 @@ classes | landing page teaser
         margin: 0 auto;
         width: 1108px;
         gap: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
      }
     .teaser-all:before {
         content: "";
@@ -285,6 +297,9 @@ classes | landing page teaser
         margin: 0 auto;
         width: 1568px;
         gap: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .teaser-all:before {
         content: "";
@@ -305,6 +320,7 @@ classes | landing page teaser
 @media only screen and (min-width: 360px) {
     .teaser-img {
         width: 204px;
+        margin: auto;
     }
     .teaser-img img {
         border-radius: 50%;
@@ -328,6 +344,7 @@ classes | landing page teaser
 @media only screen and (min-width: 768px) {
     .teaser-img {
         width: 330px;
+        margin: auto;
     }
     .teaser-container-left {
         width: 450px;
@@ -347,7 +364,7 @@ classes | landing page teaser
 @media only screen and (min-width: 1024px) {
     .teaser-img {
         width: 290px;
-        margin: 128px 0 24px 0;
+        margin: 128px auto 24px auto;
     }
     .teaser-container-left {
         width: 290px;
@@ -361,7 +378,7 @@ classes | landing page teaser
 @media only screen and (min-width: 1440px) {
     .teaser-img {
         width: 424px;
-        margin: 160px 0 32px 0;
+        margin: 160px auto 32px auto;
     }
     .teaser-container-left {
         width: 424px;
@@ -375,7 +392,7 @@ classes | landing page teaser
 @media only screen and (min-width: 2560px) {
     .teaser-img {
         width: 568px;
-        margin: 200px 0 56px 0;
+        margin: 200px auto 56px auto;
     }
     .teaser-container-left {
         width: 568px;

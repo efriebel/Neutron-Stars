@@ -1,0 +1,450 @@
+@charset "UTF-8";
+/*
+===================================
+standard
+===================================
+ */
+html{
+    height: 100%;
+    font-size: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    background-color: #FBFBFB;
+}
+img{
+    max-width: 100%;
+}
+figure{
+    margin: 0;
+}
+/*
+===================================
+main
+===================================
+ */
+main{
+    margin-top: 0;
+    padding-top: 0;
+}
+/*
+===================================
+fonts
+===================================
+ */
+h1{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #FBFBFB;
+}
+h2{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 44px;
+    color: #130834;
+}
+h3{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #130834;
+}
+h4{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #130834;
+}
+h5{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FBFBFB;
+}
+h6{
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #130834;
+}
+p{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #130834;
+    margin: 0;
+}
+em{
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    color: #C6FFDD;
+    margin: 0;
+}
+p2{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FBFBFB;
+    margin: 0;
+}
+@media only screen and (min-width: 360px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 30px;
+        color: #130834;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #130834;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #130834;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        color: #130834;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #130834;
+        margin: 0;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 16px;
+        color: #C6FFDD;
+        margin: 0;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        color: #FBFBFB;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 36px;
+        color: #130834;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #130834;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #130834;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #130834;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #130834;
+        margin: 0;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        color: #C6FFDD;
+        margin: 0;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        color: #FBFBFB;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 44px;
+        color: #130834;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #130834;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #130834;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #130834;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #130834;
+        margin: 0;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        color: #C6FFDD;
+        margin: 0;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #FBFBFB;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 44px;
+        color: #130834;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        color: #130834;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #130834;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #130834;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        color: #130834;
+        margin: 0;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        color: #C6FFDD;
+        margin: 0;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #FBFBFB;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    h1{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 88px;
+        color: #FBFBFB;
+    }
+    h2{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 72px;
+        color: #130834;
+    }
+    h3{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        color: #130834;
+    }
+    h4{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #130834;
+    }
+    h5{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #FBFBFB;
+    }
+    h6{
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        color: #130834;
+    }
+    p{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        color: #130834;
+        margin: 0;
+    }
+    em{
+        font-family: 'Roboto Condensed';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 32px;
+        color: #C6FFDD;
+        margin: 0;
+    }
+    p2{
+        font-family: 'Roboto Condensed';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #FBFBFB;
+        margin: 0;
+    }
+}
