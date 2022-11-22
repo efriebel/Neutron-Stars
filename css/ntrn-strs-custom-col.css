@@ -665,8 +665,9 @@
     }
 }
 
-
-
+.display-none{
+    display: none; !important;
+}
 @media (min-width: 360px) {
     .display-xs-none {
         display: none !important;

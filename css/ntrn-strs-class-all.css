@@ -25,14 +25,18 @@ classes | stage MOBILE
 @media only screen and (min-width: 360px) {
     .stage-container-mobile {
         width: 312px;
+        margin: 0 auto;
     }
-
     .stage-bg-mobile {
         background-color: #2B0C44;
         padding: 24px 0 24px 0;
         margin: 48px 0 0 0;
     }
-
+    .stage-mobile-alignment{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .stage-container-text-mobile {
         display: flex;
         flex-direction: column;
@@ -40,11 +44,9 @@ classes | stage MOBILE
         text-align: center;
         gap: 16px;
     }
-
     .stage-order{
         order: 1;
     }
-
     .stage-img{
         margin: 16px 0 16px 0;
         display: flex;
@@ -54,14 +56,18 @@ classes | stage MOBILE
 @media only screen and (min-width: 768px) {
     .stage-container-mobile {
         width: 450px;
+        margin: 0 auto;
     }
-
     .stage-bg-mobile {
         background-color: #2B0C44;
         padding: 40px 0 40px 0;
         margin: 64px 0 0 0;
     }
-
+    .stage-mobile-alignment{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .stage-container-text-mobile {
         display: flex;
         flex-direction: column;
@@ -69,11 +75,9 @@ classes | stage MOBILE
         gap: 16px;
         text-align: center;
     }
-
     .stage-order{
         order: 1;
     }
-
     .stage-img{
         margin: 24px 0 24px 0;
         display: flex;
@@ -109,14 +113,17 @@ classes | stage DESKTOP
     .stage-container-desktop {
         width: 930px;
         margin: auto;
+        flex-direction: row;
     }
-
+    .stage-desktop-alignment{
+        display: flex;
+        flex-direction: row;
+    }
     .stage-bg-desktop {
         background-color: #2B0C44;
         padding: 40px 0 40px 0;
         margin: 68px 0 0 0;
     }
-
     .stage-container-text-desktop {
         display: flex;
         flex-direction: column;
@@ -129,14 +136,17 @@ classes | stage DESKTOP
     .stage-container-desktop {
         width: 1108px;
         margin: auto;
+        flex-direction: row;
     }
-
+    .stage-desktop-alignment{
+        display: flex;
+        flex-direction: row;
+    }
     .stage-bg-desktop {
         background-color: #2B0C44;
         padding: 80px 0 80px 0;
         margin: 64px 0 0 0;
     }
-
     .stage-container-text-desktop {
         display: flex;
         flex-direction: column;
@@ -149,14 +159,17 @@ classes | stage DESKTOP
     .stage-container-desktop {
         width: 1968px;
         margin: auto;
+        flex-direction: row;
     }
-
+    .stage-desktop-alignment{
+        display: flex;
+        flex-direction: row;
+    }
     .stage-bg-desktop {
         background-color: #2B0C44;
         padding: 148px 0 148px 0;
         margin: 120px 0 0 0;
     }
-
     .stage-container-text-desktop {
         display: flex;
         flex-direction: column;
@@ -187,7 +200,7 @@ classes | intro ALL
         padding: 0;
         gap: 32px;
         width: 312px;
-        margin-top: 64px;
+        margin: 64px auto 0 auto;
         position: relative;
     }
 }
@@ -199,7 +212,7 @@ classes | intro ALL
         padding: 0;
         gap: 40px;
         width: 450px;
-        margin-top: 80px;
+        margin: 80px auto 0 auto;
         position: relative;
     }
 }
@@ -211,7 +224,7 @@ classes | intro ALL
         padding: 0;
         gap: 48px;
         width: 610px;
-        margin-top: 96px;
+        margin: 96px auto 0 auto;
         position: relative;
     }
 }
@@ -223,7 +236,7 @@ classes | intro ALL
         padding: 0;
         gap: 36px;
         width: 652px;
-        margin-top: 96px;
+        margin: 96px auto 0 auto;
         position: relative;
     }
 }
@@ -235,7 +248,7 @@ classes | intro ALL
         padding: 0;
         gap: 64px;
         width: 1168px;
-        margin-top: 120px;
+        margin: 120px auto 0 auto;
         position: relative;
     }
 }
