@@ -132,56 +132,6 @@ classes | stars border
 classes | life cycle
 ===================================
  */
-/*.lc img{
-    width: 196px;
-    height: 196px;
-    object-fit: contain;
-}
-.lc-h6{
-    width: 222px;
-    height: 33px;
-    text-align: center;
-}
-.lc-container-small{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 16px;
-    width: 222px;
-    height: 93px;
-}
-.lc-container-medium{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 44px;
-    gap: 10px;
-    width: 310px;
-    height: 125px;
-    background: rgba(82, 237, 172, 0.65);
-}
-.lc-container-large{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 32px;
-    width: 310px;
-    height: 353px;
-    left: 565px;
-    top: 1715px;
-}
-.life-cycle{
-    display: flex;
-    justify-content: center;
-    margin: 56px 0 28px 0;
-}
-.life-cycle-col{
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-}*/
 @media only screen and (min-width: 360px) {
     .lc img{
         width: 96px;
@@ -229,10 +179,29 @@ classes | life cycle
         justify-content: center;
         margin: 24px 0 12px 0;
     }
-    .life-cycle-col{
+    .life-cycle-col-first{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin: auto;
+        width: 248px;
+        gap: 56px;
+    }
+    .life-cycle-col-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 312px;
+        gap: 120px;
+    }
+    .life-cycle-col-third{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 312px;
+        gap: 120px;
     }
 
 
@@ -314,10 +283,29 @@ classes | life cycle
         justify-content: center;
         margin: 32px 0 16px 0;
     }
-    .life-cycle-col{
+    .life-cycle-col-first{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin: auto;
+        width: 330px;
+        gap: 30px;
+    }
+    .life-cycle-col-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 450px;
+        gap: 150px;
+    }
+    .life-cycle-col-third{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 570px;
+        gap: 270px;
     }
 
 
@@ -398,10 +386,29 @@ classes | life cycle
         justify-content: center;
         margin: 40px 0 20px 0;
     }
-    .life-cycle-col{
+    .life-cycle-col-first{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin: auto;
+        width: 453px;
+        gap: 33px;
+    }
+    .life-cycle-col-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 610px;
+        gap: 190px;
+    }
+    .life-cycle-col-third{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 770px;
+        gap: 350px;
     }
 
 
@@ -482,10 +489,29 @@ classes | life cycle
         justify-content: center;
         margin: 56px 0 28px 0;
     }
-    .life-cycle-col{
+    .life-cycle-col-first{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin: auto;
+        width: 645px;
+        gap: 25px;
+    }
+    .life-cycle-col-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 882px;
+        gap: 262px;
+    }
+    .life-cycle-col-third{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 1108px;
+        gap: 488px;
     }
 
 
@@ -566,10 +592,29 @@ classes | life cycle
         justify-content: center;
         margin: 48px 0 24px 0;
     }
-    .life-cycle-col{
+    .life-cycle-col-first{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         margin: auto;
+        width: 768px;
+        gap: 32px;
+    }
+    .life-cycle-col-second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 1168px;
+        gap: 432px;
+    }
+    .life-cycle-col-third{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        width: 1568px;
+        gap: 832px;
     }
 
 
@@ -607,15 +652,6 @@ classes | life cycle
 classes | life cycle arrow
 ===================================
  */
-/*.arrow-info svg {
-    width: 44px;
-    height: 44px;
-    transform: rotate(-180deg);
-    cursor: pointer;
-}
-.arrow-info:hover svg path{
-    fill: #52EDAC;
-}*/
 @media only screen and (min-width: 360px) {
     .arrow-info svg {
         width: 20px;
@@ -676,12 +712,6 @@ classes | life cycle arrow
 classes | info page container
 ===================================
  */
-/*.info-container{
-    margin: 60px 0 60px 0;
-}
-.info-container-sub{
-    margin: 56px 0 56px 0;
-}*/
 @media only screen and (min-width: 360px) {
     .info-container{
         margin: 32px 0 0 0;
@@ -689,6 +719,9 @@ classes | info page container
     .info-container-sub{
         margin: 0;
         justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -696,10 +729,12 @@ classes | info page container
         margin: 72px 0 0 0;
     }
     .info-container-sub{
-        /*margin: 32px 0 32px 0;*/
         margin: 32px auto;
         width: 600px;
         justify-content: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -707,10 +742,12 @@ classes | info page container
         margin: 96px 0 0 0;
     }
     .info-container-sub{
-        /*margin: 40px 0 40px 0;*/
         margin: 40px auto;
         width: 770px;
         justify-content: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -718,10 +755,12 @@ classes | info page container
         margin: 80px 0 0 0;
     }
     .info-container-sub{
-        /*margin: 56px 0 56px 0;*/
         margin: 56px auto;
         width: 1108px;
         justify-content: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 @media only screen and (min-width: 2560px) {
@@ -729,10 +768,12 @@ classes | info page container
         margin: 120px 0 0 0;
     }
     .info-container-sub{
-        /*margin: 72px 0 72px 0;*/
         margin: 72px auto;
         width: 1568px;
         justify-content: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 /*
@@ -930,95 +971,53 @@ classes | info page img
 classes | info page paragraphs
 ===================================
  */
-/*.sub-theme-h2{
-    display: flex;
-    text-align: left;
-    margin: 0 0 40px 166px;
-    padding: 0;
-    width: 652px;
-}
-.sub-theme-h3-left{
-    display: flex;
-    text-align: left;
-    margin: 0 0 16px 166px;
-    padding: 0;
-    width: 652px;
-}
-.sub-theme-left{
-    display: flex;
-    text-align: left;
-    margin: 0 0 0 166px;
-    padding: 0;
-    width: 652px;
-}
-.sub-theme-h3-right{
-    display: flex;
-    text-align: right;
-    margin: 0 166px 16px 146px;
-    padding: 0;
-    width: 652px;
-}
-.sub-theme-right{
-    display: flex;
-    text-align: left;
-    margin: 0 0 0 146px;
-    padding: 0;
-    width: 652px;
-}*/
 @media only screen and (min-width: 360px) {
     .sub-theme-h2{
         display: flex;
         text-align: left;
-        /*margin: 48px 0 0 24px;*/
-        margin-top: 48px;
+        margin: 48px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-h2-alone{
         display: flex;
         text-align: left;
-        /*margin: 48px 0 0 24px;*/
-        margin-top: 48px;
+        margin: 48px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-h3-left{
         display: flex;
         text-align: left;
-        /*margin: 24px 0 0 24px;*/
-        margin-top: 24px;
+        margin: 24px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-left{
         display: flex;
         text-align: left;
-        /*margin: 12px 0 0 24px;*/
-        margin-top: 12px;
+        margin: 12px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-left-alone{
         display: flex;
         text-align: left;
-        /*margin: 12px 0 0 24px;*/
-        margin-top: 12px;
+        margin: 12px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-h3-right{
         display: flex;
         text-align: left;
-        /*margin: 24px 0 0 24px;*/
-        margin-top: 24px;
+        margin: 24px auto 0 auto;
         padding: 0;
         width: 312px;
     }
     .sub-theme-right{
         display: flex;
         text-align: left;
-        /*margin: 12px 0 0 24px;*/
-        margin-top: 12px;
+        margin: 12px auto 0 auto;
         padding: 0;
         width: 312px;
     }
@@ -1027,7 +1026,6 @@ classes | info page paragraphs
     .sub-theme-h2{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 330px;
@@ -1035,7 +1033,6 @@ classes | info page paragraphs
     .sub-theme-h2-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 600px;
@@ -1043,7 +1040,6 @@ classes | info page paragraphs
     .sub-theme-h3-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 330px;
@@ -1051,7 +1047,6 @@ classes | info page paragraphs
     .sub-theme-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 330px;
@@ -1059,7 +1054,6 @@ classes | info page paragraphs
     .sub-theme-left-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 600px;
@@ -1067,7 +1061,6 @@ classes | info page paragraphs
     .sub-theme-h3-right{
         display: flex;
         text-align: left;
-        /*margin: 0 99px 0 30px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 330px;
@@ -1075,7 +1068,6 @@ classes | info page paragraphs
     .sub-theme-right{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 30px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 330px;
@@ -1085,7 +1077,6 @@ classes | info page paragraphs
     .sub-theme-h2{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 127px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 450px;
@@ -1093,7 +1084,6 @@ classes | info page paragraphs
     .sub-theme-h2-alone{
          display: flex;
          text-align: left;
-         /*margin: 0 0 0 127px;*/
          margin: 0 auto 0 0;
          padding: 0;
          width: 770px;
@@ -1101,7 +1091,6 @@ classes | info page paragraphs
     .sub-theme-h3-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 127px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 450px;
@@ -1109,7 +1098,6 @@ classes | info page paragraphs
     .sub-theme-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 127px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 450px;
@@ -1117,7 +1105,6 @@ classes | info page paragraphs
     .sub-theme-left-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 127px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 770px;
@@ -1125,7 +1112,6 @@ classes | info page paragraphs
     .sub-theme-h3-right{
         display: flex;
         text-align: left;
-        /*margin: 0 99px 0 30px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 450px;
@@ -1133,7 +1119,6 @@ classes | info page paragraphs
     .sub-theme-right{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 30px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 450px;
@@ -1143,7 +1128,6 @@ classes | info page paragraphs
     .sub-theme-h2{
         display: flex;
         text-align: left;
-        /*margin: 0 0 40px 166px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 652px;
@@ -1151,7 +1135,6 @@ classes | info page paragraphs
     .sub-theme-h2-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 40px 166px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 1108px;
@@ -1159,7 +1142,6 @@ classes | info page paragraphs
     .sub-theme-h3-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 16px 166px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 652px;
@@ -1167,7 +1149,6 @@ classes | info page paragraphs
     .sub-theme-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 166px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 652px;
@@ -1175,7 +1156,6 @@ classes | info page paragraphs
     .sub-theme-left-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 166px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 1108px;
@@ -1183,7 +1163,6 @@ classes | info page paragraphs
     .sub-theme-h3-right{
         display: flex;
         text-align: right;
-        /*margin: 0 166px 16px 146px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 652px;
@@ -1191,7 +1170,6 @@ classes | info page paragraphs
     .sub-theme-right{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 146px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 652px;
@@ -1201,7 +1179,6 @@ classes | info page paragraphs
     .sub-theme-h2{
         display: flex;
         text-align: left;
-        /*margin: 0 0 72px 496px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 968px;
@@ -1209,7 +1186,6 @@ classes | info page paragraphs
     .sub-theme-h2-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 72px 496px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 1568px;
@@ -1217,7 +1193,6 @@ classes | info page paragraphs
     .sub-theme-h3-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 24px 496px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 968px;
@@ -1225,7 +1200,6 @@ classes | info page paragraphs
     .sub-theme-left{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 496px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 968px;
@@ -1233,7 +1207,6 @@ classes | info page paragraphs
     .sub-theme-left-alone{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 496px;*/
         margin: 0 auto 0 0;
         padding: 0;
         width: 1568px;
@@ -1241,7 +1214,6 @@ classes | info page paragraphs
     .sub-theme-h3-right{
         display: flex;
         text-align: right;
-        /*margin: 0 496px 24px 232px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 968px;
@@ -1249,7 +1221,6 @@ classes | info page paragraphs
     .sub-theme-right{
         display: flex;
         text-align: left;
-        /*margin: 0 0 0 232px;*/
         margin: 0 0 0 auto;
         padding: 0;
         width: 968px;
@@ -1260,43 +1231,24 @@ classes | info page paragraphs
 classes | info page pros&cons
 ===================================
  */
-/*.pros-left{
-    display: flex;
-    text-align: left;
-    margin: 0 0 0 166px;
-    padding: 0;
-    width: 538px;
-}
-.cons-right{
-    display: flex;
-    text-align: left;
-    margin: 0 0 0 32px;
-    padding: 0;
-    width: 538px;
-}
-.cons-right-h3{
-    display: flex;
-    text-align: left;
-    margin: 0 0 16px 32px;
-    padding: 0;
-    width: 538px;
-}*/
 .bullet-point{
     color: #FBFBFB;
 }
 @media only screen and (min-width: 360px) {
     .pros-left{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 0 0 24px;*/
         margin: 0 auto;
         padding: 0 0 0 17px;
         width: 312px;
     }
     .cons-right{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 0 0 24px;*/
         margin: 0 auto;
         padding: 0 0 0 17px;
         width: 312px;
@@ -1304,8 +1256,7 @@ classes | info page pros&cons
     .cons-right-h3{
         display: flex;
         text-align: left;
-        /*margin: 24px 0 12px 24px;*/
-        margin-top: 24px;
+        margin: 24px auto 0 auto;
         padding: 0;
         width: 312px;
     }
@@ -1323,13 +1274,17 @@ classes | info page pros&cons
 @media only screen and (min-width: 768px) {
     .pros-left{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 30px 0 99px;*/
+        text-align: left;
         padding: 0 0 0 3px;
         width: 270px;
     }
     .cons-right{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         margin: 0 0 0 30px;
         padding: 0;
@@ -1338,7 +1293,7 @@ classes | info page pros&cons
     .cons-right-h3{
         display: flex;
         text-align: left;
-        margin: 0 0 0 30px;
+        margin: 0 auto;
         padding: 0;
         width: 270px;
     }
@@ -1349,13 +1304,16 @@ classes | info page pros&cons
 @media only screen and (min-width: 1024px) {
     .pros-left{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 30px 0 127px;*/
         padding: 0 0 0 10px;
         width: 370px;
     }
     .cons-right{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         margin: 0 0 0 30px;
         padding: 0;
@@ -1364,7 +1322,7 @@ classes | info page pros&cons
     .cons-right-h3{
         display: flex;
         text-align: left;
-        margin: 0 0 0 30px;
+        margin: 0 auto;
         padding: 0;
         width: 370px;
     }
@@ -1375,13 +1333,16 @@ classes | info page pros&cons
 @media only screen and (min-width: 1440px) {
     .pros-left{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 0 0 166px;*/
         padding: 0 0 0 10px;
         width: 538px;
     }
     .cons-right{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         margin: 0 0 0 32px;
         padding: 0;
@@ -1390,7 +1351,7 @@ classes | info page pros&cons
     .cons-right-h3{
         display: flex;
         text-align: left;
-        margin: 0 0 16px 32px;
+        margin: 0 auto;
         padding: 0;
         width: 538px;
     }
@@ -1401,13 +1362,16 @@ classes | info page pros&cons
 @media only screen and (min-width: 2560px) {
     .pros-left{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
-        /*margin: 0 0 0 496px;*/
         padding: 0 0 0 10px;
         width: 768px;
     }
     .cons-right{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         margin: 0 0 0 32px;
         padding: 0;
@@ -1416,7 +1380,7 @@ classes | info page pros&cons
     .cons-right-h3{
         display: flex;
         text-align: left;
-        margin: 0 0 24px 32px;
+        margin: 0 auto;
         padding: 0;
         width: 768px;
     }
@@ -1424,8 +1388,11 @@ classes | info page pros&cons
         color: #FBFBFB;
     }
 }
-
-
+/*
+===================================
+classes | info page more info on hover
+===================================
+ */
 .more-info{
     cursor: pointer;
 }
@@ -1580,8 +1547,3 @@ classes | info page pros&cons
         margin: 0;
     }
 }
-
-/*
-<em class="more-info"></em>
-<span class="more-info-content"></span>
- */
