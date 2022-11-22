@@ -1,0 +1,75 @@
+
+/*
+===================================
+classes | event cards
+===================================
+ */
+@media only screen and (min-width: 360px){
+    .event-cards-title{
+        display: flex;
+        flex-direction: column;
+        width: 98px;
+        text-align: left;
+    }
+    .event-cards-info-button{
+        width: 20px;
+        height: 20px;
+    }
+    .event-cards-info-button svg{
+        width: 20px;
+        height: 20px;
+    }
+    .event-cards-info-button:hover svg path{
+        color: #BC8F8F;
+    }
+    .event-cards-visit-button {
+        background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
+        border-radius: 50px;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FBFBFB;
+        width: 84px;
+        height: 26px;
+    }
+    .event-cards-small{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0 12px;
+        gap: 8px;
+        width: 150px;
+    }
+    .event-cards-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 12px;
+        background-color: #2B0C44;
+        width: 150px;
+        height: 100%;
+    }
+    .event-cards-large{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        height: 100%;
+    }
+    .event-cards-large img{
+        width: 150px;
+        height: 150px;
+    }
+    .event-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 312px;
+        gap: 12px;
+        margin: 72px auto;
+    }
+}
