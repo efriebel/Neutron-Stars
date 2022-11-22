@@ -11,13 +11,10 @@ classes | event cards
         width: 98px;
         text-align: left;
     }
-    .event-cards-info-button{
-        width: 20px;
-        height: 20px;
-    }
     .event-cards-info-button svg{
         width: 20px;
         height: 20px;
+        transition: all 0.5s ease-in-out;
     }
     .event-cards-info-button:hover svg path{
         color: #BC8F8F;
@@ -70,6 +67,270 @@ classes | event cards
         flex-wrap: wrap;
         width: 312px;
         gap: 12px;
-        margin: 72px auto;
+        margin: 72px auto 0 auto;
+    }
+}
+@media only screen and (min-width: 768px){
+    .event-cards-title{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        text-align: left;
+    }
+    .event-cards-info-button svg{
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button:hover svg path{
+        color: #BC8F8F;
+    }
+    .event-cards-visit-button {
+        background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
+        border-radius: 50px;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FBFBFB;
+        width: 132px;
+        height: 40px;
+    }
+    .event-cards-small{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 12px;
+        gap: 8px;
+        width: 210px;
+    }
+    .event-cards-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 12px;
+        background-color: #2B0C44;
+        width: 210px;
+        height: 100%;
+    }
+    .event-cards-large{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 210px;
+        height: 100%;
+    }
+    .event-cards-large img{
+        width: 210px;
+        height: 210px;
+    }
+    .event-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 690px;
+        gap: 30px;
+        margin: 120px auto 0 auto;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .event-cards-title{
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        text-align: left;
+    }
+    .event-cards-info-button svg{
+        width: 28px;
+        height: 28px;
+        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button:hover svg path{
+        color: #BC8F8F;
+    }
+    .event-cards-visit-button {
+        background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
+        border-radius: 50px;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        color: #FBFBFB;
+        width: 146px;
+        height: 46px;
+    }
+    .event-cards-small{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 12px;
+        gap: 8px;
+        width: 210px;
+    }
+    .event-cards-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 12px;
+        background-color: #2B0C44;
+        width: 210px;
+        height: 100%;
+    }
+    .event-cards-large{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 210px;
+        height: 100%;
+    }
+    .event-cards-large img{
+        width: 210px;
+        height: 210px;
+    }
+    .event-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 770px;
+        gap: 70px;
+        margin: 128px auto 0 auto;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .event-cards-title{
+        display: flex;
+        flex-direction: column;
+        width: 228px;
+        text-align: left;
+    }
+    .event-cards-info-button svg{
+        width: 34px;
+        height: 34px;
+        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button:hover svg path{
+        color: #BC8F8F;
+    }
+    .event-cards-visit-button {
+        background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
+        border-radius: 50px;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        color: #FBFBFB;
+        width: 150px;
+        height: 50px;
+    }
+    .event-cards-small{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 16px;
+        gap: 16px;
+        width: 310px;
+    }
+    .event-cards-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 16px;
+        background-color: #2B0C44;
+        width: 310px;
+        height: 100%;
+    }
+    .event-cards-large{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 310px;
+        height: 100%;
+    }
+    .event-cards-large img{
+        width: 310px;
+        height: 310px;
+    }
+    .event-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1108px;
+        gap: 89px;
+        margin: 160px auto 0 auto;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .event-cards-title{
+        display: flex;
+        flex-direction: column;
+        width: 228px;
+        text-align: left;
+    }
+    .event-cards-info-button svg{
+        width: 34px;
+        height: 34px;
+        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button:hover svg path{
+        color: #BC8F8F;
+    }
+    .event-cards-visit-button {
+        background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
+        border-radius: 50px;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        color: #FBFBFB;
+        width: 150px;
+        height: 50px;
+    }
+    .event-cards-small{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0 16px;
+        gap: 16px;
+        width: 310px;
+    }
+    .event-cards-medium{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 16px;
+        background-color: #2B0C44;
+        width: 310px;
+        height: 100%;
+    }
+    .event-cards-large{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 310px;
+        height: 100%;
+    }
+    .event-cards-large img{
+        width: 310px;
+        height: 310px;
+    }
+    .event-cards-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 1170px;
+        gap: 120px;
+        margin: 200px auto 0 auto;
     }
 }
