@@ -14,10 +14,18 @@ classes | event cards
     .event-cards-info-button svg{
         width: 20px;
         height: 20px;
-        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button svg path{
+        transition: fill 0.2s;
     }
     .event-cards-info-button:hover svg path{
-        color: #BC8F8F;
+        fill: #BC8F8F;
+    }
+    .event-cards-info-button svg circle{
+        transition: stroke 0.2s;
+    }
+    .event-cards-info-button:hover svg circle{
+        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
@@ -80,10 +88,18 @@ classes | event cards
     .event-cards-info-button svg{
         width: 28px;
         height: 28px;
-        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button svg path{
+        transition: fill 0.2s;
     }
     .event-cards-info-button:hover svg path{
-        color: #BC8F8F;
+        fill: #BC8F8F;
+    }
+    .event-cards-info-button svg circle{
+        transition: stroke 0.2s;
+    }
+    .event-cards-info-button:hover svg circle{
+        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
@@ -146,10 +162,18 @@ classes | event cards
     .event-cards-info-button svg{
         width: 28px;
         height: 28px;
-        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button svg path{
+        transition: fill 0.2s;
     }
     .event-cards-info-button:hover svg path{
-        color: #BC8F8F;
+        fill: #BC8F8F;
+    }
+    .event-cards-info-button svg circle{
+        transition: stroke 0.2s;
+    }
+    .event-cards-info-button:hover svg circle{
+        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
@@ -212,10 +236,18 @@ classes | event cards
     .event-cards-info-button svg{
         width: 34px;
         height: 34px;
-        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button svg path{
+        transition: fill 0.2s;
     }
     .event-cards-info-button:hover svg path{
-        color: #BC8F8F;
+        fill: #BC8F8F;
+    }
+    .event-cards-info-button svg circle{
+        transition: stroke 0.2s;
+    }
+    .event-cards-info-button:hover svg circle{
+        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
@@ -278,10 +310,18 @@ classes | event cards
     .event-cards-info-button svg{
         width: 34px;
         height: 34px;
-        transition: all 0.5s ease-in-out;
+    }
+    .event-cards-info-button svg path{
+        transition: fill 0.2s;
     }
     .event-cards-info-button:hover svg path{
-        color: #BC8F8F;
+        fill: #BC8F8F;
+    }
+    .event-cards-info-button svg circle{
+        transition: stroke 0.2s;
+    }
+    .event-cards-info-button:hover svg circle{
+        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
