@@ -83,7 +83,11 @@ const objects = [
 
 
 ]
-
+//controls for window position focused on mouse
+const controls = {
+    view: {x: 0, y: 0, zoom: 1},
+    viewPos: { prevX: null,  prevY: null,  isDragging: false },
+}
 
 function setup() { // called form p5
     createCanvas(400, 400);
