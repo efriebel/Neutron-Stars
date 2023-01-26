@@ -1,0 +1,26 @@
+{
+  "name": "neutron-stars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/src/main.js",
+  "scripts": {
+    "test": "web-test-runner ./js/src/**/*.test.js --node-resolve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efriebel/Neutron-Stars.git"
+  },
+  "author": "emma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efriebel/Neutron-Stars/issues"
+  },
+  "homepage": "https://github.com/efriebel/Neutron-Stars#readme",
+  "devDependencies": {
+    "@open-wc/testing": "^3.0.0-next.5",
+    "@web/test-runner": "^0.15.0",
+    "fake-fetch": "^2.3.0",
+    "fetch-mock": "^9.11.0",
+    "sinon": "^15.0.1"
+  }
+}

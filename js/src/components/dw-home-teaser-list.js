@@ -1,4 +1,5 @@
 import { STYLE_LIST } from "../utils/StyleList.js";
+import {teaserRepository} from "../service/TeaserRepository.js";
 
 class DwHomeTeaserList extends HTMLElement {
     teaserList = [];
@@ -11,12 +12,10 @@ class DwHomeTeaserList extends HTMLElement {
     connectedCallback() {
         this.attachShadow({ mode: 'open' });
 
-        fetch("/api/teaser.json").then((response) => {
-            if (response.ok) {
-                return response.json()
-            }
-        }).then(body => {
-            this.teaserList = body;
+        teaserRepository.fetchAll((teaserList) => {
+            console.log(teaserList);
+
+            this.teaserList = teaserList;
             this.isLoading = false;
 
             this.render();
