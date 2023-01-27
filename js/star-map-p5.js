@@ -5,99 +5,16 @@ const controls = {
     viewPos: {prevX: null, prevY: null, isDragging: false},
 }
 
-let objects = [
-    {
-        color: 'red',
-    },
-    {
-        color: 'yellow',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'blue',
-    },
-    {
-        color: 'orange',
-    },
-    {
-        color: 'purple',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'teal',
-    },
-    {
-        color: 'pink',
-    },
-    {
-        color: 'red',
-    },
-    {
-        color: 'yellow',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'blue',
-    },
-    {
-        color: 'orange',
-    },
-    {
-        color: 'purple',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'teal',
-    },
-    {
-        color: 'pink',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'blue',
-    },
-    {
-        color: 'orange',
-    },
-    {
-        color: 'purple',
-    },
-    {
-        color: 'green',
-    },
-    {
-        color: 'teal',
-    },
-    {
-        color: 'pink',
-    },
-
-
-]
-
-let img;
+let imgStephenson2;
 function preload() {
-    img = loadImage('/img/LP_galaxy_final.svg');
-    console.log(img);
-    //img.size(200, 200);
+    imgStephenson2 = loadImage('/img/SMP/SMP_stephenson2.svg');
+    /*imgStephenson2.size(200, 200);*/
 }
 
 function setup() {  // called form p5
-    canvas = createCanvas(400, 400, SVG);
+    canvas = createCanvas(360, 203, SVG);   //added for SVG formating
     canvas.mouseWheel(e => Controls.zoom(controls).worldZoom(e));
     background('rosybrown');
-    image(img, 0, 0);
-    renderObjects();    //create objects/squares
 }
 
 function draw() {
@@ -105,19 +22,18 @@ function draw() {
     translate(controls.view.x, controls.view.y);
     scale(controls.view.zoom);
 
-    var r = frameCount % 200 * Math.sqrt(2);
+    var r = frameCount % 200 * Math.sqrt(2);    //added for SVG formating
 
-    renderObjects();
+    /*
+    * Set image size and position
+    * */
+    image(imgStephenson2, 141, 125, 4, 4);
 
-    image(img, 0, 0);
     if (controls.view.zoom > 1 && controls.view.zoom < 1.5) {
         fill('yellowgreen');
         rect(75 + 25, 75 + 25, 50, 50);
     }
-
-   // renderObjects();
-
-    //show objects/ squares
+    // zoom factor >1 & <1.5 => yellowgreen square is visible
 }
 
 window.mousePressed = e => Controls.move(controls).mousePressed(e)
@@ -165,14 +81,28 @@ class Controls {
             const {x, y, deltaY} = e;
             const direction = deltaY > 0 ? -1 : 1;
             const factor = 0.05;
-            const zoom = 1 * direction * factor;
+            const zoom = 5 * direction * factor;
 
             const wx = (x - controls.view.x) / (width * controls.view.zoom);
             const wy = (y - controls.view.y) / (height * controls.view.zoom);
 
+            /*
+            * Sets zoom stops (how far you can zoom in&out)
+            * */
+
+
+            /*
             if (controls.view.zoom + zoom > 2) {
                 controls.view.zoom = 2;
             } else if(controls.view.zoom + zoom < 0.5) {
+                controls.view.zoom = 0.5;
+            } else {
+                controls.view.x -= wx * width * zoom;
+                controls.view.y -= wy * height * zoom;
+                controls.view.zoom += zoom;
+            }
+            */
+            if (controls.view.zoom + zoom < 0.5) {
                 controls.view.zoom = 0.5;
             } else {
                 controls.view.x -= wx * width * zoom;
@@ -183,22 +113,4 @@ class Controls {
 
         return {worldZoom}
     }
-}
-
-function renderObjects() {
-
-    let posX = 0;
-    let posY = 0;
-
-    rect(24, 76, 20, 20);
-
-    /*objects.forEach((object) => {
-        fill(object.color);
-        rect(posX * 75 + 25, posY * 75 + 25, 50, 50);
-        posX++;
-        if (posX === 5) {
-            posY++;
-            posX = 0;
-        }
-    });*/
 }
