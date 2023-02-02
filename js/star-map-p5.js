@@ -36,6 +36,7 @@ function preload() {
 }
 
 function setup() {  // called from p5
+    pixelDensity(1);
     canvas = createCanvas(360, 203, SVG);   //added for SVG formating
     //canvas.mouseWheel(e => Controls.zoom(controls).worldZoom(e));
 }
