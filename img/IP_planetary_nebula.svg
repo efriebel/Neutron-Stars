@@ -3,22 +3,22 @@
     <defs>
         <style>
             .PN_white_center{fill:url(#pn_white_center);}
-
             .PN_circle_big{fill:url(#pn_circle_big);}
-
             .PN_hollow_circle_small{fill:url(#pn_hollow_circle_small);}
             .PN_hollow_circle_small-2{fill:url(#pn_hollow_circle_small-2);}
             .PN_hollow_circle_small-3{fill:url(#pn_hollow_circle_small-3);}
             .PN_hollow_circle_small-4{fill:url(#pn_hollow_circle_small-4);}
             .PN_hollow_circle_small-5{fill:url(#pn_hollow_circle_small-5);}
-
             .PN_full_circle_small{fill:url(#pn_full_circle_small);}
             .PN_full_circle_small-2{fill:url(#pn_full_circle_small-2);}
             .PN_full_circle_small-3{fill:url(#pn_full_circle_small-3);}
             .PN_full_circle_small-4{fill:url(#pn_full_circle_small-4);}
             .PN_full_circle_small-5{fill:url(#pn_full_circle_small-5);}
-
-            .PN_hollow_circle_small-2,.PN_hollow_circle_small-3,.PN_hollow_circle_small-4,.PN_full_circle_small-2,.PN_full_circle_small-5{opacity:.25;}
+            .PN_hollow_circle_small-2,
+            .PN_hollow_circle_small-3,
+            .PN_hollow_circle_small-4,
+            .PN_full_circle_small-2,
+            .PN_full_circle_small-5{opacity:.25;}
             <!--.PN_hollow_circle_small,.PN_hollow_circle_small-5,.PN_full_circle_small,.PN_full_circle_small-3,.PN_full_circle_small-4{opacity:.35;}-->
         </style>
         <radialGradient id="pn_white_center" cx="447.71" cy="447.71" fx="447.71" fy="447.71" r="32.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
@@ -26,7 +26,6 @@
             <stop offset=".8" stop-color="#9ed6bf" stop-opacity=".42"/>
             <stop offset="1" stop-color="#5ab992" stop-opacity="0"/>
         </radialGradient>
-
         <radialGradient id="pn_circle_big" cx="447.71" cy="447.71" fx="447.71" fy="447.71" r="447.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#5ab992" stop-opacity="0"/>
             <stop offset=".16" stop-color="#5ab992" stop-opacity=".02"/>
@@ -44,7 +43,6 @@
             <stop offset=".98" stop-color="#5ab992" stop-opacity=".22"/>
             <stop offset="1" stop-color="#5ab992" stop-opacity="0"/>
         </radialGradient>
-
         <radialGradient id="pn_full_circle_small" cx="421.7" cy="380.66" fx="421.7" fy="380.66" r="26.01" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
             <stop offset=".5" stop-color="#a3d3bd"/>
             <stop offset=".86" stop-color="#6fc09e" stop-opacity=".29"/>
@@ -54,7 +52,6 @@
         <radialGradient id="pn_full_circle_small-3" cx="496.34" cy="523.89" fx="496.34" fy="523.89" r="15.88" xlink:href="#pn_full_circle_small"/>
         <radialGradient id="pn_full_circle_small-4" cx="193.44" cy="354.65" fx="193.44" fy="354.65" r="15.88" xlink:href="#pn_full_circle_small"/>
         <radialGradient id="pn_full_circle_small-5" cx="671.43" cy="515.79" fx="671.43" fy="515.79" r="15.88" xlink:href="#pn_full_circle_small"/>
-
         <radialGradient id="pn_hollow_circle_small" cx="557.39" cy="458.69" fx="557.39" fy="458.69" r="26.01" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#a3d3bd" stop-opacity="0"/>
             <stop offset=".13" stop-color="#a3d3bd" stop-opacity=".02"/>
