@@ -133,11 +133,6 @@ classes | life cycle
 ===================================
  */
 @media only screen and (min-width: 360px) {
-    .lc img{
-        width: 96px;
-        height: 96px;
-        object-fit: contain;
-    }
     .lc svg{
         width: 96px;
         height: 96px;
@@ -243,11 +238,6 @@ classes | life cycle
     }
 }
 @media only screen and (min-width: 768px) {
-    .lc img{
-        width: 90px;
-        height: 90px;
-        object-fit: contain;
-    }
     .lc svg{
         width: 90px;
         height: 90px;
@@ -351,11 +341,6 @@ classes | life cycle
     }
 }
 @media only screen and (min-width: 1024px) {
-    .lc img{
-        width: 130px;
-        height: 130px;
-        object-fit: contain;
-    }
     .lc svg{
         width: 130px;
         height: 130px;
@@ -459,11 +444,6 @@ classes | life cycle
     }
 }
 @media only screen and (min-width: 1440px) {
-    .lc img{
-        width: 196px;
-        height: 196px;
-        object-fit: contain;
-    }
     .lc svg{
         width: 196px;
         height: 196px;
@@ -567,11 +547,6 @@ classes | life cycle
     }
 }
 @media only screen and (min-width: 2560px) {
-    .lc img{
-        width: 240px;
-        height: 240px;
-        object-fit: contain;
-    }
     .lc svg{
         width: 240px;
         height: 240px;
