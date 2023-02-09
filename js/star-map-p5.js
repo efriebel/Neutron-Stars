@@ -1,5 +1,5 @@
 let canvas;
-
+let d;
 let imgLichSystem, imgMergerSystem, imgMilkyway, imgPSRJ05406919TN, imgPSRJ17191438DiamondSystem, imgSagittariusA, imgSiriusSystem, imgSolarSystem, imgStephenson2, imgTarantulaNebula;
 
 const controls = {
@@ -36,14 +36,19 @@ function preload() {
 }
 
 function setup() {  // called from p5
-    pixelDensity(1);
     canvas = createCanvas(360, 203, SVG);   //added for SVG formating
     //canvas.mouseWheel(e => Controls.zoom(controls).worldZoom(e));
 }
 
 function mouseWheel(e) {
     Controls.zoom(controls).worldZoom(e);
-}
+    if (e.deltaY > 0) {
+        d = d + 10;
+    }
+    else {
+         d = d - 10;
+    }
+  }
 
 function draw() {
     clear();

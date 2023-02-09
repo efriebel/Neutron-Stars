@@ -1,0 +1,747 @@
+/*
+===================================
+classes | star cycle | NEBULA
+===================================
+ */
+/*DUST*/
+.nebula-dust{
+    animation: NebulaDust 3s linear infinite normal;
+}
+@keyframes NebulaDust{
+    33%{
+        transform: translate(5%, 5%);
+    }
+    66%{
+        transform: translate(5%, -5%);
+    }
+    100%{
+        transform: translate(0%, 0%);
+    }
+}
+/*MAIN BASE*/
+.nebula-main-base{
+    animation: NebulaMainBase 3s linear infinite normal;
+}
+@keyframes NebulaMainBase {
+    33%{
+        transform: translate(5%, 5%);
+    }
+    66%{
+        transform: translate(5%, -5%);
+    }
+    100%{
+        transform: translate(0%, 0%);
+    }
+}
+/*OUTER CIRCLE 1*/
+.nebula-outer-circle-1{
+    animation: NebulaCircle1 2s linear infinite alternate;
+}
+@keyframes NebulaCircle1 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+/*OUTER CIRCLE 2*/
+.nebula-outer-circle-2{
+    animation: NebulaCircle2 1.5s linear infinite alternate;
+}
+@keyframes NebulaCircle2 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/*OUTER CIRCLE 3*/
+.nebula-outer-circle-3{
+    animation: NebulaCircle3 1.75s linear infinite alternate;
+}
+@keyframes NebulaCircle3 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | PROTO STAR
+===================================
+ */
+/*TOP BURST*/
+.proto-star-burst-top{
+    animation: ProtoStarBurstTop 1s ease-in-out infinite alternate;
+}
+@keyframes ProtoStarBurstTop {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*BOTTOM BURST*/
+.proto-star-burst-bottom{
+    animation: ProtoStarBurstBottom 1s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes ProtoStarBurstBottom {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*DUST SPARKLE*/
+.proto-star-dust-cloud-sparkle{
+    animation: ProtoStarDustSparkle 0.75s linear infinite alternate;
+}
+@keyframes ProtoStarDustSparkle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | MAIN SEQUENCE STAR
+===================================
+ */
+/*SHINE BASE*/
+.main-sequence-star-shine-base{
+    animation: MainSequenceStarShineBase 2s linear infinite alternate;
+}
+@keyframes MainSequenceStarShineBase {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SHINE CIRCLE*/
+.main-sequence-star-shine-circles{
+    animation: MainSequenceStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes MainSequenceStarShineCircle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPARKLES*/
+.main-sequence-star-sparkles{
+    animation: MainSequenceStarSparkles 1s linear infinite alternate;
+}
+@keyframes MainSequenceStarSparkles {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+}
+/*
+===================================
+classes | star cycle | SUN-LIKE STAR
+===================================
+ */
+/*SHINE BASE*/
+.sun-like-star-shine-base{
+    animation: SunLikeStarShineBase 2s linear infinite alternate;
+}
+@keyframes SunLikeStarShineBase {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SHINE CIRCLE*/
+.sun-like-star-shine-circle{
+    animation: SunLikeStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes SunLikeStarShineCircle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPARKLES*/
+.sun-like-star-sparkles{
+    animation: SunLikeStarSparkles 1s linear infinite alternate;
+}
+@keyframes SunLikeStarSparkles {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.sun-like-star-specks{
+    animation: SunLikeStarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes SunLikeStarSpecks {
+    from {
+        opacity: 0.75;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | MASSIVE STAR
+===================================
+ */
+/*SHINE BASE*/
+.massive-star-shine-base{
+    animation: MassiveStarShineBase 2s linear infinite alternate;
+}
+@keyframes MassiveStarShineBase {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE CIRCLE*/
+.massive-star-shine-circles{
+    animation: MassiveStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes MassiveStarShineCircle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SPARKLES*/
+.massive-star-sparkles{
+    animation: MassiveStarSparkles 1s linear infinite alternate;
+}
+@keyframes MassiveStarSparkles {
+    from {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.massive-star-specks{
+    animation: MassiveStarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes MassiveStarSpecks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.75;
+    }
+}
+/*
+===================================
+classes | star cycle | RED GIANT STAR
+===================================
+ */
+/*SHINE BASE*/
+.red-giant-star-shine-base{
+    animation: RedGiantStarShineBase 2s linear infinite alternate;
+}
+@keyframes RedGiantStarShineBase {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE CIRCLE*/
+.red-giant-star-shine-circle{
+    animation: RedGiantStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes RedGiantStarShineCircle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SPARKLES*/
+.red-giant-star-sparkles{
+    animation: RedGiantStarSparkles 1s linear infinite alternate;
+}
+@keyframes RedGiantStarSparkles {
+    from {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.red-giant-star-specks{
+    animation: RedGiantStarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes RedGiantStarSpecks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.75;
+    }
+}
+/*
+===================================
+classes | star cycle | RED SUPER GIANT STAR
+===================================
+ */
+/*SHINE BASE*/
+.red-super-giant-star-shine-base{
+    animation: RedSuperGiantStarShineBase 2s linear infinite alternate;
+}
+@keyframes RedSuperGiantStarShineBase {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SHINE CIRCLE*/
+.red-super-giant-star-shine-circle{
+    animation: RedSuperGiantStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes RedSuperGiantStarShineCircle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE OUTWARD*/
+.red-super-giant-star-shine-outward{
+    animation: RedSuperGiantStarShineOutward 3s linear infinite alternate;
+}
+@keyframes RedSuperGiantStarShineOutward {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: -10deg;
+        transform-origin: center;
+    }
+}
+/*SPARKLES*/
+.red-super-giant-star-sparkles{
+    animation: RedSuperGiantStarSparkles 1s linear infinite alternate;
+}
+@keyframes RedSuperGiantStarSparkles {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.red-super-giant-star-specks{
+    animation: RedSuperGiantStarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes RedSuperGiantStarSpecks {
+    from {
+        opacity: 0.75;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | PLANETARY NEBULA
+===================================
+ */
+/*CENTER*/
+.planetary-nebula-center{
+    animation: PlanetaryNebulaCenter 2s ease-in-out infinite alternate;
+}
+@keyframes PlanetaryNebulaCenter {
+    from {
+        scale: 200%;
+        transform-origin: center;
+    }
+    to {
+        scale: 100%;
+        transform-origin: center;
+    }
+}
+/*MAIN BODY*/
+.planetary-nebula-main-body{
+    animation: PlanetaryNebulaMainBody 2s ease-in-out infinite alternate;
+}
+@keyframes PlanetaryNebulaMainBody {
+    from {
+        scale: 80%;
+        transform-origin: center;
+    }
+    to {
+        scale: 100%;
+        transform-origin: center;
+    }
+}
+/*DUST*/
+.planetary-nebula-dust{
+    animation: PlanetaryNebulaDust 0.75s linear infinite alternate;
+}
+@keyframes PlanetaryNebulaDust {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.1;
+    }
+}
+/*
+===================================
+classes | star cycle | SUPERNOVA
+===================================
+ */
+/*BURST TOP*/
+.supernova-light-bursts-top{
+    animation: SupernovaLightBurstTop 1.5s ease-in-out infinite alternate;
+}
+@keyframes SupernovaLightBurstTop{
+    from {
+        opacity: 0.5;
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        opacity: 1;
+        scale: 115%;
+        transform-origin: center;
+    }
+}
+/*BURST BOTTOM*/
+.supernova-light-bursts-bottom{
+    animation: SupernovaLightBurstBottom 1.5s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes SupernovaLightBurstBottom{
+    from {
+        opacity: 0.5;
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        opacity: 1;
+        scale: 115%;
+        transform-origin: center;
+    }
+}
+/*RING BLUE*/
+.supernova-ring-blue{
+    animation: SupernovaRingBlue 2s ease-in-out infinite alternate;
+}
+@keyframes SupernovaRingBlue{
+    from {
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        scale: 90%;
+        transform-origin: center;
+    }
+}
+/*STARS*/
+.supernova-stars{
+    animation: SupernovaStars 0.75s ease-in-out infinite alternate;
+}
+@keyframes SupernovaStars{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*
+===================================
+classes | star cycle | WHITE DWARF
+===================================
+ */
+/*SHINE RINGS LEFT BIG*/
+.white-dwarf-shine-blue-rings-left-big{
+    animation: WhiteDwarfShineRingsLeftBig 6s linear infinite normal;
+}
+@keyframes WhiteDwarfShineRingsLeftBig {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 360deg;
+        transform-origin: center;
+    }
+}
+/*SHINE RINGS LEFT SMALL*/
+.white-dwarf-shine-blue-rings-left-small{
+    animation: WhiteDwarfShineRingsLeftSmall 6s linear infinite normal;
+}
+@keyframes WhiteDwarfShineRingsLeftSmall {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: -360deg;
+        transform-origin: center;
+    }
+}
+/*SHINE RINGS RIGHT BIG*/
+.white-dwarf-shine-blue-rings-right-big{
+    animation: WhiteDwarfShineRingsRightBig 6s linear infinite normal;
+}
+@keyframes WhiteDwarfShineRingsRightBig {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: -360deg;
+        transform-origin: center;
+    }
+}
+/*SHINE RINGS RIGHT SMALL*/
+.white-dwarf-shine-blue-rings-right-small{
+    animation: WhiteDwarfShineRingsRightSmall 6s linear infinite normal;
+}
+@keyframes WhiteDwarfShineRingsRightSmall {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 360deg;
+        transform-origin: center;
+    }
+}
+/*HIGHLIGHTS*/
+.white-dwarf-highlights{
+    animation: WhiteDwarfHighlights 0.75s ease-in-out infinite alternate;
+}
+@keyframes WhiteDwarfHighlights {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | NEUTRON STAR
+===================================
+ */
+/*SHINE BASE*/
+.neutron-star-shine-base{
+    animation: NeutronStarShineBase 2s linear infinite alternate;
+}
+@keyframes NeutronStarShineBase {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE CIRCLE*/
+.neutron-star-shine-circle{
+    animation: NeutronStarShineCircle 0.75s linear infinite alternate;
+}
+@keyframes NeutronStarShineCircle {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*SHINE OUTWARD*/
+.neutron-star-shine-outward{
+    animation: NeutronStarShineOutward 3s linear infinite alternate;
+}
+@keyframes NeutronStarShineOutward {
+    from {
+        rotate: -10deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+}
+/*SPARKLES*/
+.neutron-star-sparkles{
+    animation: NeutronStarSparkles 1s linear infinite alternate;
+}
+@keyframes NeutronStarSparkles {
+    from {
+        rotate: 5deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.neutron-star-specks{
+    animation: NeutronStarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes NeutronStarSpecks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.75;
+    }
+}
+/*
+===================================
+classes | star cycle | BLACK DWARF
+===================================
+ */
+/*SHINE MAIN*/
+.black-dwarf-shine-purple-main{
+    animation: BlackDwarfShineMain 1s ease-in-out infinite alternate;
+}
+@keyframes BlackDwarfShineMain {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE LEFT*/
+.black-dwarf-shine-purple-left{
+    animation: BlackDwarfShineLeft 8s linear infinite normal;
+}
+@keyframes BlackDwarfShineLeft {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 360deg;
+        transform-origin: center;
+    }
+}
+/*SHINE RIGHT*/
+.black-dwarf-shine-purple-right{
+    animation: BlackDwarfShineRight 8s linear infinite normal;
+}
+@keyframes BlackDwarfShineRight {
+    from {
+        rotate: 0deg;
+        transform-origin: center;
+    }
+    to {
+        rotate: 360deg;
+        transform-origin: center;
+    }
+}
+/*/*HIGHLIGHTS*/
+.black-dwarf-highlights{
+    animation: BlackDwarfHighlights 1.5s ease-in-out infinite alternate;
+}
+@keyframes BlackDwarfHighlights {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | star cycle | BLACK HOLE
+===================================
+ */
+/*MAIN BODY TOP*/
+.black-hole-main-body-top{
+    animation: BlackHoleMainBodyTop 1s ease-in-out infinite alternate;
+}
+@keyframes BlackHoleMainBodyTop {
+    from {
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        scale: 110%;
+        transform-origin: center;
+    }
+}
+/*MAIN BODY BOTTOM*/
+.black-hole-main-body-bottom{
+    animation: BlackHoleMainBodyBottom 1s ease-in-out infinite alternate;
+}
+@keyframes BlackHoleMainBodyBottom {
+    from {
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        scale: 110%;
+        transform-origin: center;
+    }
+}
+/*LIGHT ORBITS*/
+.black-hole-light-orbits{
+    animation: BlackHoleLightOrbits 0.75s ease-in-out infinite alternate;
+}
+@keyframes BlackHoleLightOrbits {
+    from {
+        opacity: 0.75;
+        scale: 100%;
+        transform-origin: center;
+    }
+    to {
+        opacity: 1;
+        scale: 104%;
+        transform-origin: center;
+    }
+}

@@ -139,10 +139,14 @@
                 <circle class="cls-nebula-14" cx="521.66" cy="470.14" r="421.94"/>
                 <circle class="cls-nebula-16" cx="503.61" cy="483.89" r="421.94"/>
             </g>
-            <g class="nebula-outer-circles">
+            <g class="nebula-outer-circle-1">
                 <circle class="cls-nebula-12" cx="320.12" cy="464.53" r="320.12"/>
-                <circle class="cls-nebula-13" cx="729.41" cy="270.36" r="270.36"/>
-                <circle class="cls-nebula-17" cx="729.41" cy="696.5" r="236.62"/>
+            </g>
+            <g class="nebula-outer-circle-2">
+                <circle class="nebula-outer-circle-2 cls-nebula-13" cx="729.41" cy="270.36" r="270.36"/>
+            </g>
+            <g class="nebula-outer-circle-3">
+                <circle class="nebula-outer-circle-3 cls-nebula-17" cx="729.41" cy="696.5" r="236.62"/>
             </g>
         </g>
     </g>

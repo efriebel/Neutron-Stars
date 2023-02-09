@@ -154,7 +154,7 @@
     </defs>
     <g id="supernova">
         <g>
-            <g class="supernova-light-bursts">
+            <g class="supernova-light-bursts-bottom">
                 <g class="supernova-light-bursts-bottom-small">
                     <polygon class="cls-supernova-47" points="486.72 417.79 513.44 436.09 322.65 791.91 223.98 724.35 486.72 417.79"/>
                     <polygon class="cls-supernova-23" points="485.06 426.78 504.19 434.86 303.99 770.38 233.38 740.55 485.06 426.78"/>
@@ -278,62 +278,64 @@
                     <path class="cls-supernova-45" d="m150.46,257.36c-3.81,0-7.67-.81-11.35-2.54-13.41-6.28-19.2-22.24-12.92-35.66,8.34-17.81,19.31-33.92,32.6-47.87,24.71-25.93,56.38-43.67,94.14-52.73,14.4-3.46,28.88,5.42,32.33,19.82,3.46,14.4-5.42,28.88-19.82,32.33-27.55,6.61-50.37,19.26-67.83,37.58-9.29,9.75-16.98,21.05-22.85,33.61-4.56,9.74-14.22,15.45-24.3,15.45Z"/>
                 </g>
             </g>
-            <g class="supernova-light-bursts-top-large">
-                <polygon class="cls-supernova-20" points="493.71 474.12 467.6 436.3 901.21 61.72 997.64 201.37 493.71 474.12"/>
-                <polygon class="cls-supernova-24" points="482.11 467.87 460.87 447.45 896.64 104.54 975.05 179.94 482.11 467.87"/>
-                <circle class="cls-supernova-27" cx="677.49" cy="285.09" r="8.25"/>
-                <circle class="cls-supernova-9" cx="598.64" cy="401.25" r="6.19"/>
-                <circle class="cls-supernova-10" cx="600.8" cy="355.07" r="6.19"/>
-                <circle class="cls-supernova-5" cx="819.7" cy="274.98" r="4.64"/>
-                <circle class="cls-supernova-1" cx="552.02" cy="426.19" r="8.25"/>
-                <circle class="cls-supernova-8" cx="569.77" cy="401.86" r="4.64"/>
-                <circle class="cls-supernova-39" cx="539.39" cy="388.94" r="6.19"/>
-                <circle class="cls-supernova-39" cx="667.35" cy="316.88" r="4.64"/>
-                <circle class="cls-supernova-39" cx="659" cy="366.21" r="8.25"/>
-                <circle class="cls-supernova-39" cx="562.33" cy="379.61" r="8.25"/>
-                <circle class="cls-supernova-39" cx="726.56" cy="303.94" r="6.19"/>
-                <circle class="cls-supernova-39" cx="742.17" cy="242.33" r="4.64"/>
-                <circle class="cls-supernova-39" cx="627.42" cy="362.06" r="4.64"/>
-                <circle class="cls-supernova-39" cx="623.94" cy="315.77" r="4.64"/>
-                <circle class="cls-supernova-39" cx="802.73" cy="176.52" r="4.64"/>
-            </g>
-            <g class="supernova-light-bursts-top-middle">
-                <polygon class="cls-supernova-22" points="481.62 470.87 453.28 455.21 609.24 82.81 713.91 140.64 481.62 470.87"/>
-                <polygon class="cls-supernova-19" points="472.34 470.56 452.53 464.35 619.8 111.25 692.93 134.21 472.34 470.56"/>
-                <circle class="cls-supernova-6" cx="538.22" cy="293.93" r="5.81"/>
-                <circle class="cls-supernova-2" cx="524.94" cy="391.96" r="4.36"/>
-                <circle class="cls-supernova-7" cx="511.81" cy="362.15" r="4.36"/>
-                <circle class="cls-supernova-4" cx="624.76" cy="242.92" r="3.27"/>
-                <circle class="cls-supernova-3" cx="503.36" cy="422.33" r="5.81"/>
-                <circle class="cls-supernova-17" cx="506.92" cy="401.41" r="3.27"/>
-                <circle class="cls-supernova-39" cx="483.7" cy="402.79" r="4.36"/>
-                <circle class="cls-supernova-39" cx="541.8" cy="317.17" r="3.27"/>
-                <circle class="cls-supernova-39" cx="552.02" cy="350.91" r="5.81"/>
-                <circle class="cls-supernova-39" cx="495.25" cy="389.71" r="5.81"/>
-                <circle class="cls-supernova-39" cx="575.09" cy="290.42" r="4.36"/>
-                <circle class="cls-supernova-39" cx="565.61" cy="246.66" r="3.27"/>
-                <circle class="cls-supernova-39" cx="530.8" cy="358.21" r="3.27"/>
-                <circle class="cls-supernova-39" cx="514.07" cy="330.1" r="3.27"/>
-                <circle class="cls-supernova-39" cx="583.15" cy="186.13" r="3.27"/>
-            </g>
-            <g class="supernova-light-bursts-top-small">
-                <polygon class="cls-supernova-46" points="482.72 470.34 473.88 448.58 731.7 309.72 764.34 390.08 482.72 470.34"/>
-                <polygon class="cls-supernova-18" points="477.63 465.93 469.29 453.39 724.68 330.58 755.45 376.88 477.63 465.93"/>
-                <circle class="cls-supernova-14" cx="595.35" cy="396.38" r="4.22"/>
-                <circle class="cls-supernova-13" cx="543.14" cy="445.6" r="3.16"/>
-                <circle class="cls-supernova-15" cx="549.34" cy="422.8" r="3.16"/>
-                <circle class="cls-supernova-16" cx="667.42" cy="407.09" r="2.37"/>
-                <circle class="cls-supernova-11" cx="517.12" cy="452.88" r="4.22"/>
-                <circle class="cls-supernova-12" cx="528.67" cy="442.71" r="2.37"/>
-                <circle class="cls-supernova-39" cx="514.95" cy="432.9" r="3.16"/>
-                <circle class="cls-supernova-39" cx="586.77" cy="411.12" r="2.37"/>
-                <circle class="cls-supernova-39" cx="577.14" cy="434.81" r="4.22"/>
-                <circle class="cls-supernova-39" cx="527.42" cy="430.79" r="4.22"/>
-                <circle class="cls-supernova-39" cx="617.74" cy="411.22" r="3.16"/>
-                <circle class="cls-supernova-39" cx="632.35" cy="382.22" r="2.37"/>
-                <circle class="cls-supernova-39" cx="561.84" cy="429.24" r="2.37"/>
-                <circle class="cls-supernova-39" cx="565.23" cy="405.76" r="2.37"/>
-                <circle class="cls-supernova-39" cx="669.86" cy="356.09" r="2.37"/>
+            <g class="supernova-light-bursts-top">
+                <g class="supernova-light-bursts-top-large">
+                    <polygon class="cls-supernova-20" points="493.71 474.12 467.6 436.3 901.21 61.72 997.64 201.37 493.71 474.12"/>
+                    <polygon class="cls-supernova-24" points="482.11 467.87 460.87 447.45 896.64 104.54 975.05 179.94 482.11 467.87"/>
+                    <circle class="cls-supernova-27" cx="677.49" cy="285.09" r="8.25"/>
+                    <circle class="cls-supernova-9" cx="598.64" cy="401.25" r="6.19"/>
+                    <circle class="cls-supernova-10" cx="600.8" cy="355.07" r="6.19"/>
+                    <circle class="cls-supernova-5" cx="819.7" cy="274.98" r="4.64"/>
+                    <circle class="cls-supernova-1" cx="552.02" cy="426.19" r="8.25"/>
+                    <circle class="cls-supernova-8" cx="569.77" cy="401.86" r="4.64"/>
+                    <circle class="cls-supernova-39" cx="539.39" cy="388.94" r="6.19"/>
+                    <circle class="cls-supernova-39" cx="667.35" cy="316.88" r="4.64"/>
+                    <circle class="cls-supernova-39" cx="659" cy="366.21" r="8.25"/>
+                    <circle class="cls-supernova-39" cx="562.33" cy="379.61" r="8.25"/>
+                    <circle class="cls-supernova-39" cx="726.56" cy="303.94" r="6.19"/>
+                    <circle class="cls-supernova-39" cx="742.17" cy="242.33" r="4.64"/>
+                    <circle class="cls-supernova-39" cx="627.42" cy="362.06" r="4.64"/>
+                    <circle class="cls-supernova-39" cx="623.94" cy="315.77" r="4.64"/>
+                    <circle class="cls-supernova-39" cx="802.73" cy="176.52" r="4.64"/>
+                </g>
+                <g class="supernova-light-bursts-top-middle">
+                    <polygon class="cls-supernova-22" points="481.62 470.87 453.28 455.21 609.24 82.81 713.91 140.64 481.62 470.87"/>
+                    <polygon class="cls-supernova-19" points="472.34 470.56 452.53 464.35 619.8 111.25 692.93 134.21 472.34 470.56"/>
+                    <circle class="cls-supernova-6" cx="538.22" cy="293.93" r="5.81"/>
+                    <circle class="cls-supernova-2" cx="524.94" cy="391.96" r="4.36"/>
+                    <circle class="cls-supernova-7" cx="511.81" cy="362.15" r="4.36"/>
+                    <circle class="cls-supernova-4" cx="624.76" cy="242.92" r="3.27"/>
+                    <circle class="cls-supernova-3" cx="503.36" cy="422.33" r="5.81"/>
+                    <circle class="cls-supernova-17" cx="506.92" cy="401.41" r="3.27"/>
+                    <circle class="cls-supernova-39" cx="483.7" cy="402.79" r="4.36"/>
+                    <circle class="cls-supernova-39" cx="541.8" cy="317.17" r="3.27"/>
+                    <circle class="cls-supernova-39" cx="552.02" cy="350.91" r="5.81"/>
+                    <circle class="cls-supernova-39" cx="495.25" cy="389.71" r="5.81"/>
+                    <circle class="cls-supernova-39" cx="575.09" cy="290.42" r="4.36"/>
+                    <circle class="cls-supernova-39" cx="565.61" cy="246.66" r="3.27"/>
+                    <circle class="cls-supernova-39" cx="530.8" cy="358.21" r="3.27"/>
+                    <circle class="cls-supernova-39" cx="514.07" cy="330.1" r="3.27"/>
+                    <circle class="cls-supernova-39" cx="583.15" cy="186.13" r="3.27"/>
+                </g>
+                <g class="supernova-light-bursts-top-small">
+                    <polygon class="cls-supernova-46" points="482.72 470.34 473.88 448.58 731.7 309.72 764.34 390.08 482.72 470.34"/>
+                    <polygon class="cls-supernova-18" points="477.63 465.93 469.29 453.39 724.68 330.58 755.45 376.88 477.63 465.93"/>
+                    <circle class="cls-supernova-14" cx="595.35" cy="396.38" r="4.22"/>
+                    <circle class="cls-supernova-13" cx="543.14" cy="445.6" r="3.16"/>
+                    <circle class="cls-supernova-15" cx="549.34" cy="422.8" r="3.16"/>
+                    <circle class="cls-supernova-16" cx="667.42" cy="407.09" r="2.37"/>
+                    <circle class="cls-supernova-11" cx="517.12" cy="452.88" r="4.22"/>
+                    <circle class="cls-supernova-12" cx="528.67" cy="442.71" r="2.37"/>
+                    <circle class="cls-supernova-39" cx="514.95" cy="432.9" r="3.16"/>
+                    <circle class="cls-supernova-39" cx="586.77" cy="411.12" r="2.37"/>
+                    <circle class="cls-supernova-39" cx="577.14" cy="434.81" r="4.22"/>
+                    <circle class="cls-supernova-39" cx="527.42" cy="430.79" r="4.22"/>
+                    <circle class="cls-supernova-39" cx="617.74" cy="411.22" r="3.16"/>
+                    <circle class="cls-supernova-39" cx="632.35" cy="382.22" r="2.37"/>
+                    <circle class="cls-supernova-39" cx="561.84" cy="429.24" r="2.37"/>
+                    <circle class="cls-supernova-39" cx="565.23" cy="405.76" r="2.37"/>
+                    <circle class="cls-supernova-39" cx="669.86" cy="356.09" r="2.37"/>
+                </g>
             </g>
             <g class="supernova-stars">
                 <g>

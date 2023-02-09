@@ -36,9 +36,9 @@
     <g id="black_dwarf">
         <g>
             <g class="black-dwarf-shine-purple">
-                <circle class="cls-black-dwarf-4" cx="421.8" cy="427.48" r="421.8"/>
-                <circle class="cls-black-dwarf-2" cx="360.62" cy="341" r="341"/>
-                <circle class="cls-black-dwarf-3" cx="502.61" cy="472.53" r="341"/>
+                <circle class="black-dwarf-shine-purple-main cls-black-dwarf-4" cx="421.8" cy="427.48" r="421.8"/>
+                <circle class="black-dwarf-shine-purple-left cls-black-dwarf-2" cx="360.62" cy="341" r="341"/>
+                <circle class="black-dwarf-shine-purple-right cls-black-dwarf-3" cx="502.61" cy="472.53" r="341"/>
             </g>
             <g class="black-dwarf-main-body">
                 <circle class="cls-black-dwarf-6" cx="421.8" cy="428.56" r="357.42"/>
