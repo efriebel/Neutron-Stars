@@ -146,11 +146,11 @@ classes | star cycle | MAIN SEQUENCE STAR
 }
 @keyframes MainSequenceStarSparkles {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
 }
@@ -189,11 +189,11 @@ classes | star cycle | SUN-LIKE STAR
 }
 @keyframes SunLikeStarSparkles {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
 }
@@ -244,11 +244,11 @@ classes | star cycle | MASSIVE STAR
 }
 @keyframes MassiveStarSparkles {
     from {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
     to {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
 }
@@ -299,11 +299,11 @@ classes | star cycle | RED GIANT STAR
 }
 @keyframes RedGiantStarSparkles {
     from {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
     to {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
 }
@@ -354,11 +354,11 @@ classes | star cycle | RED SUPER GIANT STAR
 }
 @keyframes RedSuperGiantStarShineOutward {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: -10deg;
+        transform: rotate(-10deg);
         transform-origin: center;
     }
 }
@@ -368,11 +368,11 @@ classes | star cycle | RED SUPER GIANT STAR
 }
 @keyframes RedSuperGiantStarSparkles {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
 }
@@ -399,11 +399,11 @@ classes | star cycle | PLANETARY NEBULA
 }
 @keyframes PlanetaryNebulaCenter {
     from {
-        scale: 200%;
+        transform: scale(200%);
         transform-origin: center;
     }
     to {
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
 }
@@ -413,11 +413,11 @@ classes | star cycle | PLANETARY NEBULA
 }
 @keyframes PlanetaryNebulaMainBody {
     from {
-        scale: 80%;
+        transform: scale(80%);
         transform-origin: center;
     }
     to {
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
 }
@@ -445,12 +445,12 @@ classes | star cycle | SUPERNOVA
 @keyframes SupernovaLightBurstTop{
     from {
         opacity: 0.5;
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
         opacity: 1;
-        scale: 115%;
+        transform: scale(115%);
         transform-origin: center;
     }
 }
@@ -462,12 +462,12 @@ classes | star cycle | SUPERNOVA
 @keyframes SupernovaLightBurstBottom{
     from {
         opacity: 0.5;
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
         opacity: 1;
-        scale: 115%;
+        transform: scale(115%);
         transform-origin: center;
     }
 }
@@ -477,11 +477,11 @@ classes | star cycle | SUPERNOVA
 }
 @keyframes SupernovaRingBlue{
     from {
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
-        scale: 90%;
+        transform: scale(90%);
         transform-origin: center;
     }
 }
@@ -508,11 +508,11 @@ classes | star cycle | WHITE DWARF
 }
 @keyframes WhiteDwarfShineRingsLeftBig {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 360deg;
+        transform: rotate(360deg);
         transform-origin: center;
     }
 }
@@ -522,11 +522,11 @@ classes | star cycle | WHITE DWARF
 }
 @keyframes WhiteDwarfShineRingsLeftSmall {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: -360deg;
+        transform: rotate(-360deg);
         transform-origin: center;
     }
 }
@@ -536,11 +536,11 @@ classes | star cycle | WHITE DWARF
 }
 @keyframes WhiteDwarfShineRingsRightBig {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: -360deg;
+        transform: rotate(-360deg);
         transform-origin: center;
     }
 }
@@ -550,11 +550,11 @@ classes | star cycle | WHITE DWARF
 }
 @keyframes WhiteDwarfShineRingsRightSmall {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 360deg;
+        transform: rotate(360deg);
         transform-origin: center;
     }
 }
@@ -605,11 +605,11 @@ classes | star cycle | NEUTRON STAR
 }
 @keyframes NeutronStarShineOutward {
     from {
-        rotate: -10deg;
+        transform: rotate(-10deg);
         transform-origin: center;
     }
     to {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
 }
@@ -619,11 +619,11 @@ classes | star cycle | NEUTRON STAR
 }
 @keyframes NeutronStarSparkles {
     from {
-        rotate: 5deg;
+        transform: rotate(5deg);
         transform-origin: center;
     }
     to {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
 }
@@ -662,11 +662,11 @@ classes | star cycle | BLACK DWARF
 }
 @keyframes BlackDwarfShineLeft {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 360deg;
+        transform: rotate(360deg);
         transform-origin: center;
     }
 }
@@ -676,11 +676,11 @@ classes | star cycle | BLACK DWARF
 }
 @keyframes BlackDwarfShineRight {
     from {
-        rotate: 0deg;
+        transform: rotate(0deg);
         transform-origin: center;
     }
     to {
-        rotate: 360deg;
+        transform: rotate(360deg);
         transform-origin: center;
     }
 }
@@ -707,11 +707,11 @@ classes | star cycle | BLACK HOLE
 }
 @keyframes BlackHoleMainBodyTop {
     from {
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
-        scale: 110%;
+        transform: scale(110%);
         transform-origin: center;
     }
 }
@@ -721,11 +721,11 @@ classes | star cycle | BLACK HOLE
 }
 @keyframes BlackHoleMainBodyBottom {
     from {
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
-        scale: 110%;
+        transform: scale(110%);
         transform-origin: center;
     }
 }
@@ -736,12 +736,12 @@ classes | star cycle | BLACK HOLE
 @keyframes BlackHoleLightOrbits {
     from {
         opacity: 0.75;
-        scale: 100%;
+        transform: scale(100%);
         transform-origin: center;
     }
     to {
         opacity: 1;
-        scale: 104%;
+        transform: scale(104%);
         transform-origin: center;
     }
 }
