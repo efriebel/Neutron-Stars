@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000.02 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg id="IP_PG_1" viewBox="0 0 1000.02 1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g>
         <radialGradient id="IP_PG_1a" cx="257.45" cy="2603.09" gradientTransform="matrix(1 0 0 1.26 0 -1395.66)" gradientUnits="userSpaceOnUse" r="1400.42">
             <stop offset=".84" stop-color="#221d43"/>
@@ -111,7 +111,7 @@
             <stop offset="1" stop-color="#e95313" stop-opacity="0"/>
         </radialGradient>
     </g>
-    <g>
+    <g id="ip_pg_1">
         <g class="IP_PG_1-bg">
             <path d="m0 0h1000v1000h-1000z" fill="#1b1532"/>
             <path d="m1000.01 386.06c-188.77-163.14-460.22-265.45-761.9-265.45-81.95 0-161.67 7.55-238.11 21.82v857.57h1000.01z" fill="url(#IP_PG_1a)"/>
