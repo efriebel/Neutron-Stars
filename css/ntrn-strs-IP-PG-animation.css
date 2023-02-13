@@ -1,0 +1,561 @@
+/*
+===================================
+classes | paragraphs | 1
+===================================
+ */
+/*LEFT COMPOUND*/
+.IP_PG_1-compound-left{
+    animation: PG1Left 2s ease-in-out infinite alternate
+}
+@keyframes PG1Left{
+    from {
+        transform: translateY(10%);
+    }
+    to {
+        transform: translateY(-10%);
+    }
+}
+/*RIGHT COMPOUND*/
+.IP_PG_1-compound-right{
+    animation: PG1Right 2s ease-in-out infinite alternate
+}
+@keyframes PG1Right{
+    from {
+        transform: translateY(-10%);
+    }
+    to {
+        transform: translateY(10%);
+    }
+}
+/*
+===================================
+classes | paragraphs | 2
+===================================
+ */
+/*BURST TOP*/
+.IP_PG_2-bursts-top{
+    animation: PG2LightBurstTop 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG2LightBurstTop{
+    from {
+        opacity: 0.5;
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        opacity: 1;
+        transform: scale(115%);
+        transform-origin: center;
+    }
+}
+/*BURST BOTTOM*/
+.IP_PG_2-bursts-bottom{
+    animation: PG2LightBurstBottom 1.5s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes PG2LightBurstBottom{
+    from {
+        opacity: 0.5;
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        opacity: 1;
+        transform: scale(115%);
+        transform-origin: center;
+    }
+}
+/*RING BLUE*/
+.IP_PG_2-cluster-rings{
+    animation: PG2ClusterRings 2s ease-in-out infinite alternate;
+}
+@keyframes PG2ClusterRings{
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(115%);
+        transform-origin: center;
+    }
+}
+/*STARS*/
+.IP_PG_2-stars{
+    animation: PG2Stars 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG2Stars{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*
+===================================
+classes | paragraphs | 3
+===================================
+ */
+/*SHINE OUTWARD*/
+.IP_PG_3-shine-outward{
+    animation: PG3ShineOutward 2s linear infinite alternate;
+}
+@keyframes PG3ShineOutward{
+    from {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(-20deg);
+        transform-origin: center;
+    }
+}
+/*MAIN BODY*/
+.IP_PG_3-main-body{
+    animation: PG3MainBody 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG3MainBody{
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(110%);
+        transform-origin: center;
+    }
+}
+/*STARS*/
+.IP_PG_3-bg-stars{
+    animation: PG3Stars 0.5s ease-in-out infinite alternate;
+}
+@keyframes PG3Stars {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.25;
+    }
+}
+/*SPECKS*/
+.IP_PG_3-bg-specks{
+    animation: PG3Specks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG3Specks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*
+===================================
+classes | paragraphs | 4
+===================================
+ */
+/*ARROWS OUTER*/
+.IP_PG_4-arrows-outer{
+    animation: PG4ArrowsOuter 1s ease-in-out infinite alternate;
+}
+@keyframes PG4ArrowsOuter {
+    from {
+        transform: scale(95%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(105%);
+        transform-origin: center;
+    }
+}
+/*ARROWS INNER*/
+.IP_PG_4-arrows-inner{
+    animation: PG4ArrowsInner 1s ease-in-out infinite alternate;
+}
+@keyframes PG4ArrowsInner {
+    from {
+        transform: scale(105%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(95%);
+        transform-origin: center;
+    }
+}
+/*STAR SPARKLES*/
+.IP_PG_4-star-sparkles{
+    animation: PG4StarSparkles 1.25s linear infinite alternate;
+}
+@keyframes PG4StarSparkles {
+    from {
+        transform: rotate(10deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+}
+/*
+===================================
+classes | paragraphs | 5
+===================================
+ */
+/*LIGHT ORBITS*/
+.IP_PG_5-light-orbit1,
+.IP_PG_5-light-orbit2,
+.IP_PG_5-light-orbit3,
+.IP_PG_5-light-orbit4,
+.IP_PG_5-light-orbit5{
+    animation: PG5LightOrbits 2s ease-in-out infinite alternate;
+}
+@keyframes PG5LightOrbits {
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(115%);
+        transform-origin: center;
+    }
+}
+/*FIELD*/
+.IP_PG_5-field{
+    animation: PG5Fields 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG5Fields {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+/*STARS*/
+.IP_PG_5-bg-stars{
+    animation: PG5Stars 0.5s ease-in-out infinite alternate;
+}
+@keyframes PG5Stars {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.25;
+    }
+}
+/*SPECKS*/
+.IP_PG_5-bg-specks{
+    animation: PG5Specks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG5Specks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*
+===================================
+classes | paragraphs | 6
+===================================
+ */
+/*LIGHT ORBITS*/
+.IP_PG_6-light-orbits{
+    animation: PG6LightOrbits 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG6LightOrbits {
+    from {
+        transform: scale(110%);
+        transform-origin: center;
+    }
+    to {
+        transform: scale(100%);
+        transform-origin: center;
+    }
+}
+/*LIGHT SINE INNER*/
+.IP_PG_6-light-shine-inner{
+    animation: PG6LightShineInner 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG6LightShineInner{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+/*STARS*/
+.IP_PG_6-bg-stars{
+    animation: PG6Stars 0.5s ease-in-out infinite alternate;
+}
+@keyframes PG6Stars {
+    from {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPECKS*/
+.IP_PG_6-bg-specks{
+    animation: PG6Specks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG6Specks {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | paragraphs | 7
+===================================
+ */
+/*LAYER OUTER*/
+.IP_PG_7-layer-outer{
+    animation: PG7LayerOuter 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG7LayerOuter {
+    from {
+        transform: translateX(-5%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+/*LAYER MIDDLE*/
+.IP_PG_7-layer-middle{
+    animation: PG7LayerMiddle 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG7LayerMiddle {
+    from {
+        transform: translateX(-10%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+/*LAYER INNER*/
+.IP_PG_7-layer-inner{
+    animation: PG7LayerInner 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG7LayerInner {
+    from {
+        transform: translateX(-15%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+/*CORE*/
+.IP_PG_7-core{
+    animation: PG7Core 1.5s ease-in-out infinite alternate;
+}
+@keyframes PG7Core {
+    from {
+        transform: translateX(-20%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+/*CORE SHINE*/
+.IP_PG_7-core-shine{
+    animation: PG7CoreShine 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG7CoreShine {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.25;
+    }
+}
+/*
+===================================
+classes | paragraphs | (8)
+===================================
+ */
+/**/
+
+/*
+===================================
+classes | paragraphs | 9
+===================================
+ */
+/*FIELD*/
+.IP_PG_9-field{
+    animation: PG9Field 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG9Field {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SHINE BASE*/
+.IP_PG_9-star-shine-base{
+    animation: PG9StarShineBase 2s linear infinite alternate;
+}
+@keyframes PG9StarShineBase {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPARKLES*/
+.IP_PG_9-star-sparkle{
+    animation: PG9StarSparkle 1s linear infinite alternate;
+}
+@keyframes PG9StarSparkle {
+    from {
+        transform: rotate(5deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.IP_PG_9-star-specks{
+    animation: PG9StarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG9StarSpecks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.75;
+    }
+}
+/*BG STARS*/
+.IP_PG_9-bg-stars{
+    animation: PG9Stars 0.5s ease-in-out infinite alternate;
+}
+@keyframes PG9Stars {
+    from {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*BG SPECKS*/
+.IP_PG_9-bg-specks{
+    animation: PG9Specks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG9Specks {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*
+===================================
+classes | paragraphs | 10
+===================================
+ */
+/*PULSAR BEAMS*/
+.IP_PG_10-pulsar-beams{
+    animation: PG10PulsarBeams 1.25s ease-in-out infinite alternate;
+}
+@keyframes PG10PulsarBeams {
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+        opacity:0.25;
+    }
+    to {
+        transform: scale(120%);
+        transform-origin: center;
+        opacity:1;
+    }
+}
+/*PULSAR BURSTS*/
+.IP_PG_10-pulsar-bursts{
+    animation: PG10PulsarBursts 1s ease-in-out infinite alternate;
+}
+@keyframes PG10PulsarBursts {
+    from {
+        transform: scale(100%);
+        transform-origin: center;
+        opacity:0.25;
+    }
+    to {
+        transform: scale(110%);
+        transform-origin: center;
+        opacity:1;
+    }
+}
+/*SHINE BASE*/
+.IP_PG_10-star-shine-base{
+    animation: PG10StarShineBase 2s linear infinite alternate;
+}
+@keyframes PG10StarShineBase {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*SPARKLES*/
+.IP_PG_10-star-sparkle{
+    animation: PG10StarSparkle 1s linear infinite alternate;
+}
+@keyframes PG10StarSparkle {
+    from {
+        transform: rotate(5deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+}
+/*SPECKS*/
+.IP_PG_10-star-specks{
+    animation: PG10StarSpecks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG10StarSpecks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.75;
+    }
+}
+/*BG STARS*/
+.IP_PG_10-bg-stars{
+    animation: PG10Stars 0.5s ease-in-out infinite alternate;
+}
+@keyframes PG10Stars {
+    from {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*BG SPECKS*/
+.IP_PG_10-bg-specks{
+    animation: PG10Specks 0.75s ease-in-out infinite alternate;
+}
+@keyframes PG10Specks {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

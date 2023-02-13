@@ -8,8 +8,7 @@ const controls = {
 }
 
 function preload() {
-    //SVG
-
+    //loads SVGs
     //imgLichSystem = loadSVG('/img/SMP/SMP_lich_system.svg');
     imgMergerSystem = loadSVG('/img/SMP/SMP_merger_system.svg');
     imgMilkyway = loadSVG('/img/SMP/SMP_milkyway.svg');
@@ -20,7 +19,8 @@ function preload() {
     imgSolarSystem = loadSVG('/img/SMP/SMP_solar_system.svg');
     imgStephenson2 = loadSVG('/img/SMP/SMP_stephenson2.svg');
     imgTarantulaNebula = loadSVG('/img/SMP/SMP_tarantula_nebula.svg');
-    //Image
+
+    //loads Images (for check-up)
     imgLichSystem = loadImage('/img/SMP/SMP_lich_system.svg');
     /*
     imgMergerSystem = loadImage('/img/SMP/SMP_merger_system.svg');
@@ -40,6 +40,7 @@ function setup() {  // called from p5
     //canvas.mouseWheel(e => Controls.zoom(controls).worldZoom(e));
 }
 
+//mouseWheel function rewritten, which erases the error message in the console
 function mouseWheel(e) {
     Controls.zoom(controls).worldZoom(e);
     if (e.deltaY > 0) {
@@ -51,22 +52,20 @@ function mouseWheel(e) {
   }
 
 function draw() {
-    clear();
+    clear();    //clear() function doesn't help issue | irrelevant
     background(19, 8, 52);
     translate(controls.view.x, controls.view.y);
     scale(controls.view.zoom);
 
-    //Set image size and position
+    //Set image size and position | LAYER 1 (max zoom state)
     image(imgLichSystem, 102, 84, 8, 11);
     image(imgMergerSystem, 313, 155, 6, 5);
-    //image(imgMilkyway, );
     image(imgPSRJ05406919TN, 69, 49, 5, 5);
     image(imgPSRJ17191438DiamondSystem, 275, 121, 7, 7);
     image(imgSagittariusA, 153, 81, 54, 35);
     image(imgSiriusSystem, 179, 64, 17, 5);
     image(imgSolarSystem, 222, 141, 15, 6);
     image(imgStephenson2, 141, 125, 4, 4);
-    //image(imgTarantulaNebula, );
 
     if (controls.view.zoom > 1 && controls.view.zoom < 1.5) {
         fill('yellowgreen');

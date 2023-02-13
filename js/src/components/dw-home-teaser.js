@@ -21,7 +21,7 @@ class DwHomeTeaser extends HTMLElement {
         this.shadowRoot.innerHTML += `
             <div>
                 <div class="teaser-img">
-                    <img src="img/${img}" alt="TeaserNeutronStar">
+                    <img src="img/LP/${img}" alt="TeaserNeutronStar">
                 </div>
                 <div>
                     <h3>${title}</h3>
