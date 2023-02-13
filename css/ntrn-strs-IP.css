@@ -236,6 +236,13 @@ classes | life cycle
     .lc-container-medium:has(.arrow-info-button-active) {
         height: 100%;
     }
+
+    /*Firefox Fallback because :has() in not selected yet*/
+    @-moz-document url-prefix() {
+        .lc-container-medium.arrow-info-button-active {
+            height: 100%;
+        }
+    }
 }
 @media only screen and (min-width: 768px) {
     .lc svg{
