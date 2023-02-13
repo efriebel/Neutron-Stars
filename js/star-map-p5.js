@@ -2,6 +2,9 @@ let canvas;
 let d;
 let imgLichSystem, imgMergerSystem, imgMilkyway, imgPSRJ05406919TN, imgPSRJ17191438DiamondSystem, imgSagittariusA, imgSiriusSystem, imgSolarSystem, imgStephenson2, imgTarantulaNebula;
 
+const zoomFactor = 1;
+const moveFactor = 0;
+
 const controls = {
     view: {x: 0, y: 0, zoom: 1},
     viewPos: {prevX: null, prevY: null, isDragging: false},     //controls for window position focused on mouse
@@ -9,7 +12,7 @@ const controls = {
 
 function preload() {
     //loads SVGs
-    //imgLichSystem = loadSVG('/img/SMP/SMP_lich_system.svg');
+    imgLichSystem = loadSVG('/img/SMP/SMP_lich_system.svg');
     imgMergerSystem = loadSVG('/img/SMP/SMP_merger_system.svg');
     imgMilkyway = loadSVG('/img/SMP/SMP_milkyway.svg');
     imgPSRJ05406919TN = loadSVG('/img/SMP/SMP_PSRJ0540-6919_TN.svg');
@@ -19,20 +22,6 @@ function preload() {
     imgSolarSystem = loadSVG('/img/SMP/SMP_solar_system.svg');
     imgStephenson2 = loadSVG('/img/SMP/SMP_stephenson2.svg');
     imgTarantulaNebula = loadSVG('/img/SMP/SMP_tarantula_nebula.svg');
-
-    //loads Images (for check-up)
-    imgLichSystem = loadImage('/img/SMP/SMP_lich_system.svg');
-    /*
-    imgMergerSystem = loadImage('/img/SMP/SMP_merger_system.svg');
-    imgMilkyway = loadImage('/img/SMP/SMP_milkyway.svg');
-    imgPSRJ05406919TN = loadImage('/img/SMP/SMP_PSRJ0540-6919_TN.svg');
-    imgPSRJ17191438DiamondSystem = loadImage('/img/SMP/SMP_PSRJ1719-1438_diamond_system.svg');
-    imgSagittariusA = loadImage('/img/SMP/SMP_sagittariusA.svg');
-    imgSiriusSystem = loadImage('/img/SMP/SMP_sirius_system.svg');
-    imgSolarSystem = loadImage('/img/SMP/SMP_solar_system.svg');
-    imgStephenson2 = loadImage('/img/SMP/SMP_stephenson2.svg');
-    imgTarantulaNebula = loadImage('/img/SMP/SMP_tarantula_nebula.svg');
-    */
 }
 
 function setup() {  // called from p5
@@ -52,25 +41,37 @@ function mouseWheel(e) {
   }
 
 function draw() {
-    clear();    //clear() function doesn't help issue | irrelevant
     background(19, 8, 52);
-    translate(controls.view.x, controls.view.y);
-    scale(controls.view.zoom);
+
+    console.debug(controls.view);
 
     //Set image size and position | LAYER 1 (max zoom state)
-    image(imgLichSystem, 102, 84, 8, 11);
-    image(imgMergerSystem, 313, 155, 6, 5);
-    image(imgPSRJ05406919TN, 69, 49, 5, 5);
-    image(imgPSRJ17191438DiamondSystem, 275, 121, 7, 7);
-    image(imgSagittariusA, 153, 81, 54, 35);
-    image(imgSiriusSystem, 179, 64, 17, 5);
-    image(imgSolarSystem, 222, 141, 15, 6);
-    image(imgStephenson2, 141, 125, 4, 4);
+    renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
+    renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
+    renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
+    renderImages(imgPSRJ17191438DiamondSystem, 275, 121, 7,7, controls.view);
+    renderImages(imgSagittariusA, 153, 81, 54, 35, controls.view);
+    renderImages(imgSiriusSystem, 179, 64, 17, 5, controls.view);
+    renderImages(imgSolarSystem, 222, 141, 15, 6, controls.view);
+    renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);
 
     if (controls.view.zoom > 1 && controls.view.zoom < 1.5) {
         fill('yellowgreen');
         rect(75 + 25, 75 + 25, 50, 50);
     }       // zoom factor >1 & <1.5 => yellowgreen square is visible
+}
+
+function renderImages(img, x, y, width, height, view) {
+    const calculatePosition = (n, viewN, zoom) => (n + viewN) * (zoom * zoomFactor);
+    const calculateSize = (size, zoom) => size * (zoom * zoomFactor);
+
+    image(
+        img,
+        calculatePosition(x, view.x, view.zoom),
+        calculatePosition(y, view.y, view.zoom),
+        calculateSize(width, view.zoom),
+        calculateSize(height, view.zoom)
+    );
 }
 
 window.mousePressed = e => Controls.move(controls).mousePressed(e)
@@ -89,7 +90,6 @@ class Controls {
         function mouseDragged(e) {      //if mouse is dragged, zoom factor multiplies with mouse position & canvas is "draggable"
             const {prevX, prevY, isDragging} = controls.viewPos;
             if (!isDragging) return;
-
             const pos = {x: e.clientX, y: e.clientY};
             const dx = pos.x - prevX;
             const dy = pos.y - prevY;
@@ -97,7 +97,8 @@ class Controls {
             if (prevX || prevY) {
                 controls.view.x += dx;
                 controls.view.y += dy;
-                controls.viewPos.prevX = pos.x, controls.viewPos.prevY = pos.y
+                controls.viewPos.prevX = pos.x;
+                controls.viewPos.prevY = pos.y;
             }
         }
 
