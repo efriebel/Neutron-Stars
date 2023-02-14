@@ -379,8 +379,114 @@ classes | paragraphs | 7
 classes | paragraphs | (8)
 ===================================
  */
-/**/
-
+/*LASAGNE ALL*/
+.IP_PG_8-lasagne1{
+    animation: PG8Lasagne1 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+}
+@keyframes PG8Lasagne1 {
+    from {
+        transform: translateX(-8%);
+    }
+    to {
+        transform: translateX(8%);
+    }
+}
+.IP_PG_8-lasagne2{
+    animation: PG8Lasagne2 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.25s;
+}
+@keyframes PG8Lasagne2 {
+    from {
+        transform: translateX(5%);
+    }
+    to {
+        transform: translateX(-5%);
+    }
+}
+.IP_PG_8-lasagne3{
+    animation: PG8Lasagne3 3.5s ease-in-out infinite alternate;
+}
+@keyframes PG8Lasagne3 {
+    from {
+        transform: translateX(-6.5%);
+    }
+    to {
+        transform: translateX(6.5%);
+    }
+}
+/*SPAGHETTI ALL*/
+.IP_PG_8-spaghetti-all{
+    animation: PG8SpaghettiAll 3.5s ease-in-out infinite alternate;
+    animation-delay: 0.75s;
+}
+@keyframes PG8SpaghettiAll {
+    from {
+        transform: translateX(6%);
+    }
+    to {
+        transform: translateX(-6%);
+    }
+}
+.IP_PG_8-spaghetti-top1{
+    animation: PG8SpaghettiSolos 1s ease-in-out infinite alternate;
+}
+.IP_PG_8-spaghetti-top2{
+    animation: PG8SpaghettiSolos 0.75s ease-in-out infinite alternate-reverse;
+}
+.IP_PG_8-spaghetti-top3{
+    animation: PG8SpaghettiSolos 1.25s ease-in-out infinite alternate;
+}
+.IP_PG_8-spaghetti-bottom1{
+    animation: PG8SpaghettiSolos 0.75s ease-in-out infinite alternate-reverse;
+}
+.IP_PG_8-spaghetti-bottom2{
+    animation: PG8SpaghettiSolos 1.25s ease-in-out infinite alternate-reverse;
+}
+.IP_PG_8-spaghetti-bottom3{
+    animation: PG8SpaghettiSolos 1s ease-in-out infinite alternate;
+}
+@keyframes PG8SpaghettiSolos {
+    from {
+        transform: translateY(1%);
+    }
+    to {
+        transform: translateY(-1%);
+    }
+}
+/*GNOCCHI ALL*/
+.IP_PG_8-gnocchi-all{
+    animation: PG8GnocchiAll 3.5s ease-in-out infinite alternate;
+    animation-delay: 1s;
+}
+@keyframes PG8GnocchiAll {
+    from {
+        transform: translateX(-7%);
+    }
+    to {
+        transform: translateX(7%);
+    }
+}
+.IP_PG_8-gnocchi1{
+    animation: PG8GnocchiSolos 1s ease-in-out infinite alternate-reverse;
+}
+.IP_PG_8-gnocchi2{
+    animation: PG8GnocchiSolos 1.25s ease-in-out infinite alternate;
+}
+.IP_PG_8-gnocchi3{
+    animation: PG8GnocchiSolos 1.5s ease-in-out infinite alternate;
+}
+.IP_PG_8-gnocchi4{
+    animation: PG8GnocchiSolos 0.75s ease-in-out infinite alternate-reverse;
+}
+@keyframes PG8GnocchiSolos {
+    from {
+        transform: translateY(-0.75%);
+    }
+    to {
+        transform: translateY(0.75%);
+    }
+}
 /*
 ===================================
 classes | paragraphs | 9
