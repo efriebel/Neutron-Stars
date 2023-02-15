@@ -1,10 +1,9 @@
 let canvas;
 let d;
 let imgLichSystem, imgMergerSystem, imgMilkyway, imgPSRJ05406919TN, imgPSRJ17191438DiamondSystem, imgSagittariusA, imgSiriusSystem, imgSolarSystem, imgStephenson2, imgTarantulaNebula;
-
+let imgBGElements;
 const zoomFactor = 1;
 const moveFactor = 0;
-
 const controls = {
     view: {x: 0, y: 0, zoom: 1},
     viewPos: {prevX: null, prevY: null, isDragging: false},     //controls for window position focused on mouse
@@ -12,6 +11,8 @@ const controls = {
 
 function preload() {
     //loads SVGs
+    imgBGElements = loadSVG('/img/SMP/SMP_bg_elements.svg');
+
     imgLichSystem = loadSVG('/img/SMP/SMP_lich_system.svg');
     imgMergerSystem = loadSVG('/img/SMP/SMP_merger_system.svg');
     imgMilkyway = loadSVG('/img/SMP/SMP_milkyway.svg');
@@ -45,7 +46,9 @@ function draw() {
 
     console.debug(controls.view);
 
-    //Set image size and position | LAYER 1 (max zoom state)
+    //Set image size and position
+    image(imgBGElements, 0, 0, 360, 203);
+    // LAYER 1 (max zoom state)
     renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
     renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
     renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
