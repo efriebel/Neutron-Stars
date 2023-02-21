@@ -11,16 +11,8 @@ classes | stars border
     display: flex;
     justify-content: space-around;
 }
-.info-stars-first{
-    width: 40px;
-}
-.info-stars-middle{
-    width: 60px;
-    transform: rotate(90deg);
-}
-.info-stars-last{
-    width: 60px;
-    transform: rotate(-90deg);
+.info-stars-box img{
+    width: auto;
 }
 @media only screen and (min-width: 360px) {
     .info-stars-box{
