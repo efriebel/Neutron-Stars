@@ -87,7 +87,7 @@ let objects = [
 
 let img;
 function preload() {
-    img = loadImage('/img/LP_galaxy_final.svg');
+    img = loadImage('/img/LP/LP_galaxy_final.svg');
     console.log(img);
     //img.size(200, 200);
 }
@@ -143,7 +143,8 @@ class Controls {
             if (prevX || prevY) {
                 controls.view.x += dx;
                 controls.view.y += dy;
-                controls.viewPos.prevX = pos.x, controls.viewPos.prevY = pos.y
+                controls.viewPos.prevX = pos.x;
+                controls.viewPos.prevY = pos.y;
             }
         }
 

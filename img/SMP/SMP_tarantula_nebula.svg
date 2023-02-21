@@ -422,7 +422,7 @@
                 <circle class="cls-tarantula-nebula-23" cx="2422.14" cy="1550.05" r="42.32"/>
             </g>
             <g>
-                <g class="tarantula-nebula-dust-triplet">
+                <g class="tarantula-nebula-dust-rose">
                     <circle class="cls-tarantula-nebula-49" cx="2127.96" cy="2707.75" r="487.64"/>
                     <circle class="cls-tarantula-nebula-48" cx="2169.69" cy="2679.89" r="487.64"/>
                     <circle class="cls-tarantula-nebula-53" cx="2148.83" cy="2695.78" r="487.64"/>
@@ -431,11 +431,11 @@
                     <circle class="cls-tarantula-nebula-52" cx="1774.75" cy="1397.87" r="1193.37"/>
                     <circle class="cls-tarantula-nebula-46" cx="1820.41" cy="1401.58" r="1193.37"/>
                 </g>
-                <circle class="cls-tarantula-nebula-44 tarantula-nebula-dust-purple1" cx="1306.86" cy="1313.82" r="905.39"/>
-                <circle class="cls-tarantula-nebula-45 tarantula-nebula-dust-purple2" cx="2464.46" cy="764.66" r="764.66"/>
-                <circle class="cls-tarantula-nebula-51 tarantula-nebula-dust-blue1" cx="669.23" cy="2260.52" r="669.23"/>
-                <circle class="cls-tarantula-nebula-50 tarantula-nebula-dust-blue2" cx="2464.46" cy="1969.89" r="669.23"/>
-                <circle class="cls-tarantula-nebula-54 tarantula-nebula-dust-red" cx="1090.21" cy="2798.43" r="957.9"/>
+                <circle class="tarantula-nebula-dust-purple1 cls-tarantula-nebula-44" cx="1306.86" cy="1313.82" r="905.39"/>
+                <circle class="tarantula-nebula-dust-purple2 cls-tarantula-nebula-45" cx="2464.46" cy="764.66" r="764.66"/>
+                <circle class="tarantula-nebula-dust-blue1 cls-tarantula-nebula-51" cx="669.23" cy="2260.52" r="669.23"/>
+                <circle class="tarantula-nebula-dust-blue2 cls-tarantula-nebula-50" cx="2464.46" cy="1969.89" r="669.23"/>
+                <circle class="tarantula-nebula-dust-red cls-tarantula-nebula-54" cx="1090.21" cy="2798.43" r="957.9"/>
             </g>
         </g>
     </g>

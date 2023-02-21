@@ -1,1 +1,350 @@
-<?xml version="1.0" encoding="UTF-8"?><svg id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1769.17 2201.2"><defs><style>.cls-1{fill:url(#Unbenannter_Verlauf_81-3);}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9,.cls-10{opacity:.25;}.cls-2{fill:url(#Unbenannter_Verlauf_81-2);}.cls-3{fill:url(#Unbenannter_Verlauf_57-3);}.cls-4{fill:url(#Unbenannter_Verlauf_57-2);}.cls-11{fill:url(#Unbenannter_Verlauf_14-4);}.cls-12{fill:url(#Unbenannter_Verlauf_14-2);}.cls-13{fill:url(#Unbenannter_Verlauf_14-3);}.cls-14{fill:url(#Unbenannter_Verlauf_36-2);}.cls-14,.cls-15,.cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21,.cls-22,.cls-23,.cls-24,.cls-25,.cls-26,.cls-27,.cls-28{opacity:.35;}.cls-15{fill:url(#Unbenannter_Verlauf_36-3);}.cls-16{fill:url(#Unbenannter_Verlauf_52-2);}.cls-17{fill:url(#Unbenannter_Verlauf_52-4);}.cls-18{fill:url(#Unbenannter_Verlauf_52-3);}.cls-19{fill:url(#Unbenannter_Verlauf_52-5);}.cls-5{fill:url(#Unbenannter_Verlauf_81);}.cls-6{fill:url(#Unbenannter_Verlauf_57);}.cls-7{fill:url(#Unbenannter_Verlauf_59);}.cls-20{fill:url(#Unbenannter_Verlauf_36);}.cls-21{fill:url(#Unbenannter_Verlauf_48);}.cls-22{fill:url(#Unbenannter_Verlauf_52);}.cls-29{fill:url(#Unbenannter_Verlauf_12);}.cls-29,.cls-30,.cls-31,.cls-32,.cls-33,.cls-34,.cls-35{opacity:.5;}.cls-30{fill:url(#Unbenannter_Verlauf_29);}.cls-31{fill:url(#Unbenannter_Verlauf_20);}.cls-36{fill:#fff;}.cls-37{fill:url(#Unbenannter_Verlauf_14);}.cls-33{fill:url(#Unbenannter_Verlauf_122);}.cls-34{fill:url(#Unbenannter_Verlauf_111);}.cls-35{fill:url(#Unbenannter_Verlauf_493);}.cls-8{fill:url(#Unbenannter_Verlauf_361);}.cls-23{fill:url(#Unbenannter_Verlauf_350);}.cls-24{fill:url(#Unbenannter_Verlauf_127);}.cls-25{fill:url(#Unbenannter_Verlauf_578);}.cls-26{fill:url(#Unbenannter_Verlauf_571);}.cls-9{fill:url(#Unbenannter_Verlauf_361-2);}.cls-10{fill:url(#Unbenannter_Verlauf_361-3);}.cls-27{fill:url(#Unbenannter_Verlauf_350-2);}.cls-28{fill:url(#Unbenannter_Verlauf_578-2);}</style><radialGradient id="Unbenannter_Verlauf_20" cx="7718.14" cy="2600.04" fx="7718.14" fy="2600.04" r="227.39" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6d94cd" stop-opacity="0"/><stop offset=".15" stop-color="#6d94cd" stop-opacity=".02"/><stop offset=".3" stop-color="#6d94cd" stop-opacity=".08"/><stop offset=".45" stop-color="#6d94cd" stop-opacity=".17"/><stop offset=".6" stop-color="#6d94cd" stop-opacity=".31"/><stop offset=".73" stop-color="#6d94cd" stop-opacity=".46"/><stop offset=".77" stop-color="#81a2d4" stop-opacity=".55"/><stop offset=".86" stop-color="#b6c7e8" stop-opacity=".78"/><stop offset=".87" stop-color="#bacaea" stop-opacity=".8"/><stop offset=".88" stop-color="#b1c3e6" stop-opacity=".78"/><stop offset=".9" stop-color="#98b2dd" stop-opacity=".71"/><stop offset=".93" stop-color="#7197ce" stop-opacity=".61"/><stop offset=".93" stop-color="#6d94cd" stop-opacity=".6"/><stop offset=".94" stop-color="#6d94cd" stop-opacity=".56"/><stop offset=".96" stop-color="#6d94cd" stop-opacity=".44"/><stop offset=".98" stop-color="#6d94cd" stop-opacity=".25"/><stop offset="1" stop-color="#6d94cd" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_122" cx="7586.27" cy="2098.53" fx="7586.27" fy="2098.53" r="559.24" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#582f85" stop-opacity="0"/><stop offset=".19" stop-color="#582f85" stop-opacity=".03"/><stop offset=".37" stop-color="#582f85" stop-opacity=".12"/><stop offset=".55" stop-color="#582f85" stop-opacity=".27"/><stop offset=".73" stop-color="#582f85" stop-opacity=".46"/><stop offset=".79" stop-color="#673f8f" stop-opacity=".59"/><stop offset=".86" stop-color="#7e58a0" stop-opacity=".8"/><stop offset=".88" stop-color="#764f9a" stop-opacity=".76"/><stop offset=".92" stop-color="#61398b" stop-opacity=".65"/><stop offset=".93" stop-color="#582f85" stop-opacity=".6"/><stop offset=".95" stop-color="#582f85" stop-opacity=".53"/><stop offset=".97" stop-color="#582f85" stop-opacity=".36"/><stop offset=".99" stop-color="#582f85" stop-opacity=".07"/><stop offset="1" stop-color="#582f85" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_111" cx="7252.71" cy="2558.33" fx="7252.71" fy="2558.33" r="462.44" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#26346b" stop-opacity="0"/><stop offset=".21" stop-color="#26346b" stop-opacity=".04"/><stop offset=".41" stop-color="#26346b" stop-opacity=".15"/><stop offset=".62" stop-color="#26346b" stop-opacity=".33"/><stop offset=".73" stop-color="#26346b" stop-opacity=".46"/><stop offset=".77" stop-color="#2d437e" stop-opacity=".56"/><stop offset=".86" stop-color="#4068b0" stop-opacity=".8"/><stop offset=".88" stop-color="#3c61a7" stop-opacity=".77"/><stop offset=".9" stop-color="#334f8f" stop-opacity=".71"/><stop offset=".93" stop-color="#26346b" stop-opacity=".6"/><stop offset=".95" stop-color="#26346b" stop-opacity=".52"/><stop offset=".97" stop-color="#26346b" stop-opacity=".3"/><stop offset="1" stop-color="#26346b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_493" cx="7198.07" cy="279.55" fx="7198.07" fy="279.55" r="487.77" gradientTransform="translate(6934.94 5252.6) rotate(-151.2)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1852a1" stop-opacity="0"/><stop offset=".17" stop-color="#1852a1" stop-opacity=".02"/><stop offset=".34" stop-color="#1852a1" stop-opacity=".1"/><stop offset=".51" stop-color="#1852a1" stop-opacity=".22"/><stop offset=".67" stop-color="#1852a1" stop-opacity=".39"/><stop offset=".73" stop-color="#1852a1" stop-opacity=".46"/><stop offset=".76" stop-color="#326cab" stop-opacity=".53"/><stop offset=".83" stop-color="#77aec5" stop-opacity=".7"/><stop offset=".86" stop-color="#9fd5d5" stop-opacity=".8"/><stop offset=".87" stop-color="#94cad0" stop-opacity=".78"/><stop offset=".89" stop-color="#76aec5" stop-opacity=".74"/><stop offset=".91" stop-color="#4780b3" stop-opacity=".67"/><stop offset=".93" stop-color="#1852a1" stop-opacity=".6"/><stop offset=".94" stop-color="#1852a1" stop-opacity=".55"/><stop offset=".96" stop-color="#1852a1" stop-opacity=".4"/><stop offset=".99" stop-color="#1852a1" stop-opacity=".16"/><stop offset="1" stop-color="#1852a1" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_29" cx="713.27" cy="892.79" fx="713.27" fy="892.79" r="290.73" gradientTransform="translate(314.71 849.08) rotate(-26.67)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#178e5b" stop-opacity="0"/><stop offset=".18" stop-color="#178e5b" stop-opacity=".03"/><stop offset=".36" stop-color="#178e5b" stop-opacity=".11"/><stop offset=".54" stop-color="#178e5b" stop-opacity=".25"/><stop offset=".71" stop-color="#178e5b" stop-opacity=".44"/><stop offset=".73" stop-color="#178e5b" stop-opacity=".46"/><stop offset=".78" stop-color="#1c9b65" stop-opacity=".57"/><stop offset=".86" stop-color="#29b77a" stop-opacity=".8"/><stop offset=".88" stop-color="#26b075" stop-opacity=".77"/><stop offset=".91" stop-color="#1e9f67" stop-opacity=".68"/><stop offset=".93" stop-color="#178e5b" stop-opacity=".6"/><stop offset=".94" stop-color="#178e5b" stop-opacity=".54"/><stop offset=".97" stop-color="#178e5b" stop-opacity=".37"/><stop offset=".99" stop-color="#178e5b" stop-opacity=".1"/><stop offset="1" stop-color="#178e5b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_12" cx="7369.28" cy="-293.94" fx="7369.28" fy="-293.94" r="346.41" gradientTransform="translate(6149.68 5878.02) rotate(-139.61)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#32c65f" stop-opacity="0"/><stop offset=".15" stop-color="#32c65f" stop-opacity=".02"/><stop offset=".31" stop-color="#32c65f" stop-opacity=".08"/><stop offset=".46" stop-color="#32c65f" stop-opacity=".18"/><stop offset=".61" stop-color="#32c65f" stop-opacity=".32"/><stop offset=".73" stop-color="#32c65f" stop-opacity=".46"/><stop offset=".77" stop-color="#44cf6d" stop-opacity=".55"/><stop offset=".87" stop-color="#73e992" stop-opacity=".79"/><stop offset=".87" stop-color="#75ea94" stop-opacity=".8"/><stop offset=".88" stop-color="#6be48c" stop-opacity=".77"/><stop offset=".91" stop-color="#51d778" stop-opacity=".7"/><stop offset=".93" stop-color="#32c65f" stop-opacity=".6"/><stop offset=".94" stop-color="#32c65f" stop-opacity=".56"/><stop offset=".96" stop-color="#32c65f" stop-opacity=".44"/><stop offset=".98" stop-color="#32c65f" stop-opacity=".24"/><stop offset="1" stop-color="#32c65f" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_14" cx="1324.72" cy="996.66" fx="1324.72" fy="996.66" r="37.19" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fcea0d"/><stop offset="0" stop-color="#fff" stop-opacity=".94"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_14-2" cx="500.37" cy="1692.49" fx="500.37" fy="1692.49" r="22.99" xlink:href="#Unbenannter_Verlauf_14"/><radialGradient id="Unbenannter_Verlauf_14-3" cx="1511.95" cy="873.59" fx="1511.95" fy="873.59" r="47.17" xlink:href="#Unbenannter_Verlauf_14"/><radialGradient id="Unbenannter_Verlauf_14-4" cx="1130.46" cy="238.98" fx="1130.46" fy="238.98" r="47.17" xlink:href="#Unbenannter_Verlauf_14"/><radialGradient id="Unbenannter_Verlauf_127" cx="940.88" cy="1096.4" fx="940.88" fy="1096.4" r="50.82" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#7a3b8f"/><stop offset=".88" stop-color="#592a70" stop-opacity=".25"/><stop offset="1" stop-color="#4f2566" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_81" cx="860.6" cy="2173.03" fx="860.6" fy="2173.03" r="28.17" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#ac4492"/><stop offset=".82" stop-color="#833084" stop-opacity=".38"/><stop offset="1" stop-color="#6b247d" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_81-2" cx="748.6" cy="365.03" fx="748.6" fy="365.03" xlink:href="#Unbenannter_Verlauf_81"/><radialGradient id="Unbenannter_Verlauf_81-3" cx="748.6" cy="1539.03" fx="748.6" fy="1539.03" xlink:href="#Unbenannter_Verlauf_81"/><radialGradient id="Unbenannter_Verlauf_57" cx="226.38" cy="966.73" fx="226.38" fy="966.73" r="27" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#582f85" stop-opacity="0"/><stop offset=".15" stop-color="#582f85" stop-opacity=".02"/><stop offset=".27" stop-color="#5b3085" stop-opacity=".09"/><stop offset=".38" stop-color="#5f3187" stop-opacity=".21"/><stop offset=".49" stop-color="#643388" stop-opacity=".38"/><stop offset=".59" stop-color="#6c368a" stop-opacity=".6"/><stop offset=".68" stop-color="#75398d" stop-opacity=".86"/><stop offset=".73" stop-color="#7a3b8f"/><stop offset="1" stop-color="#582f85" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_57-2" cx="928.38" cy="140.73" fx="928.38" fy="140.73" xlink:href="#Unbenannter_Verlauf_57"/><radialGradient id="Unbenannter_Verlauf_57-3" cx="155.38" cy="1408.73" fx="155.38" fy="1408.73" xlink:href="#Unbenannter_Verlauf_57"/><radialGradient id="Unbenannter_Verlauf_48" cx="798.18" cy="2074.91" fx="798.18" fy="2074.91" r="46.21" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#29b77a" stop-opacity="0"/><stop offset=".13" stop-color="#29b77a" stop-opacity=".02"/><stop offset=".24" stop-color="#29b77a" stop-opacity=".07"/><stop offset=".34" stop-color="#29b77a" stop-opacity=".17"/><stop offset=".44" stop-color="#29b77a" stop-opacity=".3"/><stop offset=".53" stop-color="#29b77a" stop-opacity=".47"/><stop offset=".62" stop-color="#29b77a" stop-opacity=".67"/><stop offset=".7" stop-color="#29b77a" stop-opacity=".92"/><stop offset=".73" stop-color="#29b77a"/><stop offset=".95" stop-color="#1a9560" stop-opacity=".18"/><stop offset="1" stop-color="#178e5b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_59" cx="646.07" cy="1780.97" fx="646.07" fy="1780.97" r="46.21" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4c7bbe" stop-opacity="0"/><stop offset=".13" stop-color="#4c7bbe" stop-opacity=".02"/><stop offset=".24" stop-color="#4c7bbe" stop-opacity=".07"/><stop offset=".34" stop-color="#4c7bbe" stop-opacity=".16"/><stop offset=".43" stop-color="#4c7bbe" stop-opacity=".29"/><stop offset=".52" stop-color="#4c7bbe" stop-opacity=".45"/><stop offset=".61" stop-color="#4c7bbe" stop-opacity=".65"/><stop offset=".69" stop-color="#4c7bbe" stop-opacity=".88"/><stop offset=".73" stop-color="#4c7bbe"/><stop offset=".94" stop-color="#2e437c" stop-opacity=".22"/><stop offset="1" stop-color="#26346b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_36" cx="391.55" cy="1129.43" fx="391.55" fy="1129.43" r="50.82" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#29b77a"/><stop offset=".8" stop-color="#1e9e67" stop-opacity=".41"/><stop offset="1" stop-color="#178e5b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_36-2" cx="1320.55" cy="697.43" fx="1320.55" fy="697.43" xlink:href="#Unbenannter_Verlauf_36"/><radialGradient id="Unbenannter_Verlauf_36-3" cx="521.98" cy="373.86" fx="521.98" fy="373.86" r="25.25" xlink:href="#Unbenannter_Verlauf_36"/><radialGradient id="Unbenannter_Verlauf_52" cx="1655.96" cy="1150.91" fx="1655.96" fy="1150.91" r="31.02" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#4c7bbe"/><stop offset=".89" stop-color="#2e437c" stop-opacity=".22"/><stop offset="1" stop-color="#26346b" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_52-2" cx="567.96" cy="463.91" fx="567.96" fy="463.91" xlink:href="#Unbenannter_Verlauf_52"/><radialGradient id="Unbenannter_Verlauf_52-3" cx="285.96" cy="1178.91" fx="285.96" fy="1178.91" xlink:href="#Unbenannter_Verlauf_52"/><radialGradient id="Unbenannter_Verlauf_52-4" cx="1276.96" cy="1427.91" fx="1276.96" fy="1427.91" xlink:href="#Unbenannter_Verlauf_52"/><radialGradient id="Unbenannter_Verlauf_52-5" cx="1246.31" cy="261.63" fx="1246.31" fy="261.63" r="43.41" xlink:href="#Unbenannter_Verlauf_52"/><radialGradient id="Unbenannter_Verlauf_578" cx="1702.64" cy="1259.7" fx="1702.64" fy="1259.7" r="31.02" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b8e1ee" stop-opacity="0"/><stop offset=".12" stop-color="#b8e1ee" stop-opacity=".01"/><stop offset=".22" stop-color="#b8e1ee" stop-opacity=".06"/><stop offset=".31" stop-color="#b8e1ee" stop-opacity=".13"/><stop offset=".39" stop-color="#b8e1ee" stop-opacity=".23"/><stop offset=".47" stop-color="#b8e1ee" stop-opacity=".36"/><stop offset=".55" stop-color="#b8e1ee" stop-opacity=".52"/><stop offset=".63" stop-color="#b8e1ee" stop-opacity=".71"/><stop offset=".7" stop-color="#b8e1ee" stop-opacity=".92"/><stop offset=".73" stop-color="#b8e1ee"/><stop offset=".9" stop-color="#4d9fd0" stop-opacity=".37"/><stop offset="1" stop-color="#0d79bf" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_578-2" cx="1466.64" cy="1446.7" fx="1466.64" fy="1446.7" xlink:href="#Unbenannter_Verlauf_578"/><radialGradient id="Unbenannter_Verlauf_361" cx="951.71" cy="2019.96" fx="951.71" fy="2019.96" r="31.02" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a3d3bd" stop-opacity="0"/><stop offset=".13" stop-color="#a3d3bd" stop-opacity=".02"/><stop offset=".23" stop-color="#a3d3bd" stop-opacity=".06"/><stop offset=".32" stop-color="#a3d3bd" stop-opacity=".14"/><stop offset=".41" stop-color="#a3d3bd" stop-opacity=".26"/><stop offset=".5" stop-color="#a3d3bd" stop-opacity=".4"/><stop offset=".58" stop-color="#a3d3bd" stop-opacity=".58"/><stop offset=".66" stop-color="#a3d3bd" stop-opacity=".79"/><stop offset=".73" stop-color="#a3d3bd"/><stop offset=".92" stop-color="#6fc09e" stop-opacity=".29"/><stop offset="1" stop-color="#5ab992" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_361-2" cx="1560.07" cy="637.97" fx="1560.07" fy="637.97" r="46.21" xlink:href="#Unbenannter_Verlauf_361"/><radialGradient id="Unbenannter_Verlauf_361-3" cx="435.07" cy="1448.97" fx="435.07" fy="1448.97" r="46.21" xlink:href="#Unbenannter_Verlauf_361"/><radialGradient id="Unbenannter_Verlauf_571" cx="1292.98" cy="1228.86" fx="1292.98" fy="1228.86" r="25.25" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#b8e1ee"/><stop offset=".73" stop-color="#63c8eb" stop-opacity=".54"/><stop offset="1" stop-color="#00abe9" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_350" cx="331.76" cy="930.97" fx="331.76" fy="930.97" r="31.02" gradientUnits="userSpaceOnUse"><stop offset=".5" stop-color="#a3d3bd"/><stop offset=".86" stop-color="#6fc09e" stop-opacity=".29"/><stop offset="1" stop-color="#5ab992" stop-opacity="0"/></radialGradient><radialGradient id="Unbenannter_Verlauf_350-2" cx="760.76" cy="796.97" fx="760.76" fy="796.97" xlink:href="#Unbenannter_Verlauf_350"/></defs><g id="design_1"><g><g><circle class="cls-31" cx="842.38" cy="410.1" r="227.39"/><circle class="cls-33" cx="962.74" cy="914.5" r="559.24"/><circle class="cls-34" cx="1306.73" cy="462.44" r="462.44"/><circle class="cls-35" cx="762.13" cy="1539.56" r="487.77"/><circle class="cls-30" cx="1352.81" cy="1326.76" r="290.73"/><circle class="cls-29" cx="346.41" cy="1326.67" r="346.41"/></g><g><g class="cls-32"><path class="cls-36" d="m1353.45,996.66l-9.26,2.6c-8.18,2.3-14.57,8.69-16.87,16.87l-2.6,9.26-2.62-9.27c-2.3-8.16-8.68-14.55-16.85-16.85l-9.27-2.62,9.26-2.61c8.18-2.3,14.57-8.69,16.87-16.87l2.61-9.26,2.62,9.27c2.3,8.16,8.68,14.55,16.85,16.85l9.27,2.62Z"/><circle class="cls-37" cx="1324.72" cy="996.66" r="37.19"/></g><g><path class="cls-36" d="m520.3,1692.49l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/><circle class="cls-12" cx="500.37" cy="1692.49" r="22.99"/></g><g><path class="cls-36" d="m1552.08,873.59l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/><circle class="cls-13" cx="1511.95" cy="873.59" r="47.17"/></g><g class="cls-32"><path class="cls-36" d="m1170.59,238.98l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/><circle class="cls-11" cx="1130.46" cy="238.98" r="47.17"/></g><circle class="cls-24" cx="940.88" cy="1096.4" r="50.82"/><circle class="cls-5" cx="860.6" cy="2173.03" r="28.17"/><circle class="cls-2" cx="748.6" cy="365.03" r="28.17"/><circle class="cls-1" cx="748.6" cy="1539.03" r="28.17"/><circle class="cls-6" cx="226.38" cy="966.73" r="27"/><circle class="cls-4" cx="928.38" cy="140.73" r="27"/><circle class="cls-3" cx="155.38" cy="1408.73" r="27"/><circle class="cls-21" cx="798.18" cy="2074.91" r="46.21"/><circle class="cls-7" cx="646.07" cy="1780.97" r="46.21"/><circle class="cls-20" cx="391.55" cy="1129.43" r="50.82"/><circle class="cls-14" cx="1320.55" cy="697.43" r="50.82"/><circle class="cls-15" cx="521.98" cy="373.86" r="25.25"/><circle class="cls-22" cx="1655.96" cy="1150.91" r="31.02"/><circle class="cls-16" cx="567.96" cy="463.91" r="31.02"/><circle class="cls-18" cx="285.96" cy="1178.91" r="31.02"/><circle class="cls-17" cx="1276.96" cy="1427.91" r="31.02"/><circle class="cls-19" cx="1246.31" cy="261.63" r="43.41"/><circle class="cls-25" cx="1702.64" cy="1259.7" r="31.02"/><circle class="cls-28" cx="1466.64" cy="1446.7" r="31.02"/><circle class="cls-8" cx="951.71" cy="2019.96" r="31.02"/><circle class="cls-9" cx="1560.07" cy="637.97" r="46.21"/><circle class="cls-10" cx="435.07" cy="1448.97" r="46.21"/><circle class="cls-26" cx="1292.98" cy="1228.86" r="25.25"/><circle class="cls-23" cx="331.76" cy="930.97" r="31.02"/><circle class="cls-27" cx="760.76" cy="796.97" r="31.02"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SiriusSystemNebula" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1769.17 2201.2">
+    <defs>
+        <style>
+            .cls-sirius-nebula-1{fill:url(#sirius_nebula_Unbenannter_Verlauf_81-3);}
+            .cls-sirius-nebula-1,
+            .cls-sirius-nebula-2,
+            .cls-sirius-nebula-3,
+            .cls-sirius-nebula-4,
+            .cls-sirius-nebula-5,
+            .cls-sirius-nebula-6,
+            .cls-sirius-nebula-7,
+            .cls-sirius-nebula-8,
+            .cls-sirius-nebula-9,
+            .cls-sirius-nebula-10{opacity:.25;}
+            .cls-sirius-nebula-2{fill:url(#sirius_nebula_Unbenannter_Verlauf_81-2);}
+            .cls-sirius-nebula-3{fill:url(#sirius_nebula_Unbenannter_Verlauf_57-3);}
+            .cls-sirius-nebula-4{fill:url(#sirius_nebula_Unbenannter_Verlauf_57-2);}
+            .cls-sirius-nebula-11{fill:url(#sirius_nebula_Unbenannter_Verlauf_14-4);}
+            .cls-sirius-nebula-12{fill:url(#sirius_nebula_Unbenannter_Verlauf_14-2);}
+            .cls-sirius-nebula-13{fill:url(#sirius_nebula_Unbenannter_Verlauf_14-3);}
+            .cls-sirius-nebula-14{fill:url(#sirius_nebula_Unbenannter_Verlauf_36-2);}
+            .cls-sirius-nebula-14,
+            .cls-sirius-nebula-15,
+            .cls-sirius-nebula-16,
+            .cls-sirius-nebula-17,
+            .cls-sirius-nebula-18,
+            .cls-sirius-nebula-19,
+            .cls-sirius-nebula-20,
+            .cls-sirius-nebula-21,
+            .cls-sirius-nebula-22,
+            .cls-sirius-nebula-23,
+            .cls-sirius-nebula-24,
+            .cls-sirius-nebula-25,
+            .cls-sirius-nebula-26,
+            .cls-sirius-nebula-27,
+            .cls-sirius-nebula-28{opacity:.35;}
+            .cls-sirius-nebula-15{fill:url(#sirius_nebula_Unbenannter_Verlauf_36-3);}
+            .cls-sirius-nebula-16{fill:url(#sirius_nebula_Unbenannter_Verlauf_52-2);}
+            .cls-sirius-nebula-17{fill:url(#sirius_nebula_Unbenannter_Verlauf_52-4);}
+            .cls-sirius-nebula-18{fill:url(#sirius_nebula_Unbenannter_Verlauf_52-3);}
+            .cls-sirius-nebula-19{fill:url(#sirius_nebula_Unbenannter_Verlauf_52-5);}
+            .cls-sirius-nebula-5{fill:url(#sirius_nebula_Unbenannter_Verlauf_81);}
+            .cls-sirius-nebula-6{fill:url(#sirius_nebula_Unbenannter_Verlauf_57);}
+            .cls-sirius-nebula-7{fill:url(#sirius_nebula_Unbenannter_Verlauf_59);}
+            .cls-sirius-nebula-20{fill:url(#sirius_nebula_Unbenannter_Verlauf_36);}
+            .cls-sirius-nebula-21{fill:url(#sirius_nebula_Unbenannter_Verlauf_48);}
+            .cls-sirius-nebula-22{fill:url(#sirius_nebula_Unbenannter_Verlauf_52);}
+            .cls-sirius-nebula-29{fill:url(#sirius_nebula_Unbenannter_Verlauf_12);}
+            .cls-sirius-nebula-29,
+            .cls-sirius-nebula-30,
+            .cls-sirius-nebula-31,
+            .cls-sirius-nebula-32,
+            .cls-sirius-nebula-33,
+            .cls-sirius-nebula-34,
+            .cls-sirius-nebula-35{opacity:.5;}
+            .cls-sirius-nebula-30{fill:url(#sirius_nebula_Unbenannter_Verlauf_29);}
+            .cls-sirius-nebula-31{fill:url(#sirius_nebula_Unbenannter_Verlauf_20);}
+            .cls-sirius-nebula-36{fill:#fff;}
+            .cls-sirius-nebula-37{fill:url(#sirius_nebula_Unbenannter_Verlauf_14);}
+            .cls-sirius-nebula-33{fill:url(#sirius_nebula_Unbenannter_Verlauf_122);}
+            .cls-sirius-nebula-34{fill:url(#sirius_nebula_Unbenannter_Verlauf_111);}
+            .cls-sirius-nebula-35{fill:url(#sirius_nebula_Unbenannter_Verlauf_493);}
+            .cls-sirius-nebula-8{fill:url(#sirius_nebula_Unbenannter_Verlauf_361);}
+            .cls-sirius-nebula-23{fill:url(#sirius_nebula_Unbenannter_Verlauf_350);}
+            .cls-sirius-nebula-24{fill:url(#sirius_nebula_Unbenannter_Verlauf_127);}
+            .cls-sirius-nebula-25{fill:url(#sirius_nebula_Unbenannter_Verlauf_578);}
+            .cls-sirius-nebula-26{fill:url(#sirius_nebula_Unbenannter_Verlauf_571);}
+            .cls-sirius-nebula-9{fill:url(#sirius_nebula_Unbenannter_Verlauf_361-2);}
+            .cls-sirius-nebula-10{fill:url(#sirius_nebula_Unbenannter_Verlauf_361-3);}
+            .cls-sirius-nebula-27{fill:url(#sirius_nebula_Unbenannter_Verlauf_350-2);}
+            .cls-sirius-nebula-28{fill:url(#sirius_nebula_Unbenannter_Verlauf_578-2);}
+        </style>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_20" cx="7718.14" cy="2600.04" fx="7718.14" fy="2600.04" r="227.39" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6d94cd" stop-opacity="0"/>
+            <stop offset=".15" stop-color="#6d94cd" stop-opacity=".02"/>
+            <stop offset=".3" stop-color="#6d94cd" stop-opacity=".08"/>
+            <stop offset=".45" stop-color="#6d94cd" stop-opacity=".17"/>
+            <stop offset=".6" stop-color="#6d94cd" stop-opacity=".31"/>
+            <stop offset=".73" stop-color="#6d94cd" stop-opacity=".46"/>
+            <stop offset=".77" stop-color="#81a2d4" stop-opacity=".55"/>
+            <stop offset=".86" stop-color="#b6c7e8" stop-opacity=".78"/>
+            <stop offset=".87" stop-color="#bacaea" stop-opacity=".8"/>
+            <stop offset=".88" stop-color="#b1c3e6" stop-opacity=".78"/>
+            <stop offset=".9" stop-color="#98b2dd" stop-opacity=".71"/>
+            <stop offset=".93" stop-color="#7197ce" stop-opacity=".61"/>
+            <stop offset=".93" stop-color="#6d94cd" stop-opacity=".6"/>
+            <stop offset=".94" stop-color="#6d94cd" stop-opacity=".56"/>
+            <stop offset=".96" stop-color="#6d94cd" stop-opacity=".44"/>
+            <stop offset=".98" stop-color="#6d94cd" stop-opacity=".25"/>
+            <stop offset="1" stop-color="#6d94cd" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_122" cx="7586.27" cy="2098.53" fx="7586.27" fy="2098.53" r="559.24" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#582f85" stop-opacity="0"/>
+            <stop offset=".19" stop-color="#582f85" stop-opacity=".03"/>
+            <stop offset=".37" stop-color="#582f85" stop-opacity=".12"/>
+            <stop offset=".55" stop-color="#582f85" stop-opacity=".27"/>
+            <stop offset=".73" stop-color="#582f85" stop-opacity=".46"/>
+            <stop offset=".79" stop-color="#673f8f" stop-opacity=".59"/>
+            <stop offset=".86" stop-color="#7e58a0" stop-opacity=".8"/>
+            <stop offset=".88" stop-color="#764f9a" stop-opacity=".76"/>
+            <stop offset=".92" stop-color="#61398b" stop-opacity=".65"/>
+            <stop offset=".93" stop-color="#582f85" stop-opacity=".6"/>
+            <stop offset=".95" stop-color="#582f85" stop-opacity=".53"/>
+            <stop offset=".97" stop-color="#582f85" stop-opacity=".36"/>
+            <stop offset=".99" stop-color="#582f85" stop-opacity=".07"/>
+            <stop offset="1" stop-color="#582f85" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_111" cx="7252.71" cy="2558.33" fx="7252.71" fy="2558.33" r="462.44" gradientTransform="translate(8499.06 3185.92) rotate(-178.69)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#26346b" stop-opacity="0"/>
+            <stop offset=".21" stop-color="#26346b" stop-opacity=".04"/>
+            <stop offset=".41" stop-color="#26346b" stop-opacity=".15"/>
+            <stop offset=".62" stop-color="#26346b" stop-opacity=".33"/>
+            <stop offset=".73" stop-color="#26346b" stop-opacity=".46"/>
+            <stop offset=".77" stop-color="#2d437e" stop-opacity=".56"/>
+            <stop offset=".86" stop-color="#4068b0" stop-opacity=".8"/>
+            <stop offset=".88" stop-color="#3c61a7" stop-opacity=".77"/>
+            <stop offset=".9" stop-color="#334f8f" stop-opacity=".71"/>
+            <stop offset=".93" stop-color="#26346b" stop-opacity=".6"/>
+            <stop offset=".95" stop-color="#26346b" stop-opacity=".52"/>
+            <stop offset=".97" stop-color="#26346b" stop-opacity=".3"/>
+            <stop offset="1" stop-color="#26346b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_493" cx="7198.07" cy="279.55" fx="7198.07" fy="279.55" r="487.77" gradientTransform="translate(6934.94 5252.6) rotate(-151.2)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#1852a1" stop-opacity="0"/>
+            <stop offset=".17" stop-color="#1852a1" stop-opacity=".02"/>
+            <stop offset=".34" stop-color="#1852a1" stop-opacity=".1"/>
+            <stop offset=".51" stop-color="#1852a1" stop-opacity=".22"/>
+            <stop offset=".67" stop-color="#1852a1" stop-opacity=".39"/>
+            <stop offset=".73" stop-color="#1852a1" stop-opacity=".46"/>
+            <stop offset=".76" stop-color="#326cab" stop-opacity=".53"/>
+            <stop offset=".83" stop-color="#77aec5" stop-opacity=".7"/>
+            <stop offset=".86" stop-color="#9fd5d5" stop-opacity=".8"/>
+            <stop offset=".87" stop-color="#94cad0" stop-opacity=".78"/>
+            <stop offset=".89" stop-color="#76aec5" stop-opacity=".74"/>
+            <stop offset=".91" stop-color="#4780b3" stop-opacity=".67"/>
+            <stop offset=".93" stop-color="#1852a1" stop-opacity=".6"/>
+            <stop offset=".94" stop-color="#1852a1" stop-opacity=".55"/>
+            <stop offset=".96" stop-color="#1852a1" stop-opacity=".4"/>
+            <stop offset=".99" stop-color="#1852a1" stop-opacity=".16"/>
+            <stop offset="1" stop-color="#1852a1" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_29" cx="713.27" cy="892.79" fx="713.27" fy="892.79" r="290.73" gradientTransform="translate(314.71 849.08) rotate(-26.67)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#178e5b" stop-opacity="0"/>
+            <stop offset=".18" stop-color="#178e5b" stop-opacity=".03"/>
+            <stop offset=".36" stop-color="#178e5b" stop-opacity=".11"/>
+            <stop offset=".54" stop-color="#178e5b" stop-opacity=".25"/>
+            <stop offset=".71" stop-color="#178e5b" stop-opacity=".44"/>
+            <stop offset=".73" stop-color="#178e5b" stop-opacity=".46"/>
+            <stop offset=".78" stop-color="#1c9b65" stop-opacity=".57"/>
+            <stop offset=".86" stop-color="#29b77a" stop-opacity=".8"/>
+            <stop offset=".88" stop-color="#26b075" stop-opacity=".77"/>
+            <stop offset=".91" stop-color="#1e9f67" stop-opacity=".68"/>
+            <stop offset=".93" stop-color="#178e5b" stop-opacity=".6"/>
+            <stop offset=".94" stop-color="#178e5b" stop-opacity=".54"/>
+            <stop offset=".97" stop-color="#178e5b" stop-opacity=".37"/>
+            <stop offset=".99" stop-color="#178e5b" stop-opacity=".1"/>
+            <stop offset="1" stop-color="#178e5b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_12" cx="7369.28" cy="-293.94" fx="7369.28" fy="-293.94" r="346.41" gradientTransform="translate(6149.68 5878.02) rotate(-139.61)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#32c65f" stop-opacity="0"/>
+            <stop offset=".15" stop-color="#32c65f" stop-opacity=".02"/>
+            <stop offset=".31" stop-color="#32c65f" stop-opacity=".08"/>
+            <stop offset=".46" stop-color="#32c65f" stop-opacity=".18"/>
+            <stop offset=".61" stop-color="#32c65f" stop-opacity=".32"/>
+            <stop offset=".73" stop-color="#32c65f" stop-opacity=".46"/>
+            <stop offset=".77" stop-color="#44cf6d" stop-opacity=".55"/>
+            <stop offset=".87" stop-color="#73e992" stop-opacity=".79"/>
+            <stop offset=".87" stop-color="#75ea94" stop-opacity=".8"/>
+            <stop offset=".88" stop-color="#6be48c" stop-opacity=".77"/>
+            <stop offset=".91" stop-color="#51d778" stop-opacity=".7"/>
+            <stop offset=".93" stop-color="#32c65f" stop-opacity=".6"/>
+            <stop offset=".94" stop-color="#32c65f" stop-opacity=".56"/>
+            <stop offset=".96" stop-color="#32c65f" stop-opacity=".44"/>
+            <stop offset=".98" stop-color="#32c65f" stop-opacity=".24"/>
+            <stop offset="1" stop-color="#32c65f" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_14" cx="1324.72" cy="996.66" fx="1324.72" fy="996.66" r="37.19" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fcea0d"/>
+            <stop offset="0" stop-color="#fff" stop-opacity=".94"/>
+            <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_14-2" cx="500.37" cy="1692.49" fx="500.37" fy="1692.49" r="22.99" xlink:href="#sirius_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_14-3" cx="1511.95" cy="873.59" fx="1511.95" fy="873.59" r="47.17" xlink:href="#sirius_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_14-4" cx="1130.46" cy="238.98" fx="1130.46" fy="238.98" r="47.17" xlink:href="#sirius_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_127" cx="940.88" cy="1096.4" fx="940.88" fy="1096.4" r="50.82" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#7a3b8f"/>
+            <stop offset=".88" stop-color="#592a70" stop-opacity=".25"/>
+            <stop offset="1" stop-color="#4f2566" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_81" cx="860.6" cy="2173.03" fx="860.6" fy="2173.03" r="28.17" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#ac4492"/>
+            <stop offset=".82" stop-color="#833084" stop-opacity=".38"/>
+            <stop offset="1" stop-color="#6b247d" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_81-2" cx="748.6" cy="365.03" fx="748.6" fy="365.03" xlink:href="#sirius_nebula_Unbenannter_Verlauf_81"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_81-3" cx="748.6" cy="1539.03" fx="748.6" fy="1539.03" xlink:href="#sirius_nebula_Unbenannter_Verlauf_81"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_57" cx="226.38" cy="966.73" fx="226.38" fy="966.73" r="27" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#582f85" stop-opacity="0"/>
+            <stop offset=".15" stop-color="#582f85" stop-opacity=".02"/>
+            <stop offset=".27" stop-color="#5b3085" stop-opacity=".09"/>
+            <stop offset=".38" stop-color="#5f3187" stop-opacity=".21"/>
+            <stop offset=".49" stop-color="#643388" stop-opacity=".38"/>
+            <stop offset=".59" stop-color="#6c368a" stop-opacity=".6"/>
+            <stop offset=".68" stop-color="#75398d" stop-opacity=".86"/>
+            <stop offset=".73" stop-color="#7a3b8f"/>
+            <stop offset="1" stop-color="#582f85" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_57-2" cx="928.38" cy="140.73" fx="928.38" fy="140.73" xlink:href="#sirius_nebula_Unbenannter_Verlauf_57"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_57-3" cx="155.38" cy="1408.73" fx="155.38" fy="1408.73" xlink:href="#sirius_nebula_Unbenannter_Verlauf_57"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_48" cx="798.18" cy="2074.91" fx="798.18" fy="2074.91" r="46.21" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#29b77a" stop-opacity="0"/>
+            <stop offset=".13" stop-color="#29b77a" stop-opacity=".02"/>
+            <stop offset=".24" stop-color="#29b77a" stop-opacity=".07"/>
+            <stop offset=".34" stop-color="#29b77a" stop-opacity=".17"/>
+            <stop offset=".44" stop-color="#29b77a" stop-opacity=".3"/>
+            <stop offset=".53" stop-color="#29b77a" stop-opacity=".47"/>
+            <stop offset=".62" stop-color="#29b77a" stop-opacity=".67"/>
+            <stop offset=".7" stop-color="#29b77a" stop-opacity=".92"/>
+            <stop offset=".73" stop-color="#29b77a"/>
+            <stop offset=".95" stop-color="#1a9560" stop-opacity=".18"/>
+            <stop offset="1" stop-color="#178e5b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_59" cx="646.07" cy="1780.97" fx="646.07" fy="1780.97" r="46.21" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#4c7bbe" stop-opacity="0"/>
+            <stop offset=".13" stop-color="#4c7bbe" stop-opacity=".02"/>
+            <stop offset=".24" stop-color="#4c7bbe" stop-opacity=".07"/>
+            <stop offset=".34" stop-color="#4c7bbe" stop-opacity=".16"/>
+            <stop offset=".43" stop-color="#4c7bbe" stop-opacity=".29"/>
+            <stop offset=".52" stop-color="#4c7bbe" stop-opacity=".45"/>
+            <stop offset=".61" stop-color="#4c7bbe" stop-opacity=".65"/>
+            <stop offset=".69" stop-color="#4c7bbe" stop-opacity=".88"/>
+            <stop offset=".73" stop-color="#4c7bbe"/>
+            <stop offset=".94" stop-color="#2e437c" stop-opacity=".22"/>
+            <stop offset="1" stop-color="#26346b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_36" cx="391.55" cy="1129.43" fx="391.55" fy="1129.43" r="50.82" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#29b77a"/>
+            <stop offset=".8" stop-color="#1e9e67" stop-opacity=".41"/>
+            <stop offset="1" stop-color="#178e5b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_36-2" cx="1320.55" cy="697.43" fx="1320.55" fy="697.43" xlink:href="#sirius_nebula_Unbenannter_Verlauf_36"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_36-3" cx="521.98" cy="373.86" fx="521.98" fy="373.86" r="25.25" xlink:href="#sirius_nebula_Unbenannter_Verlauf_36"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_52" cx="1655.96" cy="1150.91" fx="1655.96" fy="1150.91" r="31.02" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#4c7bbe"/>
+            <stop offset=".89" stop-color="#2e437c" stop-opacity=".22"/>
+            <stop offset="1" stop-color="#26346b" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_52-2" cx="567.96" cy="463.91" fx="567.96" fy="463.91" xlink:href="#sirius_nebula_Unbenannter_Verlauf_52"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_52-3" cx="285.96" cy="1178.91" fx="285.96" fy="1178.91" xlink:href="#sirius_nebula_Unbenannter_Verlauf_52"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_52-4" cx="1276.96" cy="1427.91" fx="1276.96" fy="1427.91" xlink:href="#sirius_nebula_Unbenannter_Verlauf_52"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_52-5" cx="1246.31" cy="261.63" fx="1246.31" fy="261.63" r="43.41" xlink:href="#sirius_nebula_Unbenannter_Verlauf_52"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_578" cx="1702.64" cy="1259.7" fx="1702.64" fy="1259.7" r="31.02" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#b8e1ee" stop-opacity="0"/>
+            <stop offset=".12" stop-color="#b8e1ee" stop-opacity=".01"/>
+            <stop offset=".22" stop-color="#b8e1ee" stop-opacity=".06"/>
+            <stop offset=".31" stop-color="#b8e1ee" stop-opacity=".13"/>
+            <stop offset=".39" stop-color="#b8e1ee" stop-opacity=".23"/>
+            <stop offset=".47" stop-color="#b8e1ee" stop-opacity=".36"/>
+            <stop offset=".55" stop-color="#b8e1ee" stop-opacity=".52"/>
+            <stop offset=".63" stop-color="#b8e1ee" stop-opacity=".71"/>
+            <stop offset=".7" stop-color="#b8e1ee" stop-opacity=".92"/>
+            <stop offset=".73" stop-color="#b8e1ee"/>
+            <stop offset=".9" stop-color="#4d9fd0" stop-opacity=".37"/>
+            <stop offset="1" stop-color="#0d79bf" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_578-2" cx="1466.64" cy="1446.7" fx="1466.64" fy="1446.7" xlink:href="#sirius_nebula_Unbenannter_Verlauf_578"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_361" cx="951.71" cy="2019.96" fx="951.71" fy="2019.96" r="31.02" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#a3d3bd" stop-opacity="0"/>
+            <stop offset=".13" stop-color="#a3d3bd" stop-opacity=".02"/>
+            <stop offset=".23" stop-color="#a3d3bd" stop-opacity=".06"/>
+            <stop offset=".32" stop-color="#a3d3bd" stop-opacity=".14"/>
+            <stop offset=".41" stop-color="#a3d3bd" stop-opacity=".26"/>
+            <stop offset=".5" stop-color="#a3d3bd" stop-opacity=".4"/>
+            <stop offset=".58" stop-color="#a3d3bd" stop-opacity=".58"/>
+            <stop offset=".66" stop-color="#a3d3bd" stop-opacity=".79"/>
+            <stop offset=".73" stop-color="#a3d3bd"/>
+            <stop offset=".92" stop-color="#6fc09e" stop-opacity=".29"/>
+            <stop offset="1" stop-color="#5ab992" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_361-2" cx="1560.07" cy="637.97" fx="1560.07" fy="637.97" r="46.21" xlink:href="#sirius_nebula_Unbenannter_Verlauf_361"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_361-3" cx="435.07" cy="1448.97" fx="435.07" fy="1448.97" r="46.21" xlink:href="#sirius_nebula_Unbenannter_Verlauf_361"/>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_571" cx="1292.98" cy="1228.86" fx="1292.98" fy="1228.86" r="25.25" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#b8e1ee"/>
+            <stop offset=".73" stop-color="#63c8eb" stop-opacity=".54"/>
+            <stop offset="1" stop-color="#00abe9" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_350" cx="331.76" cy="930.97" fx="331.76" fy="930.97" r="31.02" gradientUnits="userSpaceOnUse">
+            <stop offset=".5" stop-color="#a3d3bd"/>
+            <stop offset=".86" stop-color="#6fc09e" stop-opacity=".29"/>
+            <stop offset="1" stop-color="#5ab992" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="sirius_nebula_Unbenannter_Verlauf_350-2" cx="760.76" cy="796.97" fx="760.76" fy="796.97" xlink:href="#sirius_nebula_Unbenannter_Verlauf_350"/>
+    </defs>
+    <g id="sirius_system_nebula">
+        <g>
+            <g class="sirius-nebula-particles-stars">
+                <g class="cls-sirius-nebula-32">
+                    <path class="cls-sirius-nebula-36" d="m1353.45,996.66l-9.26,2.6c-8.18,2.3-14.57,8.69-16.87,16.87l-2.6,9.26-2.62-9.27c-2.3-8.16-8.68-14.55-16.85-16.85l-9.27-2.62,9.26-2.61c8.18-2.3,14.57-8.69,16.87-16.87l2.61-9.26,2.62,9.27c2.3,8.16,8.68,14.55,16.85,16.85l9.27,2.62Z"/>
+                    <circle class="cls-sirius-nebula-37" cx="1324.72" cy="996.66" r="37.19"/>
+                </g>
+                <g>
+                    <path class="cls-sirius-nebula-36" d="m520.3,1692.49l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/>
+                    <circle class="cls-sirius-nebula-12" cx="500.37" cy="1692.49" r="22.99"/>
+                </g>
+                <g>
+                    <path class="cls-sirius-nebula-36" d="m1552.08,873.59l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/>
+                    <circle class="cls-sirius-nebula-13" cx="1511.95" cy="873.59" r="47.17"/>
+                </g>
+                <g class="cls-sirius-nebula-32">
+                    <path class="cls-sirius-nebula-36" d="m1170.59,238.98l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/>
+                    <circle class="cls-sirius-nebula-11" cx="1130.46" cy="238.98" r="47.17"/>
+                </g>
+                <circle class="cls-sirius-nebula-24" cx="940.88" cy="1096.4" r="50.82"/>
+                <circle class="cls-sirius-nebula-5" cx="860.6" cy="2173.03" r="28.17"/>
+                <circle class="cls-sirius-nebula-2" cx="748.6" cy="365.03" r="28.17"/>
+                <circle class="cls-sirius-nebula-1" cx="748.6" cy="1539.03" r="28.17"/>
+                <circle class="cls-sirius-nebula-6" cx="226.38" cy="966.73" r="27"/>
+                <circle class="cls-sirius-nebula-4" cx="928.38" cy="140.73" r="27"/>
+                <circle class="cls-sirius-nebula-3" cx="155.38" cy="1408.73" r="27"/>
+                <circle class="cls-sirius-nebula-21" cx="798.18" cy="2074.91" r="46.21"/>
+                <circle class="cls-sirius-nebula-7" cx="646.07" cy="1780.97" r="46.21"/>
+                <circle class="cls-sirius-nebula-20" cx="391.55" cy="1129.43" r="50.82"/>
+                <circle class="cls-sirius-nebula-14" cx="1320.55" cy="697.43" r="50.82"/>
+                <circle class="cls-sirius-nebula-15" cx="521.98" cy="373.86" r="25.25"/>
+                <circle class="cls-sirius-nebula-22" cx="1655.96" cy="1150.91" r="31.02"/>
+                <circle class="cls-sirius-nebula-16" cx="567.96" cy="463.91" r="31.02"/>
+                <circle class="cls-sirius-nebula-18" cx="285.96" cy="1178.91" r="31.02"/>
+                <circle class="cls-sirius-nebula-17" cx="1276.96" cy="1427.91" r="31.02"/>
+                <circle class="cls-sirius-nebula-19" cx="1246.31" cy="261.63" r="43.41"/>
+                <circle class="cls-sirius-nebula-25" cx="1702.64" cy="1259.7" r="31.02"/>
+                <circle class="cls-sirius-nebula-28" cx="1466.64" cy="1446.7" r="31.02"/>
+                <circle class="cls-sirius-nebula-8" cx="951.71" cy="2019.96" r="31.02"/>
+                <circle class="cls-sirius-nebula-9" cx="1560.07" cy="637.97" r="46.21"/>
+                <circle class="cls-sirius-nebula-10" cx="435.07" cy="1448.97" r="46.21"/>
+                <circle class="cls-sirius-nebula-26" cx="1292.98" cy="1228.86" r="25.25"/>
+                <circle class="cls-sirius-nebula-23" cx="331.76" cy="930.97" r="31.02"/>
+                <circle class="cls-sirius-nebula-27" cx="760.76" cy="796.97" r="31.02"/>
+            </g>
+            <g>
+                <circle class="sirius-nebula-dust-lightblue cls-sirius-nebula-31" cx="842.38" cy="410.1" r="227.39"/>
+                <circle class="sirius-nebula-dust-main cls-sirius-nebula-33" cx="962.74" cy="914.5" r="559.24"/>
+                <circle class="sirius-nebula-dust-darkblue cls-sirius-nebula-34" cx="1306.73" cy="462.44" r="462.44"/>
+                <circle class="sirius-nebula-dust-blue cls-sirius-nebula-35" cx="762.13" cy="1539.56" r="487.77"/>
+                <circle class="sirius-nebula-dust-darkgreen cls-sirius-nebula-30" cx="1352.81" cy="1326.76" r="290.73"/>
+                <circle class="sirius-nebula-dust-green cls-sirius-nebula-29" cx="346.41" cy="1326.67" r="346.41"/>
+            </g>
+        </g>
+    </g>
+</svg>

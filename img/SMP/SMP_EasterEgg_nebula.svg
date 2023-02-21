@@ -2,70 +2,70 @@
 <svg id="EasterEggNebula" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1409.91 1704.03">
     <defs>
         <style>
-            .cls-1{fill:url(#Unbenannter_Verlauf_72-2);}
-            .cls-1,
-            .cls-2,
-            .cls-3{opacity:.25;}
-            .cls-2{fill:url(#Unbenannter_Verlauf_72-3);}
-            .cls-4{fill:url(#Unbenannter_Verlauf_14-4);}
-            .cls-5{fill:url(#Unbenannter_Verlauf_14-2);}
-            .cls-6{fill:url(#Unbenannter_Verlauf_14-3);}
-            .cls-7{fill:url(#Unbenannter_Verlauf_87-2);}
-            .cls-7,
-            .cls-8,
-            .cls-9,
-            .cls-10,
-            .cls-11,
-            .cls-12,
-            .cls-13,
-            .cls-14,
-            .cls-15,
-            .cls-16,
-            .cls-17,
-            .cls-18{opacity:.35;}
-            .cls-8{fill:url(#Unbenannter_Verlauf_88-2);}
-            .cls-9{fill:url(#Unbenannter_Verlauf_79-3);}
-            .cls-10{fill:url(#Unbenannter_Verlauf_79-2);}
-            .cls-3{fill:url(#Unbenannter_Verlauf_72);}
-            .cls-19{fill:url(#Unbenannter_Verlauf_18-3);}
-            .cls-19,
-            .cls-20,
-            .cls-21,
-            .cls-22,
-            .cls-23,
-            .cls-24,
-            .cls-25,
-            .cls-26,
-            .cls-27{opacity:.5;}
-            .cls-20{fill:url(#Unbenannter_Verlauf_18-2);}
-            .cls-11{fill:url(#Unbenannter_Verlauf_87);}
-            .cls-12{fill:url(#Unbenannter_Verlauf_88);}
-            .cls-13{fill:url(#Unbenannter_Verlauf_79);}
-            .cls-28{fill:url(#Unbenannter_Verlauf_24-3);}
-            .cls-28,
-            .cls-29,
-            .cls-30,
-            .cls-31,
-            .cls-32{opacity:.8;}
-            .cls-29{fill:url(#Unbenannter_Verlauf_24-2);}
-            .cls-21{fill:url(#Unbenannter_Verlauf_18);}
-            .cls-22{fill:url(#Unbenannter_Verlauf_42);}
-            .cls-30{fill:url(#Unbenannter_Verlauf_24);}
-            .cls-33{fill:#fff;}
-            .cls-34{fill:url(#Unbenannter_Verlauf_14);}
-            .cls-24{fill:url(#Unbenannter_Verlauf_493);}
-            .cls-25{fill:url(#Unbenannter_Verlauf_481);}
-            .cls-31{fill:url(#Unbenannter_Verlauf_456);}
-            .cls-14{fill:url(#Unbenannter_Verlauf_547);}
-            .cls-15{fill:url(#Unbenannter_Verlauf_553);}
-            .cls-16{fill:url(#Unbenannter_Verlauf_547-2);}
-            .cls-17{fill:url(#Unbenannter_Verlauf_553-3);}
-            .cls-18{fill:url(#Unbenannter_Verlauf_553-2);}
-            .cls-32{fill:url(#Unbenannter_Verlauf_456-2);}
-            .cls-26{fill:url(#Unbenannter_Verlauf_493-2);}
-            .cls-27{fill:url(#Unbenannter_Verlauf_481-2);}
+            .cls-easter-egg-nebula-1{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_72-2);}
+            .cls-easter-egg-nebula-1,
+            .cls-easter-egg-nebula-2,
+            .cls-easter-egg-nebula-3{opacity:.25;}
+            .cls-easter-egg-nebula-2{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_72-3);}
+            .cls-easter-egg-nebula-4{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_14-4);}
+            .cls-easter-egg-nebula-5{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_14-2);}
+            .cls-easter-egg-nebula-6{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_14-3);}
+            .cls-easter-egg-nebula-7{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_87-2);}
+            .cls-easter-egg-nebula-7,
+            .cls-easter-egg-nebula-8,
+            .cls-easter-egg-nebula-9,
+            .cls-easter-egg-nebula-10,
+            .cls-easter-egg-nebula-11,
+            .cls-easter-egg-nebula-12,
+            .cls-easter-egg-nebula-13,
+            .cls-easter-egg-nebula-14,
+            .cls-easter-egg-nebula-15,
+            .cls-easter-egg-nebula-16,
+            .cls-easter-egg-nebula-17,
+            .cls-easter-egg-nebula-18{opacity:.35;}
+            .cls-easter-egg-nebula-8{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_88-2);}
+            .cls-easter-egg-nebula-9{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_79-3);}
+            .cls-easter-egg-nebula-10{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_79-2);}
+            .cls-easter-egg-nebula-3{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_72);}
+            .cls-easter-egg-nebula-19{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_18-3);}
+            .cls-easter-egg-nebula-19,
+            .cls-easter-egg-nebula-20,
+            .cls-easter-egg-nebula-21,
+            .cls-easter-egg-nebula-22,
+            .cls-easter-egg-nebula-23,
+            .cls-easter-egg-nebula-24,
+            .cls-easter-egg-nebula-25,
+            .cls-easter-egg-nebula-26,
+            .cls-easter-egg-nebula-27{opacity:.5;}
+            .cls-easter-egg-nebula-20{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_18-2);}
+            .cls-easter-egg-nebula-11{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_87);}
+            .cls-easter-egg-nebula-12{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_88);}
+            .cls-easter-egg-nebula-13{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_79);}
+            .cls-easter-egg-nebula-28{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_24-3);}
+            .cls-easter-egg-nebula-28,
+            .cls-easter-egg-nebula-29,
+            .cls-easter-egg-nebula-30,
+            .cls-easter-egg-nebula-31,
+            .cls-easter-egg-nebula-32{opacity:.8;}
+            .cls-easter-egg-nebula-29{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_24-2);}
+            .cls-easter-egg-nebula-21{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_18);}
+            .cls-easter-egg-nebula-22{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_42);}
+            .cls-easter-egg-nebula-30{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_24);}
+            .cls-easter-egg-nebula-33{fill:#fff;}
+            .cls-easter-egg-nebula-34{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_14);}
+            .cls-easter-egg-nebula-24{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_493);}
+            .cls-easter-egg-nebula-25{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_481);}
+            .cls-easter-egg-nebula-31{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_456);}
+            .cls-easter-egg-nebula-14{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_547);}
+            .cls-easter-egg-nebula-15{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_553);}
+            .cls-easter-egg-nebula-16{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_547-2);}
+            .cls-easter-egg-nebula-17{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_553-3);}
+            .cls-easter-egg-nebula-18{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_553-2);}
+            .cls-easter-egg-nebula-32{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_456-2);}
+            .cls-easter-egg-nebula-26{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_493-2);}
+            .cls-easter-egg-nebula-27{fill:url(#easter_egg_nebula_Unbenannter_Verlauf_481-2);}
         </style>
-        <radialGradient id="Unbenannter_Verlauf_72" cx="542.15" cy="1187.83" fx="542.15" fy="1187.83" r="42.32" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_72" cx="542.15" cy="1187.83" fx="542.15" fy="1187.83" r="42.32" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#c578b0" stop-opacity="0"/>
             <stop offset=".12" stop-color="#c578b0" stop-opacity=".01"/>
             <stop offset=".22" stop-color="#c67bb2" stop-opacity=".06"/>
@@ -79,17 +79,17 @@
             <stop offset=".91" stop-color="#d08ebd" stop-opacity=".35"/>
             <stop offset="1" stop-color="#c578b0" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_87" cx="505.47" cy="630.24" fx="505.47" fy="630.24" r="42.32" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_87" cx="505.47" cy="630.24" fx="505.47" fy="630.24" r="42.32" gradientUnits="userSpaceOnUse">
             <stop offset=".5" stop-color="#d289ba"/>
             <stop offset=".86" stop-color="#c16ba8" stop-opacity=".29"/>
             <stop offset="1" stop-color="#bb60a2" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_547" cx="316.47" cy="352.36" fx="316.47" fy="352.36" r="32.43" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_547" cx="316.47" cy="352.36" fx="316.47" fy="352.36" r="32.43" gradientUnits="userSpaceOnUse">
             <stop offset=".5" stop-color="#eb5d60"/>
             <stop offset=".82" stop-color="#e73348" stop-opacity=".37"/>
             <stop offset="1" stop-color="#e51c3b" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_553" cx="632.05" cy="815.4" fx="632.05" fy="815.4" r="32.43" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_553" cx="632.05" cy="815.4" fx="632.05" fy="815.4" r="32.43" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#eb5d60" stop-opacity="0"/>
             <stop offset=".12" stop-color="#eb5d60" stop-opacity=".01"/>
             <stop offset=".22" stop-color="#eb5d60" stop-opacity=".06"/>
@@ -103,14 +103,14 @@
             <stop offset=".9" stop-color="#e73348" stop-opacity=".37"/>
             <stop offset="1" stop-color="#e51c3b" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_553-2" cx="624.05" cy="1544.4" fx="624.05" fy="1544.4" xlink:href="#Unbenannter_Verlauf_553"/>
-        <radialGradient id="Unbenannter_Verlauf_79" cx="417.47" cy="237.36" fx="417.47" fy="237.36" r="32.43" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_553-2" cx="624.05" cy="1544.4" fx="624.05" fy="1544.4" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_553"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_79" cx="417.47" cy="237.36" fx="417.47" fy="237.36" r="32.43" gradientUnits="userSpaceOnUse">
             <stop offset=".5" stop-color="#ef7925"/>
             <stop offset=".81" stop-color="#eb6119" stop-opacity=".38"/>
             <stop offset="1" stop-color="#e95313" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_79-2" cx="206.47" cy="1285.36" fx="206.47" fy="1285.36" xlink:href="#Unbenannter_Verlauf_79"/>
-        <radialGradient id="Unbenannter_Verlauf_88" cx="1005.05" cy="807.4" fx="1005.05" fy="807.4" r="32.43" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_79-2" cx="206.47" cy="1285.36" fx="206.47" fy="1285.36" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_79"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_88" cx="1005.05" cy="807.4" fx="1005.05" fy="807.4" r="32.43" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#ef7925" stop-opacity="0"/>
             <stop offset=".12" stop-color="#ef7a26" stop-opacity=".01"/>
             <stop offset=".21" stop-color="#ef7d29" stop-opacity=".05"/>
@@ -124,22 +124,22 @@
             <stop offset=".89" stop-color="#f59d47" stop-opacity=".41"/>
             <stop offset="1" stop-color="#ef7925" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_87-2" cx="1011.47" cy="1383.36" fx="1011.47" fy="1383.36" r="32.43" xlink:href="#Unbenannter_Verlauf_87"/>
-        <radialGradient id="Unbenannter_Verlauf_72-2" cx="965.05" cy="146.4" fx="965.05" fy="146.4" r="32.43" xlink:href="#Unbenannter_Verlauf_72"/>
-        <radialGradient id="Unbenannter_Verlauf_72-3" cx="993.05" cy="1465.4" fx="993.05" fy="1465.4" r="32.43" xlink:href="#Unbenannter_Verlauf_72"/>
-        <radialGradient id="Unbenannter_Verlauf_547-2" cx="405.38" cy="1227.53" fx="405.38" fy="1227.53" r="40.61" xlink:href="#Unbenannter_Verlauf_547"/>
-        <radialGradient id="Unbenannter_Verlauf_553-3" cx="1026.89" cy="536.8" fx="1026.89" fy="536.8" r="40.61" xlink:href="#Unbenannter_Verlauf_553"/>
-        <radialGradient id="Unbenannter_Verlauf_79-3" cx="716.98" cy="812.53" fx="716.98" fy="812.53" r="40.61" xlink:href="#Unbenannter_Verlauf_79"/>
-        <radialGradient id="Unbenannter_Verlauf_88-2" cx="234.5" cy="843.8" fx="234.5" fy="843.8" r="40.61" xlink:href="#Unbenannter_Verlauf_88"/>
-        <radialGradient id="Unbenannter_Verlauf_14" cx="1142.27" cy="612.01" fx="1142.27" fy="612.01" r="37.19" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_87-2" cx="1011.47" cy="1383.36" fx="1011.47" fy="1383.36" r="32.43" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_87"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_72-2" cx="965.05" cy="146.4" fx="965.05" fy="146.4" r="32.43" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_72"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_72-3" cx="993.05" cy="1465.4" fx="993.05" fy="1465.4" r="32.43" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_72"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_547-2" cx="405.38" cy="1227.53" fx="405.38" fy="1227.53" r="40.61" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_547"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_553-3" cx="1026.89" cy="536.8" fx="1026.89" fy="536.8" r="40.61" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_553"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_79-3" cx="716.98" cy="812.53" fx="716.98" fy="812.53" r="40.61" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_79"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_88-2" cx="234.5" cy="843.8" fx="234.5" fy="843.8" r="40.61" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_88"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_14" cx="1142.27" cy="612.01" fx="1142.27" fy="612.01" r="37.19" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#fcea0d"/>
             <stop offset="0" stop-color="#fff" stop-opacity=".94"/>
             <stop offset="1" stop-color="#fff" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_14-2" cx="381.21" cy="1417.61" fx="381.21" fy="1417.61" r="22.99" xlink:href="#Unbenannter_Verlauf_14"/>
-        <radialGradient id="Unbenannter_Verlauf_14-3" cx="500.21" cy="290.61" fx="500.21" fy="290.61" r="22.99" xlink:href="#Unbenannter_Verlauf_14"/>
-        <radialGradient id="Unbenannter_Verlauf_14-4" cx="599.02" cy="748.33" fx="599.02" fy="748.33" r="47.17" xlink:href="#Unbenannter_Verlauf_14"/>
-        <radialGradient id="Unbenannter_Verlauf_481" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_14-2" cx="381.21" cy="1417.61" fx="381.21" fy="1417.61" r="22.99" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_14-3" cx="500.21" cy="290.61" fx="500.21" fy="290.61" r="22.99" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_14-4" cx="599.02" cy="748.33" fx="599.02" fy="748.33" r="47.17" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_14"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_481" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#5ab992" stop-opacity="0"/>
             <stop offset=".16" stop-color="#5ab992" stop-opacity=".02"/>
             <stop offset=".32" stop-color="#5ab992" stop-opacity=".09"/>
@@ -156,7 +156,7 @@
             <stop offset=".98" stop-color="#5ab992" stop-opacity=".22"/>
             <stop offset="1" stop-color="#5ab992" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_493" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_493" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#1852a1" stop-opacity="0"/>
             <stop offset=".17" stop-color="#1852a1" stop-opacity=".02"/>
             <stop offset=".34" stop-color="#1852a1" stop-opacity=".1"/>
@@ -175,7 +175,7 @@
             <stop offset=".99" stop-color="#1852a1" stop-opacity=".16"/>
             <stop offset="1" stop-color="#1852a1" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_456" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_456" cx="962.2" cy="447.71" fx="962.2" fy="447.71" r="447.71" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#e51c3b" stop-opacity="0"/>
             <stop offset=".14" stop-color="#e51e3c" stop-opacity=".02"/>
             <stop offset=".28" stop-color="#e52540" stop-opacity=".07"/>
@@ -194,10 +194,10 @@
             <stop offset="1" stop-color="#e51c3b" stop-opacity=".06"/>
             <stop offset="1" stop-color="#e51c3b" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_481-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#Unbenannter_Verlauf_481"/>
-        <radialGradient id="Unbenannter_Verlauf_493-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#Unbenannter_Verlauf_493"/>
-        <radialGradient id="Unbenannter_Verlauf_456-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#Unbenannter_Verlauf_456"/>
-        <radialGradient id="Unbenannter_Verlauf_24" cx="575.95" cy="878.3" fx="575.95" fy="878.3" r="533.87" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_481-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_481"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_493-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_493"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_456-2" cx="586.35" cy="1349.38" fx="586.35" fy="1349.38" r="354.65" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_456"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_24" cx="575.95" cy="878.3" fx="575.95" fy="878.3" r="533.87" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#6b247d" stop-opacity="0"/>
             <stop offset=".16" stop-color="#6e257e" stop-opacity=".02"/>
             <stop offset=".33" stop-color="#772a81" stop-opacity=".09"/>
@@ -214,7 +214,7 @@
             <stop offset="1" stop-color="#592e84" stop-opacity=".03"/>
             <stop offset="1" stop-color="#582f85" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_18" cx="575.95" cy="878.3" fx="575.95" fy="878.3" r="533.87" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_18" cx="575.95" cy="878.3" fx="575.95" fy="878.3" r="533.87" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#e51c3b" stop-opacity="0"/>
             <stop offset=".14" stop-color="#e51e3c" stop-opacity=".02"/>
             <stop offset=".28" stop-color="#e52540" stop-opacity=".07"/>
@@ -233,11 +233,11 @@
             <stop offset="1" stop-color="#e51c3b" stop-opacity=".06"/>
             <stop offset="1" stop-color="#e51c3b" stop-opacity="0"/>
         </radialGradient>
-        <radialGradient id="Unbenannter_Verlauf_24-2" cx="281.95" cy="443.44" fx="281.95" fy="443.44" r="212.9" xlink:href="#Unbenannter_Verlauf_24"/>
-        <radialGradient id="Unbenannter_Verlauf_18-2" cx="281.95" cy="443.44" fx="281.95" fy="443.44" r="212.9" xlink:href="#Unbenannter_Verlauf_18"/>
-        <radialGradient id="Unbenannter_Verlauf_24-3" cx="117.86" cy="1508.28" fx="117.86" fy="1508.28" r="117.86" xlink:href="#Unbenannter_Verlauf_24"/>
-        <radialGradient id="Unbenannter_Verlauf_18-3" cx="117.86" cy="1508.28" fx="117.86" fy="1508.28" r="117.86" xlink:href="#Unbenannter_Verlauf_18"/>
-        <radialGradient id="Unbenannter_Verlauf_42" cx="946.07" cy="1107.47" fx="946.07" fy="1107.47" r="268.85" gradientUnits="userSpaceOnUse">
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_24-2" cx="281.95" cy="443.44" fx="281.95" fy="443.44" r="212.9" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_24"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_18-2" cx="281.95" cy="443.44" fx="281.95" fy="443.44" r="212.9" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_18"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_24-3" cx="117.86" cy="1508.28" fx="117.86" fy="1508.28" r="117.86" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_24"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_18-3" cx="117.86" cy="1508.28" fx="117.86" fy="1508.28" r="117.86" xlink:href="#easter_egg_nebula_Unbenannter_Verlauf_18"/>
+        <radialGradient id="easter_egg_nebula_Unbenannter_Verlauf_42" cx="946.07" cy="1107.47" fx="946.07" fy="1107.47" r="268.85" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="#e95313" stop-opacity="0"/>
             <stop offset=".14" stop-color="#e95413" stop-opacity=".02"/>
             <stop offset=".28" stop-color="#e95815" stop-opacity=".07"/>
@@ -258,63 +258,63 @@
         </radialGradient>
     </defs>
     <g id="easter_egg_nebula">
-            <g class="easter-egg-nebula-particles-stars">
-                <circle class="cls-3" cx="542.15" cy="1187.83" r="42.32"/>
-                <circle class="cls-11" cx="505.47" cy="630.24" r="42.32"/>
-                <circle class="cls-14" cx="316.47" cy="352.36" r="32.43"/>
-                <circle class="cls-15" cx="632.05" cy="815.4" r="32.43"/>
-                <circle class="cls-18" cx="624.05" cy="1544.4" r="32.43"/>
-                <circle class="cls-13" cx="417.47" cy="237.36" r="32.43"/>
-                <circle class="cls-10" cx="206.47" cy="1285.36" r="32.43"/>
-                <circle class="cls-12" cx="1005.05" cy="807.4" r="32.43"/>
-                <circle class="cls-7" cx="1011.47" cy="1383.36" r="32.43"/>
-                <circle class="cls-1" cx="965.05" cy="146.4" r="32.43"/>
-                <circle class="cls-2" cx="993.05" cy="1465.4" r="32.43"/>
-                <circle class="cls-16" cx="405.38" cy="1227.53" r="40.61"/>
-                <circle class="cls-17" cx="1026.89" cy="536.8" r="40.61"/>
-                <circle class="cls-9" cx="716.98" cy="812.53" r="40.61"/>
-                <circle class="cls-8" cx="234.5" cy="843.8" r="40.61"/>
-                <g class="cls-23">
-                    <path class="cls-33" d="m1171.01,612.01l-9.26,2.6c-8.18,2.3-14.57,8.69-16.87,16.87l-2.6,9.26-2.62-9.27c-2.3-8.16-8.68-14.55-16.85-16.85l-9.27-2.62,9.26-2.61c8.18-2.3,14.57-8.69,16.87-16.87l2.61-9.26,2.62,9.27c2.3,8.16,8.68,14.55,16.85,16.85l9.27,2.62Z"/>
-                    <circle class="cls-34" cx="1142.27" cy="612.01" r="37.19"/>
+            <g class="EEN-particles-stars">
+                <circle class="cls-easter-egg-nebula-3" cx="542.15" cy="1187.83" r="42.32"/>
+                <circle class="cls-easter-egg-nebula-11" cx="505.47" cy="630.24" r="42.32"/>
+                <circle class="cls-easter-egg-nebula-14" cx="316.47" cy="352.36" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-15" cx="632.05" cy="815.4" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-18" cx="624.05" cy="1544.4" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-13" cx="417.47" cy="237.36" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-10" cx="206.47" cy="1285.36" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-12" cx="1005.05" cy="807.4" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-7" cx="1011.47" cy="1383.36" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-1" cx="965.05" cy="146.4" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-2" cx="993.05" cy="1465.4" r="32.43"/>
+                <circle class="cls-easter-egg-nebula-16" cx="405.38" cy="1227.53" r="40.61"/>
+                <circle class="cls-easter-egg-nebula-17" cx="1026.89" cy="536.8" r="40.61"/>
+                <circle class="cls-easter-egg-nebula-9" cx="716.98" cy="812.53" r="40.61"/>
+                <circle class="cls-easter-egg-nebula-8" cx="234.5" cy="843.8" r="40.61"/>
+                <g class="cls-easter-egg-nebula-23">
+                    <path class="cls-easter-egg-nebula-33" d="m1171.01,612.01l-9.26,2.6c-8.18,2.3-14.57,8.69-16.87,16.87l-2.6,9.26-2.62-9.27c-2.3-8.16-8.68-14.55-16.85-16.85l-9.27-2.62,9.26-2.61c8.18-2.3,14.57-8.69,16.87-16.87l2.61-9.26,2.62,9.27c2.3,8.16,8.68,14.55,16.85,16.85l9.27,2.62Z"/>
+                    <circle class="cls-easter-egg-nebula-34" cx="1142.27" cy="612.01" r="37.19"/>
                 </g>
                 <g>
-                    <path class="cls-33" d="m401.15,1417.61l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/>
-                    <circle class="cls-5" cx="381.21" cy="1417.61" r="22.99"/>
+                    <path class="cls-easter-egg-nebula-33" d="m401.15,1417.61l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/>
+                    <circle class="cls-easter-egg-nebula-5" cx="381.21" cy="1417.61" r="22.99"/>
                 </g>
                 <g>
-                    <path class="cls-33" d="m520.15,290.61l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/>
-                    <circle class="cls-6" cx="500.21" cy="290.61" r="22.99"/>
+                    <path class="cls-easter-egg-nebula-33" d="m520.15,290.61l-6.43,1.81c-5.67,1.6-10.11,6.03-11.7,11.7l-1.81,6.43-1.81-6.43c-1.6-5.66-6.02-10.09-11.69-11.69l-6.43-1.81,6.43-1.81c5.67-1.6,10.11-6.03,11.7-11.7l1.81-6.43,1.81,6.43c1.6,5.66,6.02,10.09,11.69,11.69l6.43,1.81Z"/>
+                    <circle class="cls-easter-egg-nebula-6" cx="500.21" cy="290.61" r="22.99"/>
                 </g>
-                <g class="cls-23">
-                    <path class="cls-33" d="m639.15,748.33l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/>
-                    <circle class="cls-4" cx="599.02" cy="748.33" r="47.17"/>
+                <g class="cls-easter-egg-nebula-23">
+                    <path class="cls-easter-egg-nebula-33" d="m639.15,748.33l-12.93,3.64c-11.42,3.21-20.34,12.14-23.56,23.56l-3.64,12.93-3.65-12.95c-3.22-11.4-12.13-20.31-23.53-23.53l-12.95-3.65,12.93-3.64c11.42-3.21,20.34-12.14,23.56-23.56l3.64-12.93,3.65,12.95c3.22,11.4,12.13,20.31,23.53,23.53l12.95,3.65Z"/>
+                    <circle class="cls-easter-egg-nebula-4" cx="599.02" cy="748.33" r="47.17"/>
                 </g>
             </g>
             <g>
                 <g class="easter-egg-nebula-dust-rose1">
-                    <circle class="cls-25" cx="962.2" cy="447.71" r="447.71"/>
-                    <circle class="cls-24" cx="962.2" cy="447.71" r="447.71"/>
-                    <circle class="cls-31" cx="962.2" cy="447.71" r="447.71"/>
+                    <circle class="cls-easter-egg-nebula-25" cx="962.2" cy="447.71" r="447.71"/>
+                    <circle class="cls-easter-egg-nebula-24" cx="962.2" cy="447.71" r="447.71"/>
+                    <circle class="cls-easter-egg-nebula-31" cx="962.2" cy="447.71" r="447.71"/>
                 </g>
                 <g class="easter-egg-nebula-dust-rose2">
-                    <circle class="cls-27" cx="586.35" cy="1349.38" r="354.65"/>
-                    <circle class="cls-26" cx="586.35" cy="1349.38" r="354.65"/>
-                    <circle class="cls-32" cx="586.35" cy="1349.38" r="354.65"/>
+                    <circle class="cls-easter-egg-nebula-27" cx="586.35" cy="1349.38" r="354.65"/>
+                    <circle class="cls-easter-egg-nebula-26" cx="586.35" cy="1349.38" r="354.65"/>
+                    <circle class="cls-easter-egg-nebula-32" cx="586.35" cy="1349.38" r="354.65"/>
                 </g>
                 <g class="easter-egg-nebula-dust-main">
-                    <circle class="cls-30" cx="575.95" cy="878.3" r="533.87"/>
-                    <circle class="cls-21" cx="575.95" cy="878.3" r="533.87"/>
+                    <circle class="cls-easter-egg-nebula-30" cx="575.95" cy="878.3" r="533.87"/>
+                    <circle class="cls-easter-egg-nebula-21" cx="575.95" cy="878.3" r="533.87"/>
                 </g>
                 <g class="easter-egg-nebula-dust-pink1">
-                    <circle class="cls-29" cx="281.95" cy="443.44" r="212.9"/>
-                    <circle class="cls-20" cx="281.95" cy="443.44" r="212.9"/>
+                    <circle class="cls-easter-egg-nebula-29" cx="281.95" cy="443.44" r="212.9"/>
+                    <circle class="cls-easter-egg-nebula-20" cx="281.95" cy="443.44" r="212.9"/>
                 </g>
                 <g class="easter-egg-nebula-dust-pink2">
-                    <circle class="cls-28" cx="117.86" cy="1508.28" r="117.86"/>
-                    <circle class="cls-19" cx="117.86" cy="1508.28" r="117.86"/>
+                    <circle class="cls-easter-egg-nebula-28" cx="117.86" cy="1508.28" r="117.86"/>
+                    <circle class="cls-easter-egg-nebula-19" cx="117.86" cy="1508.28" r="117.86"/>
                 </g>
-                <circle class="easter-egg-nebula-dust-orange cls-22" cx="946.07" cy="1107.47" r="268.85"/>
+                <circle class="easter-egg-nebula-dust-orange cls-easter-egg-nebula-22" cx="946.07" cy="1107.47" r="268.85"/>
             </g>
     </g>
 </svg>
