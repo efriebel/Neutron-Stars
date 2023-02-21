@@ -11,22 +11,6 @@ classes | event cards
         width: 98px;
         text-align: left;
     }
-    .event-cards-info-button svg{
-        width: 20px;
-        height: 20px;
-    }
-    .event-cards-info-button svg path{
-        transition: fill 0.2s;
-    }
-    .event-cards-info-button:hover svg path{
-        fill: #BC8F8F;
-    }
-    .event-cards-info-button svg circle{
-        transition: stroke 0.2s;
-    }
-    .event-cards-info-button:hover svg circle{
-        stroke: #BC8F8F;
-    }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
         border-radius: 50px;
@@ -84,22 +68,6 @@ classes | event cards
         flex-direction: column;
         width: 150px;
         text-align: left;
-    }
-    .event-cards-info-button svg{
-        width: 28px;
-        height: 28px;
-    }
-    .event-cards-info-button svg path{
-        transition: fill 0.2s;
-    }
-    .event-cards-info-button:hover svg path{
-        fill: #BC8F8F;
-    }
-    .event-cards-info-button svg circle{
-        transition: stroke 0.2s;
-    }
-    .event-cards-info-button:hover svg circle{
-        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
@@ -159,22 +127,6 @@ classes | event cards
         width: 150px;
         text-align: left;
     }
-    .event-cards-info-button svg{
-        width: 28px;
-        height: 28px;
-    }
-    .event-cards-info-button svg path{
-        transition: fill 0.2s;
-    }
-    .event-cards-info-button:hover svg path{
-        fill: #BC8F8F;
-    }
-    .event-cards-info-button svg circle{
-        transition: stroke 0.2s;
-    }
-    .event-cards-info-button:hover svg circle{
-        stroke: #BC8F8F;
-    }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
         border-radius: 50px;
@@ -233,22 +185,6 @@ classes | event cards
         width: 228px;
         text-align: left;
     }
-    .event-cards-info-button svg{
-        width: 34px;
-        height: 34px;
-    }
-    .event-cards-info-button svg path{
-        transition: fill 0.2s;
-    }
-    .event-cards-info-button:hover svg path{
-        fill: #BC8F8F;
-    }
-    .event-cards-info-button svg circle{
-        transition: stroke 0.2s;
-    }
-    .event-cards-info-button:hover svg circle{
-        stroke: #BC8F8F;
-    }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
         border-radius: 50px;
@@ -306,22 +242,6 @@ classes | event cards
         flex-direction: column;
         width: 228px;
         text-align: left;
-    }
-    .event-cards-info-button svg{
-        width: 34px;
-        height: 34px;
-    }
-    .event-cards-info-button svg path{
-        transition: fill 0.2s;
-    }
-    .event-cards-info-button:hover svg path{
-        fill: #BC8F8F;
-    }
-    .event-cards-info-button svg circle{
-        transition: stroke 0.2s;
-    }
-    .event-cards-info-button:hover svg circle{
-        stroke: #BC8F8F;
     }
     .event-cards-visit-button {
         background: linear-gradient(90deg, #52EDAC 0%, #52EDE4 100%);
