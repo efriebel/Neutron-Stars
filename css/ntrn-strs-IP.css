@@ -780,24 +780,14 @@ classes | info page container
 classes | info page img
 ===================================
  */
-/*.replacement-img-right{
-    width: 310px;
-    margin: 0 0 0 146px;
-}
-.replacement-img-left{
-    width: 310px;
-    margin: 0 0 0 166px;
-}*/
 @media only screen and (min-width: 360px) {
     .replacement-img-right{
         width: 150px;
-        /*margin: 12px 0 0 105px;*/
         margin-top: 12px;
         align-content: center;
     }
     .replacement-img-left{
         width: 150px;
-        /*margin: 12px 0 0 105px;*/
         margin-top: 12px;
     }
     .img-reverse{
@@ -821,13 +811,11 @@ classes | info page img
 @media only screen and (min-width: 768px) {
     .replacement-img-right{
         width: 210px;
-        /*margin: 0 0 0 30px;*/
         margin: 0 0 20px auto;
         align-content: center;
     }
     .replacement-img-left{
         width: 210px;
-        /*margin: 0 0 0 99px;*/
         margin: 0 auto 20px 0;
     }
     .img-reverse{
@@ -844,27 +832,21 @@ classes | info page img
         margin: 0 0 0 auto;
     }
     .images-info svg{
-        /*margin: 0 0 120px 0;*/
         margin: 0 auto;
     }
     .images-info-anatomy{
         flex-direction: column;
         order: 1;
     }
-    /*.images-info-anatomy img{
-        margin: 0 99px 99px 30px;
-    }*/
 }
 @media only screen and (min-width: 1024px) {
     .replacement-img-right{
         width: 290px;
-        /*margin: 0 0 0 30px;*/
         margin: 0 0 80px auto;
         align-content: center;
     }
     .replacement-img-left{
         width: 290px;
-        /*margin: 0 0 0 127px;*/
         margin: 0 auto 80px 0;
     }
     .img-reverse{
@@ -881,27 +863,21 @@ classes | info page img
         margin: 0 0 0 auto;
     }
     .images-info svg{
-        /*margin: 0 0 127px 0;*/
         margin: 0 auto;
     }
     .images-info-anatomy{
         flex-direction: column;
         order: 1;
     }
-    /*.images-info-anatomy img{
-        margin: 0 127px 127px 30px;
-    }*/
 }
 @media only screen and (min-width: 1440px) {
     .replacement-img-right{
         width: 310px;
-        /*margin: 0 0 0 146px;*/
         margin: 0 0 56px auto;
         align-content: center;
     }
     .replacement-img-left{
         width: 310px;
-        /*margin: 0 0 0 166px;*/
         margin: 0 auto 56px 0;
     }
     .img-reverse{
@@ -918,26 +894,20 @@ classes | info page img
         margin: 0 0 0 auto;
     }
     .images-info svg{
-        /*margin: 0 0 56px 0;*/
         margin: 0 auto;
     }
     .images-info-anatomy{
         flex-direction: column;
         order: 1;
     }
-    /*.images-info-anatomy img{
-        margin: 0 166px 0 146px;
-    }*/
 }
 @media only screen and (min-width: 2560px) {
     .replacement-img-right{
         width: 368px;
-        /*margin: 0 0 0 232px;*/
         margin: 0 0 56px auto;
     }
     .replacement-img-left{
         width: 368px;
-        /*margin: 0 0 0 496px;*/
         margin: 0 auto 124px 0;
     }
     .img-reverse{
@@ -954,16 +924,12 @@ classes | info page img
         margin: 0 0 0 auto;
     }
     .images-info svg{
-        /*margin: 0 0 200px 0;*/
         margin: 0 auto;
     }
     .images-info-anatomy{
         flex-direction: column;
         order: 1;
     }
-    /*.images-info-anatomy img{
-        margin: 0 166px 0 146px;
-    }*/
 }
 /*
 ===================================
