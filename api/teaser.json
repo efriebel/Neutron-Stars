@@ -1,26 +1,26 @@
 [
   {
-    "img": "LP_neutronstar_final.png",
+    "img": "LP_infoPage.svg",
     "title": "INFO",
     "infoText": "If next to these amazing celestial bodies supernovae explosions, black holes or magnetic and gravitational forces so enormous that they’re out of our comprehension interest you, then go ahead and glimpse into the world of neutron stars...",
     "link": "info.html"
   },
   {
-    "img": "LP_starmap_final.png",
+    "img": "LP_starMapPage.svg",
     "title": "STAR MAP",
     "infoText": "Looking at the Star Map you’ll experience neutron stars and their systems in full glory. This 3D View shows extraordinary places in our milkyway in great detail. Take a look and enjoy your journey...",
     "link": "starmap.html"
   },
   {
-    "img": "LP_observatory_final.png",
+    "img": "LP_eventPage.svg",
     "title": "EVENTS",
     "infoText": "Listed here are chances for you to learn even more about our universe. How about a visit to an observatory and watching celestial bodies in real time? Or a trip to a planetarium? Find that and even more here...",
     "link": "events.html"
   },
   {
-    "img": "LP_map_final.png",
-    "title": "LOCATIONS",
-    "infoText": "Need a guide to check out some observatories closest to you? Then this Map is for you, specifically mapped to show all observatories throughout Germany!",
-    "link": "locations.html"
+    "img": "LP_contactPage.svg",
+    "title": "CONTACT",
+    "infoText": "You're left with some questions or want to get in touch with this page's designer & developer? Then go ahead and send a message. We'll get back to you as soon as possible...",
+    "link": "contact.html"
   }
 ]

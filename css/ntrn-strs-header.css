@@ -319,154 +319,34 @@ mobile menu content
         display: none;
     }
 }
+/*
+===================================
+mobile bg circle shapes
+===================================
+ */
 @media only screen and (min-width: 360px) {
-   /*.mobile-menu-content:before {
-        content: "";
-        height: 2044px;
-        width: 2044px;
-        background-color: #190A46;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        border-radius: 50%;
-        transform: translate(-45%, 86%);
-        z-index: -3;
-    }
-    .mobile-menu-content:after {
-        content: "";
-        height: 2044px;
-        width: 2044px;
-        background-color: #27155C;
-        opacity: 75%;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        border-radius: 50%;
-        transform: translate(-45%, 92%);
-        z-index: -2;
-    }*/
-    .nav-mobile-bg-stars{
-         background-image:
-                 url("../img/stars1.svg"),
-                 url("../img/stars2.svg"),
-                 url("../img/stars3.svg"),
-                 url("../img/stars4.svg"),
-                 url("../img/stars5.svg"),
-                 url("../img/stars6.svg");
-         background-position:
-                 top 20px right 40px,
-                 bottom 20px right 60px,
-                 top 40px left 60px,
-                 top 160px right 40px,
-                 bottom 40px left 30px,
-                 bottom 160px left 160px;
-         background-size:
-                 80px,
-                 140px,
-                 80px,
-                 40px,
-                 80px,
-                 60px;
-         background-repeat: no-repeat;
-         z-index: 1;
-     }
     .nav-mobile-bg-shapes{
-        background-image: url("../img/bg_circle_shapes.svg");
-        background-position: bottom -750px left -300px;
-        background-size: 1000px;
+        background-image: url("../img/nav_mobile_bg_circles.svg");
+        background-position: bottom 0 left 0;
+        background-size: 900px;
         background-repeat: no-repeat;
         z-index: -3;
     }
 }
 @media only screen and (min-width: 768px) {
-    /*.mobile-menu-content:before {
-        content: "";
-        height: 2044px;
-        width: 2044px;
-        background-color: #190A46;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        border-radius: 50%;
-        transform: translate(-35%, 75%);
-        z-index: -3;
-    }
-    .mobile-menu-content:after {
-        content: "";
-        height: 2044px;
-        width: 2044px;
-        background-color: #27155C;
-        opacity: 75%;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        border-radius: 50%;
-        transform: translate(-35%, 84%);
-        z-index: -2;
-    }*/
-    .nav-mobile-bg-stars{
-        background-image:
-                url("../img/stars1.svg"),
-                url("../img/stars2.svg"),
-                url("../img/stars3.svg"),
-                url("../img/stars4.svg"),
-                url("../img/stars5.svg"),
-                url("../img/stars6.svg");
-        background-position:
-                top 20px right 40px,
-                bottom 10px right 80px,
-                top 40px left 180px,
-                top 180px right 240px,
-                bottom 0 left 140px,
-                bottom 140px left 20px;
-        background-size:
-                124px,
-                220px,
-                124px,
-                60px,
-                124px,
-                96px;
-        background-repeat: no-repeat;
-        z-index: 1;
-    }
     .nav-mobile-bg-shapes{
-        background-image: url("../img/bg_circle_shapes.svg");
-        background-position: bottom -1750px left -800px;
-        background-size: 2000px;
+        background-image: url("../img/nav_mobile_bg_circles.svg");
+        background-position: bottom 0 left 0;
+        background-size: 1024px;
         background-repeat: no-repeat;
         z-index: -3;
     }
 }
 @media only screen and (min-width: 1024px) {
-    .nav-mobile-bg-stars{
-        background-image:
-                url("../img/stars1.svg"),
-                url("../img/stars2.svg"),
-                url("../img/stars3.svg"),
-                url("../img/stars4.svg"),
-                url("../img/stars5.svg"),
-                url("../img/stars6.svg");
-        background-position:
-                top 20px right 40px,
-                bottom 10px right 80px,
-                top 40px left 390px,
-                top 240px right 340px,
-                bottom 0 left 240px,
-                bottom 140px left 20px;
-        background-size:
-                170px,
-                300px,
-                170px,
-                86px,
-                170px,
-                130px;
-        background-repeat: no-repeat;
-        z-index: 1;
-    }
     .nav-mobile-bg-shapes{
-        background-image: url("../img/bg_circle_shapes.svg");
-        background-position: bottom -1750px left -600px;
-        background-size: 2000px;
+        background-image: url("../img/nav_mobile_bg_circles.svg");
+        background-position: bottom -200px left 0;
+        background-size: 1440px;
         background-repeat: no-repeat;
         z-index: -3;
     }
