@@ -327,7 +327,7 @@ mobile bg circle shapes
 @media only screen and (min-width: 360px) {
     .nav-mobile-bg-shapes{
         background-image: url("../img/nav_mobile_bg_circles.svg");
-        background-position: bottom 0 left 0;
+        background-position: bottom -200px left 0;
         background-size: 768px;
         background-repeat: no-repeat;
         z-index: -3;
