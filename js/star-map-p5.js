@@ -44,6 +44,8 @@ function preload() {
 function setup() {  // called from p5
     canvas = createCanvas(360, 203, SVG);   //added for SVG formating
     canvas.scale(e => Controls.zoom(controls).worldZoom(e));
+    
+    canvas.onmousemove = e => getMousePos(canvas, e);
 }
 
 //mouseWheel function rewritten, which erases the error message in the console
@@ -61,7 +63,6 @@ function mouseWheel(e) {
     eClientX = e.clientX;
 }
 
-
 /*
 * Rough sketch of function that calculates current mouse position and updates svg position accordingly lol
 * */
@@ -71,6 +72,17 @@ function updateX(initial, xPosition) {
     } else {
         return initial;
     }
+}
+
+function getMousePos(canvas, e) {
+    var rect = canvas.canvas.getBoundingClientRect();
+    let x = (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width;
+    let y = (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
+    console.log(x, y);
+    return {
+        x: (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width,
+        y: (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
+    };
 }
 
 function draw() {
@@ -84,6 +96,7 @@ function draw() {
 
     //Set image size and position
     image(imgBGElements, 0, 0, 360, 203);
+
 
     // LAYER 3 (max zoom state)
     if (controls.view.zoom > 8.9 && controls.view.zoom < 30) {
@@ -117,6 +130,10 @@ function draw() {
     }
 }
 
+/*
+this function controls the zooming of the svgs, as they are separated from the canvas:
+    with each zoomFactor the svgs calculate accordingly a new size and position
+*/
 function renderImages(img, x, y, width, height, view) {
     const calculatePosition = (n, viewN, zoom) => (n + viewN) * (zoom * zoomFactor);
     const calculateSize = (size, zoom) => size * (zoom * zoomFactor);
@@ -188,18 +205,6 @@ class Controls {
             * Sets zoom stops (how far you can zoom in&out)
             * */
 
-
-            /*
-            if (controls.view.zoom + zoom > 2) {
-                controls.view.zoom = 2;
-            } else if(controls.view.zoom + zoom < 0.5) {
-                controls.view.zoom = 0.5;
-            } else {
-                controls.view.x -= wx * width * zoom;
-                controls.view.y -= wy * height * zoom;
-                controls.view.zoom += zoom;
-            }
-            */
             if (controls.view.zoom + zoom < 1) {
                 controls.view.zoom = 1;         //creates zoom stop if zoom < 1
             } else {
