@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Milkyway" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1388.65 721.11">
-    <defs>
+const milkywaySVG = `<svg id="Milkyway" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1388.65 721.11"><defs>
         <style>
             .cls-milky_way-1{fill:url(#milky_way_Unbenannter_Verlauf_41-4);}
             .cls-milky_way-2{fill:url(#milky_way_Unbenannter_Verlauf_41-3);}
@@ -40,8 +38,7 @@
         <radialGradient id="milky_way_Unbenannter_Verlauf_41-3" cx="1000" cy="249.29" fx="1000" fy="249.29" xlink:href="#milky_way_Unbenannter_Verlauf_41"/>
         <radialGradient id="milky_way_Unbenannter_Verlauf_41-4" cx="1673.01" cy="83.23" fx="1673.01" fy="83.23" r="40.62" xlink:href="#milky_way_Unbenannter_Verlauf_41"/>
         <radialGradient id="milky_way_Unbenannter_Verlauf_41-5" cx="997.4" cy="520.33" fx="997.4" fy="520.33" r="40.62" xlink:href="#milky_way_Unbenannter_Verlauf_41"/>
-    </defs>
-    <g id="milkyway">
+    </defs><g id="milkyway">
         <g>
             <g class="milky_way-expansion-orbit-5">
                 <ellipse class="cls-milky_way-18" cx="694.33" cy="358.74" rx="238.06" ry="743.42" transform="translate(100 866.25) rotate(-67.82)"/>
@@ -159,5 +156,33 @@
                 <path class="cls-milky_way-7" d="m624.57,315.78c-5.27,12.49,20.47,35.32,57.52,50.96,37.04,15.64,71.43,18,76.64,5.66,15.64-37.04-1.72-79.75-38.76-95.39-37.04-15.64-79.75,1.72-95.39,38.76Z"/>
             </g>
         </g>
-    </g>
-</svg>
+    </g></svg>`;
+const milkywayBlob = new Blob([milkywaySVG], {type: 'image/svg+xml'});
+const milkywayUrl = URL.createObjectURL(milkywayBlob);
+const milkywayImg = document.createElement('img');
+
+image.addEventListener('load', () => URL.revokeObjectURL(milkywayUrl), {once: true});
+
+var svgElementMilkyway = document.getElementById('Milkyway');
+let {width, height} = svgElementMilkyway.getBBox();
+let clonedSvgElementMilkyway = svgElementMilkyway.cloneNode(true);
+let outerHTMLMilkyway = clonedSvgElementMilkyway.outerHTML,
+    blobMilkyway = new Blob([outerHTMLMilkyway], {type:'image/svg+xml;charset=utf-8'});
+let URLMilkyway = window.URL || window.webkitURL || window;
+let blobURLMilkyway = URLMilkyway.createObjectURL(blobMilkyway);
+let imageMilkyway = new Image();
+
+image.onload = () => {
+    let canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.style.backgroundColor = 'rgb(19, 8, 52)';
+    canvas.widht = 300;
+    canvas.height = 300;
+    let context = canvas.getContext('2d');
+    // draw image in canvas starting left-0 , top - 0
+    ctx.clearRect(0, 0, size, size);
+    ctx.drawImage(imageMilkyway, 0, 0, width, height );
+    //  downloadImage(canvas); need to implement
+};
+image.src = blobURLMilkyway;

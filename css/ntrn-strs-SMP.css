@@ -125,3 +125,51 @@ classes | star map page background deco
         display: block;
     }
 }
+/*
+===================================
+classes | star map page focus buttons
+===================================
+ */
+button.focus{
+    background-color: #66F6FF;
+    border: none;
+    filter: blur(2px);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+button:hover.focus {
+    background-color: #C2FBFF;
+}
+button:active.focus{
+    background-color: #66F6FF;
+    border: none;
+    filter: blur(2px);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+/*
+===================================
+classes | star map page layer switch buttons
+===================================
+ */
+button.button-to-layer1 {
+    background-color: #C4B6FF;
+    border: none;
+    font-family: 'Encode Sans Condensed';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12pt;
+}
+button:hover.button-to-layer1 {
+    background-color:#DCD3FF;
+}
+/*
+===================================
+classes | star map page p5 canvas
+===================================
+ */
+.p5Canvas{
+    position: relative;
+}

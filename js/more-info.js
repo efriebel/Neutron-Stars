@@ -12,4 +12,3 @@ moreInfo.forEach(link => {
 //need solution for mobile breakpoints!
 //issue: if aligned to left, more info gets pushed out of frame,
 //need more info content to be centered to screen width
-//how?? >> to mid-day WEDNESDAY 15.02.

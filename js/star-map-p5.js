@@ -1,4 +1,3 @@
-let canvas;
 let d;
 
 let imgMilkyway;
@@ -13,7 +12,7 @@ const controls = {
     viewPos: {prevX: null, prevY: null, isDragging: false},     //controls for window position focused on mouse
 }
 
-function preload() {
+function prepareAssets() {
     imgSagittariusANebula = loadImage('/img/SMP/SMP_sagittariusA_nebula.svg');
     //loads SVGs
     imgBGElements = loadSVG('/img/SMP/SMP_bg_elements.svg');
@@ -41,12 +40,70 @@ function preload() {
     imgStephenson2 = loadSVG('/img/SMP/SMP_stephenson2.svg');
 }
 
+async function doit() {
+   let tryoutHelp = document.getElementById('TryoutHelp');
+   let canvas = document.getElementById('canvas');
+   canvas.style.backgroundColor = 'rgb(19, 8, 52)';
+   const ctx = canvas.getContext('2d');
+
+   //let i = 0;
+   const size = canvas.width = canvas.height = 400;
+
+
+   ctx.clearRect(0, 0, size, size);
+   ctx.drawImage(tryoutHelp, 0,0);
+   console.log(ctx);
+
+
+
+   /*canvas.onclick = e => {
+       i = +!i;
+       ctx.clearRect(0, 0, size, size);
+       console.log(typeof image);
+       ctx.drawImage(image, 0,0, size, size);
+   };
+   canvas.onclick();*/
+    //return images;
+}
+
+doit()
+    .then(_ => console.log('ready: click to switch the image'))
+    .catch(console.error);
+
+function renderLinkIcon(canvas) {
+    const iconSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    const iconPath = document.createElementNS(
+        'http://www.w3.org/2000/svg',
+        'path'
+    );
+
+    iconSvg.setAttribute('fill', '#fff');
+    iconSvg.setAttribute('viewBox', '0 0 200 200');
+    iconSvg.setAttribute('stroke', '#fff');
+    iconSvg.classList.add('post-icon');
+
+    iconPath.setAttribute(
+        'd',
+        'M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1'
+    );
+    iconPath.setAttribute('stroke-linecap', 'round');
+    iconPath.setAttribute('stroke-linejoin', 'round');
+    iconPath.setAttribute('stroke-width', '2');
+
+    iconSvg.appendChild(iconPath);
+
+    return iconSvg;
+}
+
+/*
 function setup() {  // called from p5
     canvas = createCanvas(360, 203, SVG);   //added for SVG formating
     canvas.scale(e => Controls.zoom(controls).worldZoom(e));
-    
+
     canvas.onmousemove = e => getMousePos(canvas, e);
 }
+*/
+
 
 //mouseWheel function rewritten, which erases the error message in the console
 function mouseWheel(e) {
@@ -75,7 +132,7 @@ function updateX(initial, xPosition) {
 }
 
 function getMousePos(canvas, e) {
-    var rect = canvas.canvas.getBoundingClientRect();
+    const rect = canvas.canvas.getBoundingClientRect();
     let x = (e.clientX - rect.left) / (rect.right - rect.left) * canvas.width;
     let y = (e.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
     console.log(x, y);
@@ -137,6 +194,11 @@ this function controls the zooming of the svgs, as they are separated from the c
 function renderImages(img, x, y, width, height, view) {
     const calculatePosition = (n, viewN, zoom) => (n + viewN) * (zoom * zoomFactor);
     const calculateSize = (size, zoom) => size * (zoom * zoomFactor);
+
+
+    // resize the svg
+    // convert svg into png
+    // render the new png with the new position on the canvas
 
     image(
         img,
