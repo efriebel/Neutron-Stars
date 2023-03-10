@@ -1,130 +1,3 @@
-
-/*
-===================================
-classes | star map page background deco
-===================================
- */
-@media only screen and (min-width: 360px){
-    .introduction:before{
-        content: "";
-        background-image: url("../img/stars3.svg");
-        background-repeat: no-repeat;
-        background-size: 80px;
-        width: 80px;
-        height: 80px;
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: block;
-    }
-    .introduction:after{
-        display: none;
-    }
-}
-@media only screen and (min-width: 768px){
-    .introduction:before{
-        content:"";
-        background-image: url("../img/stars3.svg");
-        background-repeat: no-repeat;
-        background-size: 124px;
-        width: 124px;
-        height: 124px;
-        position: absolute;
-        top: 80px;
-        right: -108px;
-        display: block;
-    }
-    .introduction:after{
-        content:"";
-        background-image: url("../img/stars2.svg");
-        background-repeat: no-repeat;
-        background-size: 220px;
-        width: 220px;
-        height: 220px;
-        position: absolute;
-        top: -20px;
-        left: -140px;
-        display: block;
-    }
-}
-@media only screen and (min-width: 1024px){
-    .introduction:before{
-        content:"";
-        background-image: url("../img/stars3.svg");
-        background-repeat: no-repeat;
-        background-size: 170px;
-        width: 170px;
-        height: 170px;
-        position: absolute;
-        top: 80px;
-        right: -140px;
-        display: block;
-    }
-    .introduction:after{
-        content:"";
-        background-image: url("../img/stars2.svg");
-        background-repeat: no-repeat;
-        background-size: 300px;
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        top: -40px;
-        left: -180px;
-        display: block;
-    }
-}
-@media only screen and (min-width: 1440px){
-    .introduction:before{
-        content:"";
-        background-image: url("../img/stars3.svg");
-        background-repeat: no-repeat;
-        background-size: 224px;
-        width: 224px;
-        height: 224px;
-        position: absolute;
-        top: 70px;
-        right: -320px;
-        display: block;
-    }
-    .introduction:after{
-        content:"";
-        background-image: url("../img/stars2.svg");
-        background-repeat: no-repeat;
-        background-size: 400px;
-        width: 400px;
-        height: 400px;
-        position: absolute;
-        top: -80px;
-        left: -360px;
-        display: block;
-    }
-}
-@media only screen and (min-width: 2560px){
-    .introduction:before{
-        content:"";
-        background-image: url("../img/stars3.svg");
-        background-repeat: no-repeat;
-        background-size: 300px;
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        top: 160px;
-        right: -420px;
-        display: block;
-    }
-    .introduction:after{
-        content:"";
-        background-image: url("../img/stars2.svg");
-        background-repeat: no-repeat;
-        background-size: 520px;
-        width: 520px;
-        height: 520px;
-        position: absolute;
-        top: -80px;
-        left: -580px;
-        display: block;
-    }
-}
 /*
 ===================================
 classes | star map page focus buttons
@@ -140,14 +13,30 @@ button.focus{
 }
 button:hover.focus {
     background-color: #C2FBFF;
-}
-button:active.focus{
-    background-color: #66F6FF;
     border: none;
     filter: blur(2px);
     border-radius: 50%;
     width: 10px;
     height: 10px;
+    cursor: pointer;
+}
+button:active.focus{
+    background-color: #66FFDA;
+    border: none;
+    filter: blur(2px);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+button.focus-easteregg{
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+}
+button:hover.focus-easteregg{
+    cursor: pointer;
 }
 /*
 ===================================
@@ -157,13 +46,10 @@ classes | star map page layer switch buttons
 button.button-to-layer1 {
     background-color: #C4B6FF;
     border: none;
-    font-family: 'Encode Sans Condensed';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 12pt;
 }
 button:hover.button-to-layer1 {
-    background-color:#DCD3FF;
+    background-color: #DCD3FF;
+    cursor: pointer;
 }
 /*
 ===================================

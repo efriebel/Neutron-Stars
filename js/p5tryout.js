@@ -1,15 +1,13 @@
 let d;
 let canvas;
 let buttonToLayer1;
-let buttonFocusStephenson2;
+let buttonFocusEasterEgg, buttonFocusLichSystem, buttonFocusMergerSystem, buttonFocusPSRJ05406919TN, buttonFocusDiamondSystem, buttonFocusSagittariusA, buttonFocusSiriusSystem, buttonFocusSolarSystem, buttonFocusStephenson2;
 
 let imgMilkyway;
 let imgEasterEggNebula, imgLichSystemNebula, imgMergerSystemNebula, imgPSRJ05406919TarantulaNebula, imgDiamondSystemNebula, imgSagittariusANebula, imgSiriusSystemNebula, imgSolarSystemNebula, imgStephenson2Nebula;
 let imgEasterEgg, imgLichSystem, imgMergerSystem, imgPSRJ05406919TN, imgPSRJ17191438DiamondSystem, imgSagittariusA, imgSiriusSystem, imgSolarSystem, imgStephenson2;
 let imgBGElements;
 let eClientX;
-
-let imgSagittariusANebulaFake;
 
 const zoomFactor = 1;
 const controls = {
@@ -18,7 +16,6 @@ const controls = {
 }
 
 function preload() {
-    //imgSagittariusANebulaFake = loadImage('/img/SMP/SMP_sagittariusA_nebula.svg');
     //loads SVGs
     imgBGElements = loadSVG('/img/SMP/SMP_bg_elements.svg');
 
@@ -58,26 +55,73 @@ function setup() {  // called from p5
     buttonToLayer1.style("font-size", "16px");
     const clsButtonToLayer1 = "button-to-layer1";
     buttonToLayer1.class(clsButtonToLayer1);
-    buttonToLayer1.mousePressed(() => {
-        buttonToLayer1.class(buttonToLayer1.class() ? "" : clsButtonToLayer1);
-    });
+
+    const clsFocus = "focus";
+    const clsFocusEasterEgg = "focus-easteregg";
+
+    buttonFocusEasterEgg = createButton('');
+    buttonFocusEasterEgg.parent('defaultCanvas0');
+    buttonFocusEasterEgg.position(246, 72);
+    buttonFocusEasterEgg.size(10, 10);
+    buttonFocusEasterEgg.class(clsFocusEasterEgg);
+
+    buttonFocusLichSystem = createButton('');
+    buttonFocusLichSystem.parent('defaultCanvas0');
+    buttonFocusLichSystem.position(103, 85);
+    buttonFocusLichSystem.size(10, 10);
+    buttonFocusLichSystem.class(clsFocus);
+    buttonFocusLichSystem.mouseReleased(gotoLichSystem);
+
+    buttonFocusMergerSystem = createButton('');
+    buttonFocusMergerSystem.parent('defaultCanvas0');
+    buttonFocusMergerSystem.position(309, 152);
+    buttonFocusMergerSystem.size(10, 10);
+    buttonFocusMergerSystem.class(clsFocus);
+
+    buttonFocusPSRJ05406919TN = createButton('');
+    buttonFocusPSRJ05406919TN.parent('defaultCanvas0');
+    buttonFocusPSRJ05406919TN.position(71, 46);
+    buttonFocusPSRJ05406919TN.size(10, 10);
+    buttonFocusPSRJ05406919TN.class(clsFocus);
+
+    buttonFocusDiamondSystem = createButton('');
+    buttonFocusDiamondSystem.parent('defaultCanvas0');
+    buttonFocusDiamondSystem.position(274, 120);
+    buttonFocusDiamondSystem.size(10, 10);
+    buttonFocusDiamondSystem.class(clsFocus);
+
+    buttonFocusSagittariusA = createButton('');
+    buttonFocusSagittariusA.parent('defaultCanvas0');
+    buttonFocusSagittariusA.position(176, 91);
+    buttonFocusSagittariusA.size(10, 10);
+    buttonFocusSagittariusA.class(clsFocus);
+
+    buttonFocusSiriusSystem = createButton('');
+    buttonFocusSiriusSystem.parent('defaultCanvas0');
+    buttonFocusSiriusSystem.position(180, 60);
+    buttonFocusSiriusSystem.size(10, 10);
+    buttonFocusSiriusSystem.class(clsFocus);
+
+    buttonFocusSolarSystem = createButton('');
+    buttonFocusSolarSystem.parent('defaultCanvas0');
+    buttonFocusSolarSystem.position(224, 139);
+    buttonFocusSolarSystem.size(10, 10);
+    buttonFocusSolarSystem.class(clsFocus);
 
     buttonFocusStephenson2 = createButton('');
     buttonFocusStephenson2.parent('defaultCanvas0');
     buttonFocusStephenson2.position(135, 122);
     buttonFocusStephenson2.size(10, 10);
-    const clsFocusStephenson = "focus";
-    buttonFocusStephenson2.class(clsFocusStephenson);
-    buttonFocusStephenson2.mousePressed(() => {
-        buttonFocusStephenson2.class(buttonFocusStephenson2.class() ? "" : clsFocusStephenson);
-    });
+    buttonFocusStephenson2.class(clsFocus);
+}
+
+function gotoLichSystem(){
+
 }
 
 function goToLayer1(){
 
 }
-
-
 //mouseWheel function rewritten, which erases the error message in the console
 function mouseWheel(e) {
     Controls.zoom(controls).worldZoom(e);
@@ -119,18 +163,27 @@ function draw() {
     background(19, 8, 52);
     translate(controls.view.x, controls.view.y);
     scale(controls.view.zoom);
-
-    //console.debug(controls.view);
-
-    //image(imgSagittariusANebula, 20, 20, 100, 100);
-
     //Set image size and position
     image(imgBGElements, 0, 0, 360, 203);
-
-
     // LAYER 3 (max zoom state)
+    //renderImages(imgEasterEgg, 9, 19, 344, 167, controls.view);
+    //imgEasterEgg.hide();
+    //buttonFocusEasterEgg.mousePressed(imgEasterEgg.show());
+    renderImages(imgEasterEgg, 9, 19, 344, 167, controls.view)
+
+
+    buttonToLayer1.hide();
+    imgEasterEgg.hide();
+
+    if (controls.view.zoom > 4.4 && controls.view.zoom < 8) {
+        buttonToLayer1.show();
+        imgEasterEgg.show();
+    }
+
+
     if (controls.view.zoom > 8.9 && controls.view.zoom < 50) {
-        renderImages(imgEasterEgg, 251, 74, 3, 3, controls.view);
+        /*
+        renderImages(imgEasterEgg, 535, 158, 6, 7, controls.view);
         renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
         renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
         renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
@@ -138,27 +191,26 @@ function draw() {
         renderImages(imgSagittariusA, 169, 90, 22, 14, controls.view);
         renderImages(imgSiriusSystem, 179, 64, 17, 5, controls.view);
         renderImages(imgSolarSystem, 222, 141, 15, 6, controls.view);
-        renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);
+        renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);*/
     }
-
     // LAYER 2
     if (controls.view.zoom > 4.4 && controls.view.zoom < 9) {
-        renderImages(imgEasterEggNebula, 244, 62, 19, 23, controls.view);
-        renderImages(imgLichSystemNebula, 96, 78, 17, 21, controls.view);
+        //renderImages(imgEasterEggNebula, 244, 62, 19, 23, controls.view);
+        /*renderImages(imgLichSystemNebula, 96, 78, 17, 21, controls.view);
         renderImages(imgMergerSystemNebula, 301, 145, 25, 19, controls.view);
         renderImages(imgPSRJ05406919TarantulaNebula, 69, 39, 17, 20, controls.view);
         renderImages(imgDiamondSystemNebula, 271, 109, 20, 22, controls.view);
         renderImages(imgSagittariusANebula, 159, 79, 42, 33, controls.view);
         renderImages(imgSiriusSystemNebula, 179, 50, 18, 23, controls.view);
         renderImages(imgSolarSystemNebula, 218, 131, 23, 25, controls.view);
-        renderImages(imgStephenson2Nebula, 129, 116, 22, 26, controls.view);
+        renderImages(imgStephenson2Nebula, 129, 116, 22, 26, controls.view);*/
     }
-
     // LAYER 1 (min zoom state)
-    if (controls.view.zoom >0.9 && controls.view.zoom < 4.5) {
-        renderImages(imgMilkyway, 9, 19, 344, 167, controls.view);
+    if (controls.view.zoom > 0.9 && controls.view.zoom < 4.5) {
+        //renderImages(imgMilkyway, 9, 19, 344, 167, controls.view);
     }
 }
+
 
 /*
 this function controls the zooming of the svgs, as they are separated from the canvas:
@@ -167,7 +219,6 @@ this function controls the zooming of the svgs, as they are separated from the c
 function renderImages(img, x, y, width, height, view) {
     //const calculatePosition = (n, viewN, zoom) => (n + viewN) * (zoom * zoomFactor);
     const calculatePosition = (n, viewN, zoom) => (n + viewN) + (zoom * zoomFactor);
-    console.log(calculatePosition());
     const calculateSize = (size, zoom) => size * (zoom * zoomFactor);
 
     image(
