@@ -115,24 +115,20 @@ function setup() {  // called from p5
     buttonFocusStephenson2.class(clsFocus);
 }
 
-function gotoLichSystem(){}
-
 function goToLayer1(){
 
 }
-//mouseWheel function rewritten, which erases the error message in the console
+
 function mouseWheel(e) {
     Controls.zoom(controls).worldZoom(e);
-
     if (e.deltaY > 0) {
         d = d + 1;
     }
     else {
         d = d - 1;
     }
-
-    //mouse x position on document not Canvas!!
-    eClientX = e.clientX;
+    eClientX = e.clientX;   //mouse x position on document not Canvas!!
+    //mouseWheel function rewritten, which erases the error message in the console
 }
 /*
 * Rough sketch of function that calculates current mouse position and updates svg position accordingly lol
@@ -160,8 +156,34 @@ function draw() {
     background(19, 8, 52);
     translate(controls.view.x, controls.view.y);
     scale(controls.view.zoom);
-    //Set image size and position
     image(imgBGElements, 0, 0, 360, 203);
+
+    // LAYER 3 (max zoom state)
+    /*if (controls.view.zoom > 8.9 && controls.view.zoom < 50) {
+         renderImages(imgEasterEgg, 535, 158, 6, 7, controls.view);
+         renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
+         renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
+         renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
+         renderImages(imgPSRJ17191438DiamondSystem, 275, 121, 7, 7, controls.view);
+         renderImages(imgSagittariusA, 169, 90, 22, 14, controls.view);
+         renderImages(imgSiriusSystem, 179, 64, 17, 5, controls.view);
+         renderImages(imgSolarSystem, 222, 141, 15, 6, controls.view);
+         renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);
+     }
+     // LAYER 2
+     if (controls.view.zoom > 4.4 && controls.view.zoom < 9) {
+         renderImages(imgEasterEggNebula, 244, 62, 19, 23, controls.view);
+         renderImages(imgLichSystemNebula, 96, 78, 17, 21, controls.view);
+         renderImages(imgMergerSystemNebula, 301, 145, 25, 19, controls.view);
+         renderImages(imgPSRJ05406919TarantulaNebula, 69, 39, 17, 20, controls.view);
+         renderImages(imgDiamondSystemNebula, 271, 109, 20, 22, controls.view);
+         renderImages(imgSagittariusANebula, 159, 79, 42, 33, controls.view);
+         renderImages(imgSiriusSystemNebula, 179, 50, 18, 23, controls.view);
+         renderImages(imgSolarSystemNebula, 218, 131, 23, 25, controls.view);
+         renderImages(imgStephenson2Nebula, 129, 116, 22, 26, controls.view);
+     }*/
+    // LAYER 1 (min zoom state)
+
 
     buttonToLayer1.hide();
     if (controls.view.zoom > 4.4 && controls.view.zoom < 8) {
@@ -188,32 +210,6 @@ function draw() {
         buttonFocusSolarSystem.show();
         buttonFocusStephenson2.show();
     }
-    // LAYER 3 (max zoom state)
-    if (controls.view.zoom > 8.9 && controls.view.zoom < 50) {
-        /*
-        renderImages(imgEasterEgg, 535, 158, 6, 7, controls.view);
-        renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
-        renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
-        renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
-        renderImages(imgPSRJ17191438DiamondSystem, 275, 121, 7, 7, controls.view);
-        renderImages(imgSagittariusA, 169, 90, 22, 14, controls.view);
-        renderImages(imgSiriusSystem, 179, 64, 17, 5, controls.view);
-        renderImages(imgSolarSystem, 222, 141, 15, 6, controls.view);
-        renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);*/
-    }
-    // LAYER 2
-    if (controls.view.zoom > 4.4 && controls.view.zoom < 9) {
-        /*renderImages(imgEasterEggNebula, 244, 62, 19, 23, controls.view);
-        renderImages(imgLichSystemNebula, 96, 78, 17, 21, controls.view);
-        renderImages(imgMergerSystemNebula, 301, 145, 25, 19, controls.view);
-        renderImages(imgPSRJ05406919TarantulaNebula, 69, 39, 17, 20, controls.view);
-        renderImages(imgDiamondSystemNebula, 271, 109, 20, 22, controls.view);
-        renderImages(imgSagittariusANebula, 159, 79, 42, 33, controls.view);
-        renderImages(imgSiriusSystemNebula, 179, 50, 18, 23, controls.view);
-        renderImages(imgSolarSystemNebula, 218, 131, 23, 25, controls.view);
-        renderImages(imgStephenson2Nebula, 129, 116, 22, 26, controls.view);*/
-    }
-    // LAYER 1 (min zoom state)
     if (controls.view.zoom > 0.9 && controls.view.zoom < 4.5) {
         renderImages(imgMilkyway, 9, 19, 344, 167, controls.view);
     }
@@ -231,7 +227,7 @@ function draw() {
             renderImages(imgStephenson2, 185, 84, 18, 18, controls.view);
         }
 
-        if (controls.view.zoom > 0.9 && controls.view.zoom < 3.5){
+        if (controls.view.zoom > 0.9 && controls.view.zoom < 4){
             renderImages(imgEasterEggNebula, 132, 44, 95, 115, controls.view);
             renderImages(imgLichSystemNebula, 135, 44, 90, 115, controls.view);
             renderImages(imgMergerSystemNebula, 106, 44, 148, 115, controls.view);
@@ -275,7 +271,8 @@ function mouseClicked(){
         imgSolarSystem.hide();
         imgStephenson2Nebula.hide();
         imgStephenson2.hide();
-        console.log('mouseRelease');
+        console.log('mouseRelease AAAAhhh');
+        console.log('asdfg', buttonFocusSagittariusA.mouseReleased)
     }
     else{
         wasClicked = false;
@@ -313,20 +310,23 @@ class Controls {
             controls.viewPos.prevY = e.clientY;
         }
         function mouseDragged(e) {      //if mouse is dragged, zoom factor multiplies with mouse position & canvas is "draggable"
-            const {prevX, prevY, isDragging} = controls.viewPos;
-            if (!isDragging) return;
-            const pos = {x: e.clientX, y: e.clientY};
-            const dx = pos.x - prevX;
-            const dy = pos.y - prevY;
+            if (controls.view.zoom > 1 && controls.view.zoom < 5.1) {   //if zoomFactor equals 1 mouseDragged cannot run
+                const {prevX, prevY, isDragging} = controls.viewPos;
+                if (!isDragging) return;
+                const pos = {x: e.clientX, y: e.clientY};
+                const dx = pos.x - prevX;
+                const dy = pos.y - prevY;
 
-            if (prevX || prevY) {
-                controls.view.x += dx;
-                controls.view.y += dy;
-                controls.viewPos.prevX = pos.x;
-                controls.viewPos.prevY = pos.y;
+                if (prevX || prevY) {
+                    controls.view.x += dx;
+                    controls.view.y += dy;
+                    controls.viewPos.prevX = pos.x;
+                    controls.viewPos.prevY = pos.y;
+                }
             }
         }
         function mouseReleased(e) {     //if mouse is released, zoom factor equals stopping point & canvas is "released" from mouse
+            console.log('mouse released event', e, 'target', e.target);
             controls.viewPos.isDragging = false;
             controls.viewPos.prevX = null;
             controls.viewPos.prevY = null;
