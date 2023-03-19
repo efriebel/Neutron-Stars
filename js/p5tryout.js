@@ -65,60 +65,125 @@ function setup() {  // called from p5
     buttonFocusEasterEgg.position(246, 72);
     buttonFocusEasterEgg.size(10, 10);
     buttonFocusEasterEgg.class(clsFocusEasterEgg);
+    buttonFocusEasterEgg.id('easterEggLayer1');
 
     buttonFocusLichSystem = createButton('');
     buttonFocusLichSystem.parent('defaultCanvas0');
     buttonFocusLichSystem.position(103, 85);
     buttonFocusLichSystem.size(10, 10);
     buttonFocusLichSystem.class(clsFocus);
+    buttonFocusLichSystem.id('lichLayer1');
 
     buttonFocusMergerSystem = createButton('');
     buttonFocusMergerSystem.parent('defaultCanvas0');
     buttonFocusMergerSystem.position(309, 152);
     buttonFocusMergerSystem.size(10, 10);
     buttonFocusMergerSystem.class(clsFocus);
+    buttonFocusMergerSystem.id('mergerLayer1');
 
     buttonFocusPSRJ05406919TN = createButton('');
     buttonFocusPSRJ05406919TN.parent('defaultCanvas0');
     buttonFocusPSRJ05406919TN.position(71, 46);
     buttonFocusPSRJ05406919TN.size(10, 10);
     buttonFocusPSRJ05406919TN.class(clsFocus);
+    buttonFocusPSRJ05406919TN.id('tarantulaLayer1');
 
     buttonFocusDiamondSystem = createButton('');
     buttonFocusDiamondSystem.parent('defaultCanvas0');
     buttonFocusDiamondSystem.position(274, 120);
     buttonFocusDiamondSystem.size(10, 10);
     buttonFocusDiamondSystem.class(clsFocus);
+    buttonFocusDiamondSystem.id('diamondLayer1');
 
     buttonFocusSagittariusA = createButton('');
     buttonFocusSagittariusA.parent('defaultCanvas0');
     buttonFocusSagittariusA.position(176, 91);
     buttonFocusSagittariusA.size(10, 10);
     buttonFocusSagittariusA.class(clsFocus);
+    buttonFocusSagittariusA.id('sagittariusALayer1');
 
     buttonFocusSiriusSystem = createButton('');
     buttonFocusSiriusSystem.parent('defaultCanvas0');
     buttonFocusSiriusSystem.position(180, 60);
     buttonFocusSiriusSystem.size(10, 10);
     buttonFocusSiriusSystem.class(clsFocus);
+    buttonFocusSiriusSystem.id('siriusLayer1');
 
     buttonFocusSolarSystem = createButton('');
     buttonFocusSolarSystem.parent('defaultCanvas0');
     buttonFocusSolarSystem.position(224, 139);
     buttonFocusSolarSystem.size(10, 10);
     buttonFocusSolarSystem.class(clsFocus);
+    buttonFocusSolarSystem.id('solarLayer1');
 
     buttonFocusStephenson2 = createButton('');
     buttonFocusStephenson2.parent('defaultCanvas0');
     buttonFocusStephenson2.position(135, 122);
     buttonFocusStephenson2.size(10, 10);
     buttonFocusStephenson2.class(clsFocus);
+    buttonFocusStephenson2.id('stephenson2Layer1');
+
+    buttonToLayer1.hide();
+
+    imgEasterEggNebula.hide();
+    imgEasterEgg.hide();
+    imgLichSystemNebula.hide();
+    imgLichSystem.hide();
+    imgMergerSystemNebula.hide();
+    imgMergerSystem.hide();
+    imgPSRJ05406919TarantulaNebula.hide();
+    imgPSRJ05406919TN.hide();
+    imgDiamondSystemNebula.hide();
+    imgPSRJ17191438DiamondSystem.hide();
+    imgSagittariusA.hide();
+    imgSagittariusANebula.hide();
+    imgSiriusSystemNebula.hide();
+    imgSiriusSystem.hide();
+    imgSolarSystemNebula.hide();
+    imgSolarSystem.hide();
+    imgStephenson2Nebula.hide();
+    imgStephenson2.hide();
 }
 
 function goToLayer1(){
+    wasClicked = false;
+    controls.view.zoom = 1;
+    //controls.viewPos = 0;
 
+    buttonToLayer1.hide();
+
+    buttonFocusEasterEgg.show();
+    buttonFocusLichSystem.show();
+    buttonFocusMergerSystem.show();
+    buttonFocusPSRJ05406919TN.show();
+    buttonFocusDiamondSystem.show();
+    buttonFocusSagittariusA.show();
+    buttonFocusSiriusSystem.show();
+    buttonFocusSolarSystem.show();
+    buttonFocusStephenson2.show();
+
+    imgMilkyway.show();
+    imgEasterEggNebula.hide();
+    imgEasterEgg.hide();
+    imgLichSystemNebula.hide();
+    imgLichSystem.hide();
+    imgMergerSystemNebula.hide();
+    imgMergerSystem.hide();
+    imgPSRJ05406919TarantulaNebula.hide();
+    imgPSRJ05406919TN.hide();
+    imgDiamondSystemNebula.hide();
+    imgPSRJ17191438DiamondSystem.hide();
+    imgSagittariusA.hide();
+    imgSagittariusANebula.hide();
+    imgSiriusSystemNebula.hide();
+    imgSiriusSystem.hide();
+    imgSolarSystemNebula.hide();
+    imgSolarSystem.hide();
+    imgStephenson2Nebula.hide();
+    imgStephenson2.hide();
+
+    console.log(controls.view.zoom, 'hey wassup cool cool');
 }
-
 function mouseWheel(e) {
     Controls.zoom(controls).worldZoom(e);
     if (e.deltaY > 0) {
@@ -157,39 +222,6 @@ function draw() {
     translate(controls.view.x, controls.view.y);
     scale(controls.view.zoom);
     image(imgBGElements, 0, 0, 360, 203);
-
-    // LAYER 3 (max zoom state)
-    /*if (controls.view.zoom > 8.9 && controls.view.zoom < 50) {
-         renderImages(imgEasterEgg, 535, 158, 6, 7, controls.view);
-         renderImages(imgLichSystem, 102, 84, 8, 11, controls.view);
-         renderImages(imgMergerSystem, 313, 155, 6, 5, controls.view);
-         renderImages(imgPSRJ05406919TN, 69, 49, 5, 5, controls.view);
-         renderImages(imgPSRJ17191438DiamondSystem, 275, 121, 7, 7, controls.view);
-         renderImages(imgSagittariusA, 169, 90, 22, 14, controls.view);
-         renderImages(imgSiriusSystem, 179, 64, 17, 5, controls.view);
-         renderImages(imgSolarSystem, 222, 141, 15, 6, controls.view);
-         renderImages(imgStephenson2, 141, 125, 4, 4, controls.view);
-     }
-     // LAYER 2
-     if (controls.view.zoom > 4.4 && controls.view.zoom < 9) {
-         renderImages(imgEasterEggNebula, 244, 62, 19, 23, controls.view);
-         renderImages(imgLichSystemNebula, 96, 78, 17, 21, controls.view);
-         renderImages(imgMergerSystemNebula, 301, 145, 25, 19, controls.view);
-         renderImages(imgPSRJ05406919TarantulaNebula, 69, 39, 17, 20, controls.view);
-         renderImages(imgDiamondSystemNebula, 271, 109, 20, 22, controls.view);
-         renderImages(imgSagittariusANebula, 159, 79, 42, 33, controls.view);
-         renderImages(imgSiriusSystemNebula, 179, 50, 18, 23, controls.view);
-         renderImages(imgSolarSystemNebula, 218, 131, 23, 25, controls.view);
-         renderImages(imgStephenson2Nebula, 129, 116, 22, 26, controls.view);
-     }*/
-    // LAYER 1 (min zoom state)
-
-
-    buttonToLayer1.hide();
-    if (controls.view.zoom > 4.4 && controls.view.zoom < 8) {
-        buttonToLayer1.show();
-    }
-
     buttonFocusEasterEgg.hide();
     buttonFocusLichSystem.hide();
     buttonFocusMergerSystem.hide();
@@ -199,6 +231,7 @@ function draw() {
     buttonFocusSiriusSystem.hide();
     buttonFocusSolarSystem.hide();
     buttonFocusStephenson2.hide();
+
     if (controls.view.zoom === 1) {
         buttonFocusEasterEgg.show();
         buttonFocusLichSystem.show();
@@ -210,12 +243,11 @@ function draw() {
         buttonFocusSolarSystem.show();
         buttonFocusStephenson2.show();
     }
-    if (controls.view.zoom > 0.9 && controls.view.zoom < 4.5) {
+    if (controls.view.zoom > 0.9 && controls.view.zoom < 1.1) {
         renderImages(imgMilkyway, 9, 19, 344, 167, controls.view);
     }
-
     if (wasClicked === true){
-        if (controls.view.zoom > 2.4 && controls.view.zoom < 5.1){
+        if (controls.view.zoom > 2.4 && controls.view.zoom < 15.1){
             renderImages(imgEasterEgg, 166, 103, 13, 16, controls.view);
             renderImages(imgLichSystem, 168, 77, 44, 60, controls.view);
             renderImages(imgMergerSystem, 177, 103, 35, 30, controls.view);
@@ -226,7 +258,6 @@ function draw() {
             renderImages(imgSolarSystem, 146, 91, 70, 30, controls.view);
             renderImages(imgStephenson2, 185, 84, 18, 18, controls.view);
         }
-
         if (controls.view.zoom > 0.9 && controls.view.zoom < 4){
             renderImages(imgEasterEggNebula, 132, 44, 95, 115, controls.view);
             renderImages(imgLichSystemNebula, 135, 44, 90, 115, controls.view);
@@ -238,7 +269,6 @@ function draw() {
             renderImages(imgSolarSystemNebula, 127, 44, 105, 115, controls.view);
             renderImages(imgStephenson2Nebula, 131, 44, 97, 115, controls.view);
         }
-
         imgMilkyway.hide();
         buttonFocusEasterEgg.hide();
         buttonFocusLichSystem.hide();
@@ -252,27 +282,72 @@ function draw() {
     }
 }
 
-function mouseClicked(){
-    if (buttonFocusSagittariusA.mouseReleased) {
+function mouseClicked(event){
+
+    //const number = parseInt(event.target.id.match(/\d+$/)) + 1;
+    //const nextLayer = event.target.id.replace(/\d+/, number.toString());
+    /*let array = [imgEasterEggNebula];
+        array.forEach(element => {
+
+            if(element.elt.id !== nextLayer) {
+                return;
+            }
+            element.show();
+        });*/
+
+    if (event.target.id === buttonFocusEasterEgg.elt.id && buttonFocusEasterEgg.mouseReleased) {
         wasClicked = true;
-        imgEasterEggNebula.hide();
-        imgEasterEgg.hide();
-        imgLichSystemNebula.hide();
-        imgLichSystem.hide();
-        imgMergerSystemNebula.hide();
-        imgMergerSystem.hide();
-        imgPSRJ05406919TarantulaNebula.hide();
-        imgPSRJ05406919TN.hide();
-        imgDiamondSystemNebula.hide();
-        imgPSRJ17191438DiamondSystem.hide();
-        imgSiriusSystemNebula.hide();
-        imgSiriusSystem.hide();
-        imgSolarSystemNebula.hide();
-        imgSolarSystem.hide();
-        imgStephenson2Nebula.hide();
-        imgStephenson2.hide();
-        console.log('mouseRelease AAAAhhh');
-        console.log('asdfg', buttonFocusSagittariusA.mouseReleased)
+        buttonToLayer1.show();
+        imgEasterEggNebula.show();
+        imgEasterEgg.show();
+    }
+    else if (event.target.id === buttonFocusLichSystem.elt.id && buttonFocusLichSystem.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgLichSystemNebula.show();
+        imgLichSystem.show();
+    }
+    else if (event.target.id === buttonFocusMergerSystem.elt.id && buttonFocusMergerSystem.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgMergerSystemNebula.show();
+        imgMergerSystem.show();
+    }
+    else if (event.target.id === buttonFocusPSRJ05406919TN.elt.id && buttonFocusPSRJ05406919TN.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgPSRJ05406919TarantulaNebula.show();
+        imgPSRJ05406919TN.show();
+    }
+    else if (event.target.id === buttonFocusDiamondSystem.elt.id && buttonFocusDiamondSystem.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgDiamondSystemNebula.show();
+        imgPSRJ17191438DiamondSystem.show();
+    }
+    else if (event.target.id === buttonFocusSagittariusA.elt.id && buttonFocusSagittariusA.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgSagittariusA.show();
+        imgSagittariusANebula.show();
+    }
+    else if (event.target.id === buttonFocusSiriusSystem.elt.id && buttonFocusSiriusSystem.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgSiriusSystemNebula.show();
+        imgSiriusSystem.show();
+    }
+    else if (event.target.id === buttonFocusSolarSystem.elt.id && buttonFocusSolarSystem.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgSolarSystemNebula.show();
+        imgSolarSystem.show();
+    }
+    else if (event.target.id === buttonFocusStephenson2.elt.id && buttonFocusStephenson2.mouseReleased) {
+        wasClicked = true;
+        buttonToLayer1.show();
+        imgStephenson2Nebula.show();
+        imgStephenson2.show();
     }
     else{
         wasClicked = false;
@@ -310,7 +385,7 @@ class Controls {
             controls.viewPos.prevY = e.clientY;
         }
         function mouseDragged(e) {      //if mouse is dragged, zoom factor multiplies with mouse position & canvas is "draggable"
-            if (controls.view.zoom > 1 && controls.view.zoom < 5.1) {   //if zoomFactor equals 1 mouseDragged cannot run
+            if (controls.view.zoom > 1 && controls.view.zoom < 15.1) {   //if zoomFactor equals 1 mouseDragged cannot run
                 const {prevX, prevY, isDragging} = controls.viewPos;
                 if (!isDragging) return;
                 const pos = {x: e.clientX, y: e.clientY};
@@ -357,8 +432,8 @@ class Controls {
                 controls.view.zoom += zoom;     //if zoom ≠< 1, zoom >∞ 1
             }
 
-            if (controls.view.zoom + zoom > 5) {
-                controls.view.zoom = 5;         //creates zoom stop if zoom < 1
+            if (controls.view.zoom + zoom > 15) {
+                controls.view.zoom = 15;         //creates zoom stop if zoom < 1
             } else {
                 controls.view.x -= wx * width * zoom;
                 controls.view.y -= wy * height * zoom;
