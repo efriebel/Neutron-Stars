@@ -59,3 +59,32 @@ classes | star map page p5 canvas
 .p5Canvas{
     position: relative;
 }
+/*
+===================================
+classes | start/reload button
+===================================
+ */
+@media only screen and (min-width: 360px){
+    .strt-rld-button {
+        background-color: #52EDAC;
+        color: #200834;
+        border-style: none;
+        font-family: 'Encode Sans Condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        width: 140px;
+        height: 40px;
+    }
+    .strt-rld-button:hover {
+        background: #C6FFDD;
+        transition: all 0.2s ease-in-out;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .strt-rld-button {
+        font-size: 32px;
+        width: 180px;
+        height: 56px;
+    }
+}
